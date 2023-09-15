@@ -1,0 +1,9 @@
+# Byte-compiled files
+__pycache__/
+
+# IDE stuff
+.idea/
+
+# Environment variables
+.env
+dotenv
