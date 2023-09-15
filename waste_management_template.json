@@ -1,0 +1,277 @@
+{
+  "name": "",
+  "scale": {
+    "largeScale": "",
+    "smallScale": ""
+  },
+  "version": "",
+  "completionDate": "",
+  "projectParticipants": [],
+  "hostParty": "",
+  "appliedMethodologiesAndStandardizedBaselines": [],
+  "sectoralScopes": [],
+  "estimatedAnnualEmissionReductions": "",
+  "DescriptionOfProjectActivity": {
+    "PurposeAndGeneralDescriptionOfProjectActivity": {},
+    "InformationOnProjectSiteBeforeImplementationOfProjectActivity": {},
+    "ScenarioExistingPriorToImplementationOfProjectActivityAndBaselineScenario": {},
+    "EstimationOfAnnualAverageAndTotalGHGEmissionReductionsForChosenCreditingPeriod": {},
+    "DescriptionOnHowProjectActivityContributesSustainableDevelopment": {},
+    "InformationOnPresentStatusOfProjectActivity": {}
+  },
+  "LocationOfProjectActivity": {
+    "HostParty": {},
+    "RegionStateProvinceEtc": {},
+    "CityTownCommunityEtc": {},
+    "PhysicalGeographicalLocation": {}
+  },
+  "Technologies": [
+    {
+      "type": {},
+      "description": {},
+      "detail": {}
+    },
+    {
+      "type": {},
+      "description": {},
+      "detail": {}
+    }
+  ],
+  "PartiesAndParticipants": [
+    {
+      "party": {},
+      "entities": [],
+      "wishesToBeConsideredAsProjectParticipant": {}
+    },
+    {
+      "party": {},
+      "entities": [],
+      "wishesToBeConsideredAsProjectParticipant": {}
+    }
+  ],
+  "PublicFundingOfProjectActivity": {},
+  "HistoryOfProjectActivity": {
+    "registeredCDMProject": "",
+    "deregisteredProject": "",
+    "excludedFromPoA": "",
+    "formerProjectInSameLocation": ""
+  },
+  "Debundling": {},
+  "ApplicationOfSelectedMethodologiesAndStandardizedBaselines": {
+    "ReferenceToMethodologiesAndStandardizedBaselines": {},
+    "ApplicabilityOfMethodologiesAndStandardizedBaselines": {},
+    "ProjectBoundarySourcesAndGreenhouseGases": {},
+    "EstablishmentAndDescriptionOfBaselineScenario": {},
+    "DemonstrationOfAdditionality": {}
+  },
+  "projectSection": {
+    "estimationOfEmissionReductions": {
+      "methodologicalChoices": {
+        "acm0001": {
+          "version": "",
+          "choices": [
+            "captureLandfillGas",
+            "flaringForEnergy",
+            "excludeSupplyingToConsumers",
+            "skipEquipmentLifetimeEstimation",
+            "applySimplifiedProcedures",
+            "case1ForFch4BlY",
+            "excludeEnergyComponent",
+            "oxTopLayer",
+            "gwpCh4",
+            "etaPj"
+          ]
+        },
+        "toolB": {
+          "version": "",
+          "choices": [
+            "applicationA",
+            "phiY",
+            "fy",
+            "gwpCh4",
+            "ox",
+            "f",
+            "docfY",
+            "mcfY",
+            "docjValuesForDifferentWasteTypes",
+            "kjValuesForDifferentWasteTypesBasedOnConditions"
+          ]
+        },
+        "toolC": {
+          "version": "",
+          "choices": [
+            "enclosedFlare",
+            "lowHeightFlare",
+            "optionAForFlareEfficiency",
+            "gwpCh4"
+          ]
+        },
+        "toolD": {
+          "version": "",
+          "choices": [
+            "scenarioAForElectricityConsumptionSource",
+            "genericApproachForEmissions",
+            "optionA1ForCombinedMarginEmissionFactor",
+            "tdljY"
+          ]
+        },
+        "toolE": {
+          "version": "",
+          "choices": [
+            "optionBForVolumetricFlow",
+            "equation4InOption2",
+            "ru",
+            "mmCh4",
+            "pn",
+            "tn"
+          ]
+        },
+        "toolF": {
+          "version": "",
+          "choices": [
+            "simpleAdjustedOm",
+            "exAnteOptionForBmEmissionFactor",
+            "weightedAverageCm"
+          ]
+        }
+      },
+      "equationsApplied": {
+        "calculationOfBaselineEmissionsBey": {
+          "bey": "",
+          "bech4Y": ""
+        },
+        "calculationOfProjectEmissionsPey": {
+          "pey": "",
+          "peecY": ""
+        },
+        "calculationOfLeakage": "",
+        "calculationOfEmissionReductionsEry": ""
+      }
+    },
+    "explanationOfMethodologicalChoices": {
+      "acm0001": {
+        "methodologicalChoices": {
+          "captureLandfillGas": "",
+          "flaringForEnergy": "",
+          "excludeSupplyingToConsumers": "",
+          "skipEquipmentLifetimeEstimation": "",
+          "applySimplifiedProcedures": "",
+          "case1ForFch4BlY": "",
+          "excludeEnergyComponent": "",
+          "oxTopLayer": "",
+          "gwpCh4": "",
+          "etaPj": ""
+        }
+      },
+      "toolB": {
+        "methodologicalChoices": {
+          "applicationA": "",
+          "phiY": "",
+          "fy": "",
+          "gwpCh4": "",
+          "ox": "",
+          "f": "",
+          "docfY": "",
+          "mcfY": "",
+          "docjValuesForDifferentWasteTypes": "",
+          "kjValuesForDifferentWasteTypesBasedOnConditions": ""
+        }
+      },
+      "toolC": {
+        "methodologicalChoices": {
+          "enclosedFlare": "",
+          "lowHeightFlare": "",
+          "optionAForFlareEfficiency": "",
+          "gwpCh4": ""
+        }
+      },
+      "toolD": {
+        "methodologicalChoices": {
+          "scenarioAForElectricityConsumptionSource": "",
+          "genericApproachForEmissions": "",
+          "optionA1ForCombinedMarginEmissionFactor": "",
+          "tdljY": ""
+        }
+      },
+      "toolE": {
+        "methodologicalChoices": {
+          "optionBForVolumetricFlow": "",
+          "equation4InOption2": "",
+          "ru": "",
+          "mmCh4": "",
+          "pn": "",
+          "tn": ""
+        }
+      },
+      "toolF": {
+        "methodologicalChoices": {
+          "simpleAdjustedOm": "",
+          "exAnteOptionForBmEmissionFactor": "",
+          "weightedAverageCm": ""
+        }
+      }
+    }
+  },
+  "projectMethodologyAndPermanencePeriod": {
+    "chosenMethodology": {},
+    "rationaleForMethodologyChoice": {},
+    "chosenPermanencePeriod": {},
+    "justificationForChosenPermanencePeriod": {}
+  },
+  "projectMonitoringAndVerification": {
+    "monitoringPlan": {},
+    "monitoringPeriod": {},
+    "verificationPlan": {},
+    "verificationProcess": {}
+  },
+  "impactsOfProjectActivity": {
+    "analysisOfImpacts": {},
+    "measuresToMinimizeNegativeImpacts": {},
+    "socialAndEnvironmentalBenefits": {}
+  },
+  "projectApprovalAndRegistration": {
+    "dateOfProjectApproval": {},
+    "dateOfProjectRegistration": {}
+  },
+  "startOfProjectActivity": "",
+  "expectedOperationalLifetime": "",
+  "creditingPeriod": {
+    "type": "",
+    "start": "",
+    "duration": ""
+  },
+  "positiveEnvironmentalImpacts": {
+    "methaneGasCombustion": "",
+    "fireAlleviation": "",
+    "globalWarmingReduction": "",
+    "landscapeImprovement": "",
+    "substitutionForPowerGeneration": ""
+  },
+  "negativeEnvironmentalImpacts": {
+    "airAtmosphere": "",
+    "water": "",
+    "land": "",
+    "noiseAndVibration": ""
+  },
+  "projectParticipantsConclusions": "",
+  "hostPartysConclusion": "",
+  "modalitiesForLocalStakeholderConsultation": {
+    "oversightAuthority": "",
+    "stakeholderDecisionMethod": "",
+    "commentCollectionMethod": "",
+    "commentCollectionOrganization": "",
+    "formalStakeholderCommentsRecords": "",
+    "nationalCDMCouncilPreparation": "",
+    "governmentCommentsCollection": ""
+  },
+  "summaryOfCommentsReceived": "",
+  "considerationOfCommentsReceived": {
+    "electricCapacityOfPlant": "",
+    "unitCostOfGasEngineGenerator": "",
+    "gasEngineVsGasTurbine": "",
+    "constructionCostsAndOperationMode": ""
+  },
+  "approvalAndAuthorization": {
+    "approvalWebLink": ""
+  }
+}

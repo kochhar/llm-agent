@@ -1,0 +1,157 @@
+{
+  "name": "<The name of the project>",
+  "sectoralScope": "<The environmental sector which is applicable for the project>",
+  "projectActivity": "<The main activity conducted in relation to the project>",
+  "methodologiesAndBaselines": {
+    "references": {
+      "methodologies": [
+        {
+          "reference": "<Reference to methodology 1>"
+        },
+        {
+          "reference": "<Reference to methodology 2>"
+        }
+      ],
+      "standardizedBaselines": [
+        {
+          "reference": "<Reference to standardized baseline 1>"
+        },
+        {
+          "reference": "<Reference to standardized baseline 2>"
+        }
+      ]
+    },
+    "applicability": "<Applicability of methodologies and standardized baselines>",
+    "projectBoundary": {
+      "baselineSources": [
+        {
+          "source": "Source 1",
+          "ghgIncluded": [
+            "CO2",
+            "CH4",
+            "N2O"
+          ],
+          "justification": "<Justification/Explanation for Source 1>"
+        },
+        {
+          "source": "Source 2",
+          "ghgIncluded": [
+            "CO2",
+            "CH4",
+            "N2O"
+          ],
+          "justification": "<Justification/Explanation for Source 2>"
+        }
+      ],
+      "projectActivitySources": [
+        {
+          "source": "Source 1",
+          "ghgIncluded": [
+            "CO2",
+            "CH4",
+            "N2O"
+          ],
+          "justification": "<Justification/Explanation for Source 1>"
+        },
+        {
+          "source": "Source 2",
+          "ghgIncluded": [
+            "CO2",
+            "CH4",
+            "N2O"
+          ],
+          "justification": "<Justification/Explanation for Source 2>"
+        }
+      ]
+    },
+    "baselineScenario": "<Establishment and description of baseline scenario>",
+    "additionality": "<Demonstration of additionality>",
+    "emissionReductions": {
+      "methodologicalChoices": "<Explanation of methodological choices>",
+      "dataAndParameters": [
+        {
+          "dataParameter": "<Data/Parameter 1>",
+          "dataUnit": "<Data unit>",
+          "description": "<Description of Data/Parameter 1>",
+          "sourceOfData": "<Source of data>",
+          "valuesApplied": "<Value(s) applied>",
+          "choiceOfDataOrMeasurementMethodsAndProcedures": "<Choice of data or measurement methods and procedures>",
+          "purposeOfData": "<Purpose of data>",
+          "additionalComment": "<Additional comment>"
+        },
+        {
+          "dataParameter": "<Data/Parameter 2>",
+          "dataUnit": "<Data unit>",
+          "description": "<Description of Data/Parameter 2>",
+          "sourceOfData": "<Source of data>",
+          "valuesApplied": "<Value(s) applied>",
+          "choiceOfDataOrMeasurementMethodsAndProcedures": "<Choice of data or measurement methods and procedures>",
+          "purposeOfData": "<Purpose of data>",
+          "additionalComment": "<Additional comment>"
+        }
+      ],
+      "exAnteCalculation": "<Ex ante calculation of emission reductions>",
+      "summary": {
+        "yearlyData": [
+          {
+            "year": "Year 1",
+            "baselineEmissions": "<Baseline emissions (t CO2e)>",
+            "projectEmissions": "<Project emissions (t CO2e)>",
+            "leakage": "<Leakage (t CO2e)>",
+            "emissionReductions": "<Emission reductions (t CO2e)>"
+          },
+          {
+            "year": "Year 2",
+            "baselineEmissions": "<Baseline emissions (t CO2e)>",
+            "projectEmissions": "<Project emissions (t CO2e)>",
+            "leakage": "<Leakage (t CO2e)>",
+            "emissionReductions": "<Emission reductions (t CO2e)>"
+          }
+        ],
+        "totalData": {
+          "totalBaselineEmissions": "<Total baseline emissions (t CO2e)>",
+          "totalProjectEmissions": "<Total project emissions (t CO2e)>",
+          "totalLeakage": "<Total leakage (t CO2e)>",
+          "totalEmissionReductions": "<Total emission reductions (t CO2e)>"
+        },
+        "totalCreditingYears": "<Total number of crediting years>",
+        "annualAverage": {
+          "annualaverageBaselineEmissions": "<Annual Average baseline emissions (t CO2e)>",
+          "annualaverageProjectEmissions": "<Annual Average project emissions (t CO2e)>",
+          "annualaverageLeakage": "<Annual Average leakage (t CO2e)>",
+          "annualaverageEmissionReductions": "<Annual Average emission reductions (t CO2e)>"
+        }
+      }
+    },
+    "monitoringPlan": {
+      "dataAndParametersToBeMonitored": [
+        {
+          "dataParameter": "<Data/Parameter 1>",
+          "dataUnit": "<Data unit>",
+          "description": "<Description of Data/Parameter 1>",
+          "sourceOfData": "<Source of data>",
+          "valuesApplied": "<Value(s) applied>",
+          "measurementMethodsAndProcedures": "<Measurement methods and procedures>",
+          "monitoringFrequency": "<Monitoring frequency>",
+          "qaQcProcedures": "<QA/QC procedures>",
+          "purposeOfData": "<Purpose of data>",
+          "additionalComment": "<Additional comment>"
+        },
+        {
+          "dataParameter": "<Data/Parameter 2>",
+          "dataUnit": "<Data unit>",
+          "description": "<Description of Data/Parameter 2>",
+          "sourceOfData": "<Source of data>",
+          "valuesApplied": "<Value(s) applied>",
+          "measurementMethodsAndProcedures": "<Measurement methods and procedures>",
+          "monitoringFrequency": "<Monitoring frequency>",
+          "qaQcProcedures": "<QA/QC procedures>",
+          "purposeOfData": "<Purpose of data>",
+          "additionalComment": "<Additional comment>"
+        }
+      ],
+      "samplingPlan": "<Sampling plan>",
+      "otherElements": "<Other elements of monitoring plan>"
+    }
+  }
+}
