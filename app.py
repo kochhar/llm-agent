@@ -96,7 +96,6 @@ def create_llm(openai_api_key=None):
     kwargs = dict(temperature=0, max_tokens=1536)
     if openai_api_key:
         kwargs['openai_api_key'] = openai_api_key
-    print(kwargs)
     return OpenAI(**kwargs)
 
 
@@ -124,7 +123,6 @@ class CarbonAssistant(object):
 
     def design(self, message, history, openai_api_key=None):
         try:
-            log.info("Creating llm with api key %s", openai_api_key)
             self.llm = create_llm(openai_api_key)
         except pydantic.v1.error_wrappers.ValidationError as e:
             if any(["OPENAI_API_KEY" in error['msg']for error in e.errors()]):
@@ -148,7 +146,7 @@ class CarbonAssistant(object):
             self.waste_management_baseline_facts.update(extracted)
             log.info("Updated facts doc: %s", self.waste_management_baseline_facts)
             self.state = "draft"
-            for out in self.design(message, history):
+            for out in self.design(message, history, openai_api_key):
                 yield out
 
     def draft_questions(self, facts_document):
