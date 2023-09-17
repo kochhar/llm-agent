@@ -112,7 +112,6 @@ def parse_json_maybe_invalid(json_as_str: str):
             log.error("Could not parse extracted facts string '%s' as JSON. Error: %s", json_as_str, e)
             return {}
 
-
 class CarbonAssistant(object):
     def __init__(self):
         self.llm = None
