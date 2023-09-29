@@ -4,86 +4,18 @@ import random
 from dotenv import load_dotenv
 import gradio as gr
 import logging
-from langchain import LLMChain, OpenAI, PromptTemplate
+from langchain.chains import LLMChain
 from langchain.prompts.chat import (
-    ChatPromptTemplate,
-    HumanMessagePromptTemplate,
-    SystemMessagePromptTemplate
+    ChatPromptTemplate
 )
 import pydantic.v1.error_wrappers
 from typing import Any, Dict
 
+from transist.llm import create_llm, parse_json_maybe_invalid
+from transist.prompt import system_prompt, draft_question_prompt, extract_facts_prompt
+
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
-
-system_prompt_template = """
-You are a helpful and truthful carbon project design assistant who specialises in 
-creating project design documents for carbon credit projects.
-
-Your goal is to help project developers make a project design document for a carbon 
-credit project to be registered with the CDM registry. 
-
-You follow formatting instructions very carefully. When you are asked to create JSON 
-output you ensure that the output is syntactically valid JSON. You also ensure it 
-has no extra text before the start of the JSON instance and no extra text after the
-end of the JSON instance.
-
-"""
-system_prompt = SystemMessagePromptTemplate.from_template(system_prompt_template)
-
-section_prompt_template = """
-I want to draft a section of the document which establishes and describes the 
-baseline for the project. To write the section some essential factual details
-about the project will need to be collected.
-
-"""
-section_prompt = HumanMessagePromptTemplate.from_template(section_prompt_template)
-
-draft_question_prompt_template = """
-The following JSON format is partially completed and lists the factual details 
-essential for writing the project baseline section.
-
-
-#### JSON FORMAT
-{json_template}
-
-----
-
-Some elements of the JSON are incomplete and need to be filled in. Based on the 
-incomplete elements of the JSON, I want you to ask me three of the most important
-questions to collect missing information to be used for filling in incomplete
-entries in the JSON. ONLY ask questions related to incomplete or missing 
-information. DO NOT ask questions about elements which are complete.
-"""
-draft_question_prompt = HumanMessagePromptTemplate.from_template(section_prompt_template +
-                                                                 draft_question_prompt_template)
-
-extract_facts_prompt_template = """
-I want you to extract factual details from information provided about a carbon 
-project to update the JSON instance below. It is very import ONLY extract factual 
-details from the project information.
-
-
-#### JSON INSTANCE
-{project_facts_document} 
-
-
-#### Project Information
-{project_information}
-
------
-
-Please extract factual details from the project information above and update the 
-JSON Instance. It is very important to ONLY include factual information from the 
-project information provided above.
-  
-
-The output MUST be formatted as a valid JSON instance. 
-The output should ONLY contain the JSON instance with no other text before or after.
-"""
-extract_facts_prompt = HumanMessagePromptTemplate.from_template(section_prompt_template +
-                                                                extract_facts_prompt_template)
-
 
 thinking = [
     "Give me a few seconds to understand what you told me.",
@@ -91,26 +23,6 @@ thinking = [
     "Please allow me a short pause to fully comprehend the details you provided."
 ]
 
-
-def create_llm(openai_api_key=None):
-    kwargs = dict(temperature=0, max_tokens=1536)
-    if openai_api_key:
-        kwargs['openai_api_key'] = openai_api_key
-    return OpenAI(**kwargs)
-
-
-def parse_json_maybe_invalid(json_as_str: str):
-    try:
-        return json.loads(json_as_str)
-    except json.JSONDecodeError:
-        first_brace, last_brace = json_as_str.find('{'), json_as_str.rfind('}')
-        last_brace = last_brace + 1 if not last_brace == -1 else len(json_as_str)
-        stripped_string = json_as_str[first_brace:last_brace]
-        try:
-            return json.loads(stripped_string)
-        except json.JSONDecodeError as e:
-            log.error("Could not parse extracted facts string '%s' as JSON. Error: %s", json_as_str, e)
-            return {}
 
 class CarbonAssistant(object):
     def __init__(self):
@@ -201,5 +113,4 @@ def main():
 
 if __name__ == "__main__":
     # Take environment variables from .env file
-    print(load_dotenv())
     main()
