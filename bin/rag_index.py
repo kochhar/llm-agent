@@ -19,25 +19,34 @@ SECTIONS = [
 
 
 def search_index(pdd_index_dir, method_index_dir):
-    question = "what methodologies can be applied to projects involving cook stoves"
     pdd_coll = index.PddLlamaCollection(pdd_index_dir)
-    results = pdd_coll.search(question, n=5)
-    for result in results:
-        print(f"""text: {result.text}\n\nmetadata: {result.metadata}\n\n\n""")
-
-    answer = pdd_coll.answer(question)
-    print("###### PDD ANSWER ######")
-    print(answer)
-    print("\n\n")
-
     method_coll = index.MethodologyCollection(method_index_dir)
-    results = method_coll.search(question, n=5, mmr=True)
-    for result in results:
-        print(f"""result: {result.text}\n\n metadata:{result.metadata}""")
 
-    answer = method_coll.answer(question)
-    print("###### METHODOLOGY ANSWER ######")
-    print(answer)
+    for question in [
+        "what methodologies can be applied to projects involving cook stoves",
+        "what methodologies can be applied to afforestation projects",
+        "what are the requirements prescribed by methodology AMS.II-G for energy efficiency measures"
+    ]:
+        print("##### Methdology Queston #####")
+        print(question)
+        print("\n")
+        # results = pdd_coll.search(question, n=5)
+        # for result in results:
+        #     print(f"""text: {result.text}\n\nmetadata: {result.metadata}\n\n\n""")
+
+        answer = pdd_coll.answer(question)
+        print("###### PDD ANSWER ######")
+        print(answer)
+        print("\n")
+
+        # results = method_coll.search(question, n=5, mmr=True)
+        # for result in results:
+        #     print(f"""result: {result.text}\n\n metadata:{result.metadata}""")
+
+        answer = method_coll.answer(question)
+        print("###### METHODOLOGY ANSWER ######")
+        print(answer)
+        print("\n\n")
 
 
 def make_pdd_index(pdd_dir, pdd_index_dir):

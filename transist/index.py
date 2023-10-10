@@ -32,17 +32,25 @@ def canonical_section(section: str) -> str:
 
 
 class BaseCollection(object):
-    def __init__(self, index_dir, collection_name):
+    def __init__(self, index_dir, collection_name, embedding_model=None):
         self.index_dir = index_dir
         self.client = chromadb.PersistentClient(
             path=self.index_dir,
             settings=Settings(anonymized_telemetry=False)
         )
-        self.embed_model = "local"
+        self.embed_model = "local" if embedding_model is None else embedding_model
         self.vector_store = ChromaVectorStore(
             chroma_collection=self.client.get_or_create_collection(collection_name)
         )
         self.index = None
+
+    @classmethod
+    def from_index(cls, index_dir, collection_name):
+        instance = cls(index_dir, collection_name=collection_name)
+        instance.index = VectorStoreIndex.from_vector_store(
+            vector_store=instance.vector_store,
+            service_context=ServiceContext.from_defaults(embed_model=instance.embed_model)
+        )
 
     def answer(self, query):
         if not self.index:
