@@ -23,9 +23,9 @@ section_prompt = HumanMessagePromptTemplate.from_template(section_prompt_templat
 
 
 draft_question_prompt_template = """\
-The following project facts document lists the factual details essential for \
-writing the project baseline section. The document is partially completed and \
-and some elements need to be filled in.
+The following project facts document lists the details essential for writing \
+the project baseline section. The document is partially completed and and \
+some elements need to be filled in.
 
 Based on the incomplete elements of the project facts document, I want you to \
 ask three most important questions to collect missing information. The answers \
@@ -42,25 +42,30 @@ draft_question_prompt = HumanMessagePromptTemplate.from_template(section_prompt_
 
 
 extract_facts_prompt_template = """\
-Given raw text input containing information about a carbon project, extract \
-the factual details about the project and update the project facts document \
-provided as input. You will be given the project developer's input and a \
-partially filled project facts document. 
+Given raw input containing information about a carbon project, extract factual \
+details about the project and update the project facts document provided. You \
+will be given the project developer's input and a partially filled project \
+facts document. 
 
 << FORMATTING >>
-Return a markdown code snippet containing a JSON object
+Return a markdown snippet containing the extract project facts and the keys \
+which were updated.
 ```json
 {{{{
-    "updated_project_facts": object \\ the updated project facts,
     "keys_updated": array \\ a list of updated top-level keys in updated_project_facts
+    "extracted_project_facts": object \\ the project facts document with updated \
+    information
 }}}}
 ```
 
-REMEMBER: It is very import to ONLY extract factual details from the project \
-information. If no factual details can be extracted "updated_project_facts" \
-should be a copy of the project facts.
-REMEMBER: "keys_updated" must contain all the top-level keys which are \ 
-modified. If no factual details can be extracted "keys_updated" should be empty.
+REMEMBER: It is extremely important to ONLY extract factual details from the \
+input provided. If no factual details can be extracted "extracted_project_facts" \
+should be empty.
+REMEMBER: It is important for the "extracted_project_facts" output to include \
+ONLY the updated top-level keys and nested sub-keys. Keys and values of of \
+the project which are unchanged can be omitted from the output. 
+REMEMBER: "keys_updated" must contain all the top-level keys which are \
+modified. If no factual details can be extracted "keys_updated" should be empty
 
 << PROJECT FACTS DOCUMENT >>
 {project_facts_document} 
@@ -68,9 +73,8 @@ modified. If no factual details can be extracted "keys_updated" should be empty.
 << INPUT >>
 {project_information}
 
-Now please extract factual details from the input above and update the project \
-facts document. It is ESSENTIAL to ONLY include factual information from the \
-input provided.
+Now please extract factual details from the input. It is ESSENTIAL to ONLY \
+include factual information from the input provided.
 
 << OUTPUT (must include ```json at the start of the response) >>
 << OUTPUT (must end with ```) >>
