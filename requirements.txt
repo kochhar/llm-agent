@@ -1,5 +1,6 @@
 chromadb~=0.4.13
 langchain~=0.0.304
+gradio[oauth]==3.44.3
 llama-hub~=0.0.34
 numpy~=1.25
 pydantic~=2.4
