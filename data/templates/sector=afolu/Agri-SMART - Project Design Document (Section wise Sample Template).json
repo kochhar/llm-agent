@@ -1,0 +1,411 @@
+Basic Information
+
+{
+  "projectTitle": "",
+  "version": "",
+  "dateOfIssue": "",
+  "preparedBy": "",
+  "contact": {
+    "address": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  }
+}
+
+
+1. Project Details
+
+{
+  "summaryDescriptionOfTheProject": "",
+  "sectoralScope": "",
+  "projectType": "",
+  "projectEligibility": "",
+  "projectDesign": "",
+  "projectProponent": {
+    "organizationName": "",
+    "contactPerson": "",
+    "title": "",
+    "address": "",
+    "telephone": "",
+    "email": ""
+  },
+  "otherEntitiesInvolvedInTheProject": {
+    "organizationName": "",
+    "roleInTheProject": "",
+    "contactPerson": "",
+    "title": "",
+    "address": "",
+    "telephone": "",
+    "email": ""
+  },
+  "ownership": "",
+  "projectStartDate": "",
+  "projectCreditingPeriod": {
+    "startDate": "",
+    "endDate": ""
+  },
+  "projectScaleAndEstimatedGHGEmissionReductions": {
+    "projectScale": "",
+    "yearlyEmissionReductionsOrRemovals": [
+      {
+        "year": "",
+        "tCO2e": ""
+      }
+        // add others if needed
+    ],
+    "totalEstimatedERs": "",
+    "totalNumberOfCreditingYears": "",
+    "averageAnnualERs": ""
+  },
+  "descriptionOfTheProjectActivity": {
+    "directImpactOnGHGEmissionReduction": {
+      "Practice": "",
+      "Description": ""
+      /* add others if needed as follows
+      "Practice":"",
+      "description":""
+      */
+    }
+  },
+  "projectLocation": "",
+  "projectArea": {
+    "totalHectares": "",
+    "districts": []
+  },
+  "conditionsPriorToProjectInitiation": {
+    "contributionToGNP": "",
+    "contributionToExports": "",
+    "percentageOfPopulationInAgriculture": "",
+    "averageFarmSize": "",
+    "populationGrowth": "",
+    "foodInsecurityCauses": "",
+    "cropTypes": [],
+    "farmingPractices": "",
+    "rainFedAgriculture": "",
+    "climateShocks": "",
+    "cycloneImpact": "",
+    "landManagement": "",
+    "environmentalImpact": "",
+    "climateClassification": "",
+    "elevation": "",
+    "soilTypes": [],
+    "baselineScenario": ""
+  },
+  "complianceWithLawsAndRegulations": {
+    "nationalPolicy": "",
+    "provincialPlan": "",
+    "districtPlan": ""
+  },
+  "participationUnderOtherGHGPrograms": {
+    "registeredProjects": [],
+    "rejectedProjects": []
+  },
+  "otherFormsOfCredit": {
+    "emissionsTradingPrograms": "",
+    "otherEnvironmentalCredit": ""
+  },
+  "additionalInformation": {
+    "leakageManagement": "",
+    "commerciallySensitiveInformation": "",
+    "sustainableDevelopment": "",
+    "furtherInformation": ""
+  }
+}
+
+
+2. SAFEGUARDS
+
+{
+  "noNetHarm": "",
+  "localStakeholderConsultation": {
+    "date": "",
+    "location": "",
+    "participants": {
+      "total": "",
+      "women": "",
+      "men": ""
+    },
+    "summary": "",
+    "suggestions": [""]
+  },
+  "environmentalImpact": "",
+  "publicComments": "",
+  "afoluSpecificSafeguards": {
+    "stakeholderInvolvement": "",
+    "participatoryConsultation": "",
+    "mitigationMeasures": ""
+  }
+}
+
+
+3. APPLICATION OF METHODOLOGY
+
+{
+  "TitleAndReferenceOfMethodology": "",
+  "ApplicabilityOfMethodology": {
+    "ConditionA": "",
+    "ConditionB": "",
+    "ConditionC": "",
+    "ConditionD": "",
+    "ConditionE": "",
+    "ConditionF": "",
+     // add more if needed
+  },
+  "ProjectBoundary": {
+    "Sources": {
+      "Baseline": {
+        "BurningOfBiomass": {
+          "Gases": {
+            "CO2": {
+              "Included": "",
+              "Justification": ""
+            },
+            "CH4": {
+              "Included": "",
+              "Justification": ""
+            },
+            "N2O": {
+              "Included": "",
+              "Justification": ""
+             // add more if needed
+            }
+          }
+        }
+      },
+      "Project": {
+        "BurningOfBiomass": {
+          "Gases": {
+            "CO2": {
+              "Included": "",
+              "Justification": ""
+            },
+            "CH4": {
+              "Included": "",
+              "Justification": ""
+            },
+            "N2O": {
+              "Included": "",
+              "Justification": ""
+            // add more if needed    
+            }
+          }
+        }
+      }
+    }
+  },
+  "BaselineScenario": {
+    "Characteristics": {
+      "LandUse": {
+        "Landholding (ha/farmer)": {
+          "Derre": "",
+          "Gilé": "",
+          "Lugela": "",
+          "Namarroi": ""
+        }
+        // add more if needed
+      },
+      "FarmingPractices": {
+        "NoBurning": {
+          "Derre": "",
+          "Gilé": "",
+          "Lugela": "",
+          "Namarroi": ""
+        }
+        // add others too
+      }
+    }
+  },
+  "Additionality": {
+    "Step0": "",
+    "Step1": {
+      "AlternativeScenarios": {
+        "Scenario1": "",
+        "Scenario2": "",
+        "Scenario3": ""
+      }
+    },
+    "Step2": {
+      "BarrierAnalysis": {
+        "Scenario1": {},
+        "Scenario2": {},
+        "Scenario3": {}
+      }
+    },
+    "Step4": ""
+  },
+  "MethodologyDeviations": ""
+}
+
+
+4. QUANTIFICATION OF GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "exAnteQuantification": {
+    "baselineSurveyYear": "",
+    "baselineSurveyMonth": "",
+    "baselineSurveyQuestionnaires": "",
+    "districtsInvolved": {
+      "lugela": false,
+      "namarroi": false,
+      "derre": false,
+      "gile": false
+    },
+    "quantificationOfYieldData": "",
+    "stratification": {
+      "aez4": {
+        "district": "gile",
+        "weatherDataFrom": "",
+        "historicalWeatherData": ""
+      },
+      "aez5": {
+        "districts": ["lugela", "namarroi", "derre"],
+        "weatherDataFrom": "",
+        "historicalWeatherData": ""
+      }
+    },
+    "baselineEmissions": {
+      "inorganicFertilizerUse": {
+        "beft": "",
+        "nullUsageConsidered": "",
+        "emissionCalculation": {
+          "equation": "",
+          "parameters": {
+            "emissionFactorsCH4": "",
+            "emissionFactorsN2O": ""
+          }
+        }
+      },
+      "nFixingSpeciesUse": {
+        "bent": "",
+        "emissionCalculation": {
+          "equation": ""
+        }
+      },
+      "burningOfBiomass": {
+        "bebbt": "",
+        "emissionCalculation": {
+          "equation": "",
+          "parameters": {
+            "mbc": "",
+            "cf": "",
+            "emissionFactorsCH4": "",
+            "emissionFactorsN2O": ""
+          }
+        },
+        "exAnteEstimations": {
+          "table": [],
+          "explanation": ""
+        }
+      },
+      "woodyPerennialsRemoval": {
+        "brwb": "",
+        "methodology": {
+          "toolVersion": "",
+          "calculationDetails": ""
+        }
+      },
+      "fossilFuelsInAgriManagement": {
+        "befft": "",
+        "explanation": ""
+      },
+      "changesInSOC": {
+        "brst": "",
+        "explanation": ""
+      },
+      "totalEmissionsAndRemovals": {
+        "be": {
+          "equation": ""
+        }
+      }
+    },
+    "projectEmissions": {
+      "fertilizerUse": {
+        "peft": "",
+        "explanation": ""
+      },
+      "nFixingSpeciesUse": {
+        "pent": "",
+        "explanation": ""
+      },
+      "burningOfBiomass": {
+        "pebbt": "",
+        "explanation": ""
+      },
+      "woodyPerennialsRemoval": {
+        "prwpt": "",
+        "explanation": ""
+      },
+      "fossilFuelsInAgriManagement": {
+        "pefft": "",
+        "explanation": ""
+      },
+      "changesInSOC": {
+        "prst": "",
+        "explanation": ""
+      },
+      "netGHGEmissionReductionsAndRemovals": {
+        "equation": "",
+        "explanation": ""
+      }
+    },
+    "leakage": {
+      "lhet": "",
+      "explanation": ""
+    },
+    "netGHGEmissionReductionsAndRemovals": {
+      "equation": "",
+      "table": [],
+      "explanation": ""
+    }
+  }
+}
+
+
+5. MONITORING
+
+
+{
+  "dataParametersAvailableAtValidation": [
+    {
+      "dataParameterCropIt0": {
+        "dataUnit": "",
+        "description": "",
+        "sourceOfData": "",
+        "valueApplied": "",
+        "justificationOfChoice": "",
+        "purposeOfData": "",
+        "comments": ""
+      }
+    },
+    // Repeat the structure for other data parameters
+  ],
+  "dataParametersMonitored": [
+    {
+      "dataParameterCropIt": {
+        "dataUnit": "",
+        "description": "",
+        "sourceOfData": "",
+        "descriptionOfMeasurementMethods": "",
+        "frequencyOfMonitoringRecording": "",
+        "valueApplied": "",
+        "monitoringEquipment": "",
+        "qaQcProceduresApplied": "",
+        "purposeOfData": "",
+        "calculationMethod": "",
+        "comments": ""
+      }
+    },
+    // Repeat the structure for other monitored data parameters
+  ],
+  "monitoringPlan": {
+    "samplingFramework": {
+      "samplingProcedure": "",
+      "samplingEquipment": "",
+      "organizationalStructureForMonitoring": "",
+      "dataCollectionAndRecording": "",
+      "sopsAndQcQaProcedures": ""
+    }
+  }
+}

@@ -1,0 +1,1408 @@
+Basic Information
+
+{
+  "ProjectTitle": "",
+  "Version": "",
+  "DateOfIssue": "",
+  "PreparedBy": "",
+  "ContactDetails": {
+    "Address": "",
+    "Tel": "",
+    "Email": ""
+  }
+}
+
+1.Project Details
+
+{
+  "SummaryDescriptionOfTheProject": {
+    "ProjectCategory": "",
+    "ProjectLocation": "",
+    "RestorationArea": "",
+    "TargetedVillageTracts": [""],
+    "TargetedSpeciesForReforestation": [""]
+  },
+  "ProjectObjectives": {
+    "MainObjectives": [""],
+    "AdditionalContributions": [""]
+  },
+  "ProjectContributionTowardsSustainableDevelopment": {
+    "EnvironmentalCriteria": [""],
+    "SocialCriteria": [""],
+    "EconomicCriteria": [""]
+  },
+  "SectoralScopeAndProjectType": {
+    "SectoralScope": "",
+    "ProjectType": "",
+    "IsGroupedProject": false
+  },
+  "ProjectProponent": {
+    "OrganizationName": "",
+    "ContactPerson": "",
+    "ContactDetails": {
+      "Address": "",
+      "Telephone": "",
+      "SkypeAddress": "",
+      "Email": ""
+    }
+  },
+  "OtherEntitiesInvolved": {
+    "PatheinUniversity": {
+      "Role": "",
+      "ContactPerson": "",
+      "ContactDetails": {
+        "Address": "",
+        "Telephone": "",
+        "Email": ""
+      }
+    },
+    "ThabawkanVillageTractMangroveConservationCommittee": {
+      "Role": "",
+      "ContactPerson": "",
+      "ContactDetails": {
+        "Address": "",
+        "Telephone": "",
+        "Email": ""
+      }
+    },
+    "ThaegoneVillageTractMangroveConservationCommittee": {
+      "Role": "",
+      "ContactPerson": "",
+      "ContactDetails": {
+        "Address": "",
+        "Telephone": "",
+        "Email": ""
+      }
+    }
+    // Add more if needed as follows:
+    // "EntityName": {
+    //   "Role": "",
+    //   "ContactPerson": "",
+    //   "ContactDetails": {
+    //     "Address": "",
+    //     "Telephone": "",
+    //     "Email": ""
+    //   }
+    // }
+  },
+  "ProjectDates": {
+    "ProjectStartDate": "",
+    "ProjectCreditingPeriod": {
+      "Years": "",
+      "IsRenewable": false,
+      "CreditingStart": "",
+      "CreditingEnd": ""
+    }
+  },
+  "ProjectScaleAndEstimatedGHGEmissionReductions": {
+    "ProjectScale": "",
+    "EstimatedGHGEmissionReductions": [
+      {"year": "", "EstimatedGhgReduction": ""},
+      // Add more if needed as follows:
+      // {"year": "YEAR", "EstimatedGhgReduction": VALUE}
+    ],
+    "TotalEstimatedERs": "",
+    "TotalCreditingYears": "",
+    "AverageAnnualERs": ""
+  },
+  "ProjectActivityDetails": {
+    "ReforestationRestorationArea": {
+      "AreaToBePlanted": [
+        {
+          "Year of planting": "",
+          "Magyi (ha)": "",
+          "Thabawkan(ha)": "",
+          "Thaegone(ha)": "",
+          "Total area(ha)": "",
+          "Total number of plants (@ 5000 tree per ha)": ""
+        }
+        // Add more if needed as follows:
+        // {
+        //   "Year of planting": "YEAR",
+        //   "Magyi (ha)": VALUE,
+        //   "Thabawkan(ha)":VALUE,
+        //   "Thaegone(ha)": VALUE,
+        //   "Total area(ha)": VALUE,
+        //   "Total number of plants (@ 5000 tree per ha)": VALUE
+        // }
+      ],
+      "AreaToBeRestored": [
+        {
+          "Year of planting": "",
+          "Magyi (ha)": "",
+          "Thabawkan(ha)": "",
+          "Thaegone(ha)": "",
+          "Total area(ha)": "",
+          "Total number of plants (@ 2000 trees per ha)": ""
+        }
+        // Add more if needed as follows:
+        // {
+        //   "Year of planting": "YEAR",
+        //   "Magyi (ha)": VALUE,
+        //   "Thabawkan(ha)": VALUE,
+        //   "Thaegone(ha)": VALUE,
+        //   "Total area(ha)": VALUE,
+        //   "Total number of plants (@ 2000 trees per ha)": VALUE
+        // }
+      ]
+    },
+    "PlantingSchedules": {
+      "PlantingSchedule": [
+        {
+          "Year": "2014",
+          "Activities": [
+            {
+              "Activity": "",
+              "Month": ""
+            }
+            // Add more if needed as follows:
+            // {
+            //   "Activity": "",
+            //   "Month": ""
+            // }
+          ]
+        },
+        {
+          "Year": "2015, 2016, 2017, 2018, 2019",
+          "Activities": [
+            {
+              "Activity": "",
+              "Month": ""
+            }
+            // Add more if needed as follows:
+            // {
+            //   "Activity": "",
+            //   "Month": ""
+            // }
+          ]
+        }
+        // Add more if needed
+      ]
+    },
+    "SpeciesForPlanting": [
+      {
+        "ScientificName": "",
+        "LocalName": "",
+        "EconomicUse": "",
+        "HabitatEcology": ""
+      }
+      // Add more if needed
+    ],
+    "NurseryEstablishment": {
+      "NurseryManagement": "",
+      "ConstructionCriteria": {
+        "BoatAccessibility": "",
+        "GroundLevel": "",
+        "MonitoringEase": "",
+        "AreaNeededForSeedlings": ""
+      }
+    },
+    "SeedStorage": {
+      "SeedSource": "",
+      "StorageConditions": {
+        "MaturitySeason": "",
+        "StorageMethod": "",
+        "Bundling": ""
+      }
+    },
+    "PlantingDetails": {
+      "PlantSpacingDensity": {
+        "ReforestedAreas": "",
+        "DensityAfter10Years": "",
+        "RestoredAreas": ""
+      },
+      "PlantationMaintenance": {
+        "Weeding": "",
+        "Patching": "",
+        "Protection": {
+          "NaturalDisasters": "",
+          "VMECC": ""
+        }
+      }
+    }
+  },
+  "ComponentA": {
+    "TrainingPrograms": [""],
+    "IECMaterials": {
+      "MaterialsProvided": [""],
+      "InformationProvided": ""
+    }
+  },
+  "ComponentB": {
+    "ConsultationsAndMappings": [""],
+    "Formations": {
+      "VillageDevelopmentCommittees": ""
+    },
+    "Guidelines": {
+      "PolicyGuidelines": "",
+      "TechnicalGuidelines": ""
+    },
+    "Monitoring": {
+      "DroneMonitoring": ""
+    }
+  },
+  "ComponentC": {
+    "Surveys": {
+      "BaselineSurvey": ""
+    },
+    "Formulations": {
+      "EnergyFisheryAgriculturePractices": ""
+    },
+    "Funding": {
+      "MicroCreditSystems": ""
+    },
+    "Developments": {
+      "IncomeGenerationActivities": ""
+    }
+  },
+  "ComponentD": {
+    "ManagementAndSupports": {
+      "ProjectManagement": "",
+      "ProjectOperationSupports": ""
+    },
+    "ProductionsAndConducts": {
+      "ProjectManual": "",
+      "RegularMnEPrograms": ""
+    },
+    "BudgetsAndReports": {
+      "ProvideYearlyMonthlyBudgets": ""
+    },
+    "CarbonMonitoring": {
+      "StandardizedProcedures": "",
+      "GrowthMonitoring": ""
+    }
+  },
+  "ComponentBMangroveRestorationAndCoastalGreenBeltProtection": {
+    "WIFApproachSteps": [""],
+    "ProjectLocation": {
+      "ImplementedVillageTracts": [""],
+      "LocationDetails": ""
+    },
+    "ConditionsPriorToProjectInitiation": {
+      "VegetationCondition": "",
+      "MangroveLoss": {
+        "Year1924": "",
+        "Year2001": "",
+        "LossSince1980": "",
+        "LatestNASAReport": {
+          "Year2013": {
+            "TotalExtentInAyeyarwaddy": "",
+            "LossSince2000": ""
+          }
+        }
+      },
+      "ReasonsForLoss": {
+        "MainReasons": [""],
+        "OtherThreats": [""]
+      },
+      "DeforestationRates": {
+        "Year1984-1991": "",
+        "Reason": ""
+        // add more if needed
+      },
+      "FutureProjections": {
+        "Year2030": {
+          "ProjectedExtent": {
+            "Ayeyarwaddy": "",
+            "Rakhine": ""
+          },
+          // add more if needed
+          "ProjectionReason": ""
+        }
+      }
+    },
+    "ClimateDetails": {
+      "Precipitation": {
+        "RainfallPattern": "",
+        "AnnualRainfall": "",
+        "RainyDaysPerYear": "",
+        "MonthlyRainfall": [
+          {
+            "2007": {
+              "January": "",
+              "February": "",
+              "March": "",
+              "April": "",
+              "May": "",
+              "June": "",
+              "July": "",
+              "August": "",
+              "September": "",
+              "October": "",
+              "November": "",
+              "December": ""
+            }
+          },
+          {
+            "2008": {
+              "January": "",
+              "February": "",
+              "March": "",
+              "April": "",
+              "May": "",
+              "June": "",
+              "July": "",
+              "August": "",
+              "September": "",
+              "October": "",
+              "November": "",
+              "December": ""
+            }
+            // add more if needed
+          }
+        ],
+        "DaysWithRain6": [
+          {
+            "2007": {
+              "January": "",
+              "February": "",
+              "March": "",
+              "April": "",
+              "May": "",
+              "June": "",
+              "July": "",
+              "August": "",
+              "September": "",
+              "October": "",
+              "November": "",
+              "December": ""
+            }
+          },
+          {
+            "2008": {
+              "January": "",
+              "February": "",
+              "March": "",
+              "April": "",
+              "May": "",
+              "June": "",
+              "July": "",
+              "August": "",
+              "September": "",
+              "October": "",
+              "November": "",
+              "December": ""
+            }
+            // add more if needed
+          }
+        ],
+        "Temperature2007-2016": [
+          {
+            "2007": {
+              "January": { "Max": "", "Min": "" },
+              "February": { "Max": "", "Min": "" },
+              "March": { "Max": "", "Min": "" },
+              "April": { "Max": "", "Min": "" },
+              "May": { "Max": "", "Min": "" },
+              "June": { "Max": "", "Min": "" },
+              "July": { "Max": "", "Min": "" },
+              "August": { "Max": "", "Min": "" },
+              "September": { "Max": "", "Min": "" },
+              "October": { "Max": "", "Min": "" },
+              "November": { "Max": "", "Min": "" },
+              "December": { "Max": "", "Min": "" }
+            }
+          },
+          {
+            "2008": {
+              "January": { "Max": "", "Min": "" },
+              "February": { "Max": "", "Min": "" },
+              "March": { "Max": "", "Min": "" },
+              "April": { "Max": "", "Min": "" },
+              "May": { "Max": "", "Min": "" },
+              "June": { "Max": "", "Min": "" },
+              "July": { "Max": "", "Min": "" },
+              "August": { "Max": "", "Min": "" },
+              "September": { "Max": "", "Min": "" },
+              "October": { "Max": "", "Min": "" },
+              "November": { "Max": "", "Min": "" },
+              "December": { "Max": "", "Min": "" }
+            }
+          }
+          // add more if needed
+        ],
+        "MeanTemperature2007-2016": {
+          "January": "",
+          "February": "",
+          "March": "",
+          "April": "",
+          "May": "",
+          "June": "",
+          "July": "",
+          "August": "",
+          "September": "",
+          "October": "",
+          "November": "",
+          "December": ""
+        }
+      },
+      "Humidity": {
+        "AverageHumidity": "",
+        "HumidityVariation": {
+          "Highest": "",
+          "Lowest": ""
+        }
+      }
+    },
+    "HydrologyDetails": {
+      "Classification": "",
+      "TideInundationRate": "",
+      "FreshwaterCoverage": {
+        "DurationDuringMonsoon": "",
+        "Frequency": ""
+      }
+    },
+    "SoilDetails": {
+      "Texture": "",
+      "pHRange": "",
+      "SedimentationRate": ""
+    },
+    "EcosystemDetails": {
+      "VegetationType": "",
+      "DegradationCauses": [""],
+      "AssociatedMangroveSpecies": [""],
+      "DominantMangroveSpecies": {
+        "MagyiArea": [""],
+        "ThabawkanAndThaegoneAreas": [""]
+      },
+      "SpecialMangroveSpecies": "",
+      "AdditionalInformation": ""
+    }
+  },
+  "ComplianceWithLawsAndRegulatoryFrameworks": {
+    "ComplianceWithCountryLaws": "",
+    "MultilateralEnvironmentalAgreements": [""],
+    "MyanmarLawsAndRegulations": [""],
+    "PoliciesAssessedForCompliance": [""]
+  },
+  "OwnershipAndOtherPrograms": {
+    "ProjectOwnership": "",
+    "LandOwnershipInformation": {
+      "MagyiLands": "",
+      "ThabawkanLands": "",
+      "ThaekoneLands": ""
+    }
+  },
+  "EmissionsTradingProgramsAndBindingLimits": {
+    "IsIncludedInEmissionTrading": false
+  },
+  "OtherFormsOfEnvironmentalCredit": {
+    "ReceivedEnvironmentalCredits": false,
+    "EnvironmentalCreditsDetails": ""
+  },
+  "ParticipationUnderOtherGHGPrograms": {
+    "RegisteredUnderGHGPrograms": false,
+    "RegisteredGHGProgramsDetails": ""
+  },
+  "ProjectsRejectedByOtherGHGPrograms": {
+    "IsRejectedByGHGPrograms": false,
+    "RejectedGHGProgramsDetails": ""
+  },
+  "AdditionalInformationRelevantToTheProject": {
+    "EligibilityCriteria": "",
+    "LeakageManagement": {
+      "BiomassBurningPractice": "",
+      "CharcoalProductionPractice": "",
+      "MeasuresToPreventDeforestation": "",
+      "CommunityIncomeGenerationActivities": [""],
+      "CharcoalUsageTrends": ""
+    },
+    "CommerciallySensitiveInformation": "",
+    "SustainableDevelopmentContribution": "",
+    "FurtherInformation": ""
+  }
+}
+
+
+2.APPLICATION OF METHODOLOGY
+
+{
+  "Methodology": {
+    "TitleAndReference": {
+      "Title": "",
+      "Version": "",
+      "SectoralScope": "",
+      "ReferencedTools": [""]
+    },
+    "Applicability": {
+      "Conditions": {
+        "Condition1": "",
+        "Condition2": "",
+        "Condition3": "",
+        "Condition4": ""
+        // add more if needed
+      },
+      "ApplicabilityDetails": {
+        "Condition1Applicability": "",
+        "Condition2Applicability": "",
+        "Condition3Applicability": "",
+         // add more if needed
+        "Condition4Applicability": {
+          "Tool1": {
+            "a": "",
+            "b": ""
+          },
+          "Tool2": {
+            "a": "",
+            "b": ""
+          },
+          "Tool3": "",
+          "Tool4": "",
+          "Tool5": {
+            "a": ""
+          },
+          "Tool6": ""
+        }
+         // add more if needed 
+      },
+      "DemonstratingLandEligibility": {
+        "LandUseDefinition": {
+          "Source1": "",
+          "Source2": "",
+          "Evidence": {
+            "GovernmentCertificationLetter": "",
+            "SatelliteImages": {
+              "Year2013": ""
+            },
+            "MinistryLetter": ""
+          }
+        },
+        "DegradationEvidence": {
+          "Year2003": ""
+        }
+      }
+    },
+    "ProjectBoundary": {
+      "BoundaryIdentification": {
+        "Method": "",
+        "ToolsUsed": {
+          "GPS": "",
+          "Maps": ""
+        }
+      },
+      "EmissionSourcesIncludedAndExcluded": {
+        "Sources": {
+          "Baseline": {
+            "BurningOfWoodyBiomass": {
+              "Gases": {
+                "CO2": {
+                  "Included": "",
+                  "Justification": ""
+                },
+                "CH4": {
+                  "Included": "",
+                  "Justification": ""
+                },
+                "N2O": {
+                  "Included": "",
+                  "Justification": ""
+                }
+                // add more if needed
+              }
+            }
+          },
+          "Project": {
+            "BurningOfWoodyBiomass": {
+              "Gases": {
+                "CO2": {
+                  "Included": "",
+                  "Justification": ""
+                },
+                "CH4": {
+                  "Included": "",
+                  "Justification": ""
+                },
+                "N2O": {
+                  "Included": "",
+                  "Justification": ""
+                }
+                // add more if needed  
+              }
+            }
+          }
+        },
+        "BaselineAndProjectGHGRemovalsBySinks": {
+          "Baseline": {
+            "CarbonPool": {
+              "AboveGroundBiomass": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "BelowGroundBiomass": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "Litter": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "Deadwood": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "SoilOrganicCarbon": {
+                "Selected": "",
+                "Justification": ""
+              }
+              // add more if needed
+            }
+          },
+          "Project": {
+            "CarbonPool": {
+              "AboveGroundBiomass": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "BelowGroundBiomass": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "Litter": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "Deadwood": {
+                "Selected": "",
+                "Justification": ""
+              },
+              "SoilOrganicCarbon": {
+                "Selected": "",
+                "Justification": ""
+              }
+              // add more if needed  
+            }
+          }
+        }
+      }
+    }
+  },
+  "BaselineScenario": {
+    "ToolVersionUsed": "",
+    "StepsFollowed": [""],
+    "KeyEvents": [
+      {
+        "Date": "",
+        "KeyEventRelatedToVCS": "",
+        "KeyEventRelatedToProjectImplementation": ""
+      },
+      {
+        "Date": "",
+        "KeyEventRelatedToVCS": "",
+        "KeyEventRelatedToProjectImplementation": ""
+      }
+        // add more if needed
+    ],
+    "AlternativeLandUseScenarios": {
+      "Scenarios": [""],
+      "ConsistencyWithLawsAndRegulations": {
+        "LawsChecked": [""],
+        "PoliciesChecked": [""]
+      },
+      "BarriersAnalysis": {
+        "Barriers": {
+          "Investment": "",
+          "Technological": ""
+        },
+        "InvestmentBarrierDetails": {
+          "Barriers": [""],
+          "OrganizationsLackingFinancialStrength": [""],
+          "PastRestorationActivities": {
+            "Government": [
+              {
+                "AreaPlanted": "",
+                "Location": "",
+                "Period": "",
+                "AveragePlantingPerYear": ""
+              }
+            ],
+            "LocalNGOs": [
+              {
+                "NGO": "",
+                "AreaPlanted": "",
+                "Period": "",
+                "AveragePlantingPerYear": "",
+                "FundingSource": ""
+              }
+                // add more if needed
+            ]
+          }
+        },
+        "TechnologicalBarrierDetails": {
+          "Barriers": [""],
+          "OrganizationsFacingTechnologicalBarriers": [""]
+        }
+          // add more if needed
+      }
+    }
+  },
+  "CommonPracticeAnalysis": {
+    "GeographicalRegion": "",
+    "RegisteredARRVCSProjects": "",
+    "MangroveForestCoverage": "",
+    "CurrentRestorationEfforts": {
+      "Government": {
+        "PlantingAreas": {
+          "": ""
+        },
+        "AveragePlantingPerYear": {
+          "": ""
+        }
+      },
+      "LocalNGOs": {
+        "": {
+          "TotalPlantedArea": "",
+          "AveragePlantingPerYear": "",
+          "FundingSource": ""
+        },
+        "": {
+          "TotalPlantedArea": "",
+          "AveragePlantingPerYear": "",
+          "FundingSources": [""]
+        }
+      }
+        // add more if needed
+    },
+    "ChallengesInCurrentRestorationEfforts": {
+      "Challenges": [""]
+    },
+    "ProjectUniqueness": {
+      "UniqueCharacteristics": [""]
+    }
+  },
+  "Additionality": {
+    "DemonstrationAndAssessment": {
+      "ToolUsed": "",
+      "Version": "",
+      "SectionReferenced": ""
+    }
+  },
+  "MethodologyDeviations": {
+    "Exist": false
+  }
+}
+
+
+3. QUANTIFICATION OF GHG EMISSION REDUCTIONS AND REMOVALS
+
+{
+  "ApplicabilityConditions": {
+    "MethodologyApplied": "",
+    "MethodologyVersion": "",
+    "ExpectedBaselineCarbonStocks": {
+      "Litter": "",
+      "SoilOrganicCarbonPools": "",
+      "EquationUsed": "Equation 1"
+    },
+    "ConditionsForZeroCarbonStocksInBaselineTrees": {
+      "ConditionA": "",
+      "ConditionB": "",
+      "ConditionC": ""
+    },
+    "LandUseCategories": {
+      "SeverelyDegradedMangroveAreas": "",
+      "DegradedMangroveAreas": "",
+      "BareLands": "",
+      "ShallowWaterAreas": "",
+      "AbandonedShrimpPondAreas": ""
+    },
+    "ReplantingDensity": {
+      "SeverelyDegradedMangroveAreas": "",
+      "BareLands": "",
+      "AbandonedShrimpPondAreas": "",
+      "ShallowWaterAreas": "",
+      "DegradedMangroveAreas": ""
+    },
+    "Monitoring": {
+      "ExistingAndNewlyPlantedPlants": "",
+      "ExistingMangrovePlants": {
+        "AccountedForCarbonStocks": false,
+        "MonitoringDuringCreditingPeriod": true
+      }
+    }
+  },
+  "ProjectEmissions": {
+    "ExAnteActualNetGHGRemovals": {
+      "EquationUsed": "Equation 2",
+      "Components": {
+        "ChangeInCarbonStocksInProject": "",
+        "IncreaseInNonCO2GHGEmissions": ""
+      }
+    },
+    "ChangeInCarbonStocksInProject": {
+      "Components": {
+        "TreeBiomass": "",
+        "ShrubBiomass": "",
+        "DeadWood": "",
+        "SoilOrganicCarbonPool": ""
+      }
+    },
+    "EstimationMethods": {
+      "TreeBiomassChange": {
+        "MethodUsed": "StockDifferenceMethod",
+        "ExAnteEstimation": "",
+        "ExPostEstimation": ""
+      },
+      "MeanTreeBiomassPerHectare": {
+        "MethodUsed": "AllometricEquations",
+        "ExAnteEstimation": "",
+        "ExPostEstimation": ""
+      }
+    },
+    "DBHValues": {
+      "Year1": "",
+      "Year2": "",
+      "Year3": "",
+      "Year4": "",
+      "Year5": "",
+      "Year6": "",
+      // add more if needed
+    }
+  },
+  "BiomassEstimationStrata": {
+    "ReforestationStrata": {
+      "i1": {
+        "PlantingYear": "",
+        "Magyi": "",
+        "Thabawkan": "",
+        "TotalArea": ""
+      },
+      "i2": {
+        "PlantingYear": "",
+        "Magyi": "",
+        "Thabawkan": "",
+        "TotalArea": ""
+      },
+      "i3": {
+        "PlantingYear": "",
+        "Magyi": "",
+        "Thabawkan": "",
+        "Thaegone": "",
+        "TotalArea": ""
+      },
+      // add more if needed as follows
+//        "value of i": {
+//           "PlantingYear": "YEAR",
+//            "Magyi": "",
+//            "Thabawkan": "",
+//            "Thaegone": "",
+//            "TotalArea": ""
+//          },
+      "TotalArea": {
+        "Magyi": "",
+        "Thabawkan": "",
+        "TotalArea": ""
+      }
+    },
+    "CarbonStockInTreesReforestation": {
+      "2015": {
+        "MeanTreeBiomassPerHectare": "",
+        "SumOfAreas": "",
+        "TreeBiomass": "",
+        "CarbonFraction": "",
+        "CarbonStock": ""
+      },
+      "2016": {
+        "MeanTreeBiomassPerHectare": "",
+        "SumOfAreas": "",
+        "TreeBiomass": "",
+        "CarbonFraction": "",
+        "CarbonStock": ""
+      }
+      // add more as follows
+      //"Year":{
+      //     "MeanTreeBiomassPerHectare": "",
+      //       "SumOfAreas": "",
+      //        "TreeBiomass": "",
+      //       "CarbonFraction": "",
+      //       "CarbonStock": ""
+      //     },
+    },
+    "CarbonStockInTreesRestoration": {
+      "2015": {
+        "MeanTreeBiomassPerHectare": "",
+        "SumOfAreas": "",
+        "TreeBiomass": "",
+        "CarbonFraction": "",
+        "CarbonStock": ""
+      },
+      "2016": {
+        "MeanTreeBiomassPerHectare": "",
+        "SumOfAreas": "",
+        "TreeBiomass": "",
+        "CarbonFraction": "",
+        "CarbonStock": ""
+      }
+      // add more as follows
+      //"Year":{
+      //     "MeanTreeBiomassPerHectare": "",
+      //       "SumOfAreas": "",
+      //        "TreeBiomass": "",
+      //       "CarbonFraction": "",
+      //       "CarbonStock": ""
+      //     },
+    }
+  },
+  "EstimationOfChangesInCarbonStocks": {
+    "ShrubBiomass": {
+      "Information": "",
+      "CarbonStock": ""
+    },
+    "DeadWood": {
+      "Information": "",
+      "CarbonStock": ""
+    },
+    "SoilOrganicCarbon": {
+      "ChangeCalculation": {
+        "Equation": "",
+        "Variables": {
+          "ΔSOCPROJ_t": "",
+          "APLANT_t": "",
+          "dSOC_t": ""
+        }
+      },
+      "IPCCDefaultValues": {
+        "dSOC_t": {
+          "Value": "",
+          "AccumulationTimeframe": ""
+        }
+      },
+      "UniversityOfPatheinAnalysis": {
+        "CarbonStock": "",
+        "MeanSoilDepth": ""
+      },
+      "ConservativeEstimate": {
+        "CarbonStock": "",
+        "AccumulationRate": ""
+      }
+    },
+    "ChangeInSOCStockWithinProjectBoundary": [
+      "1": {
+        "RateOfChange": "",
+        "Year": "",
+        "AreaPlanted": "",
+        "ChangeInSOCStock": ""
+      },
+      "2": {
+        "RateOfChange": "",
+        "Year": "",
+        "AreaPlanted": "",
+        "ChangeInSOCStock": ""
+      }
+      // add more if needed
+    ]
+  },
+  "Leakage": {
+    "AssessmentMethodology": {
+      "Tool": "",
+      "Version": ""
+    },
+    "LeakageRequirements": {
+      "1": "",
+      "2": {
+        "(a)": "",
+        "(b)": "",
+        "(c)": "",
+        "(d)": "",
+        "(e)": ""
+      }
+      // add more if needed  
+    },
+    "ProjectAreaDescription": {
+      "LandType": "",
+      "GrazingPractice": "",
+      "LeakageAssumption": ""
+    },
+    "CharcoalProduction": {
+      "PreProject": {
+        "Involvement": "",
+        "Action": ""
+      },
+      "PostMangroveReforestation": {
+        "Action": "",
+        "Income": ""
+      },
+      "IncomeGeneration": {
+        "AlternativeProjects": {
+          "Options": [],
+          "Awareness": ""
+        }
+      }
+    },
+    "Patrolling": {
+      "Action": "",
+      "IllegalCuttingReport": {
+        "Procedure": "",
+        "ActionAgainstOffenders": ""
+      }
+    }
+  },
+  "NetGHGEmissionReductionsAndRemovals": {
+    "ExAnteCalculation": {
+      "Equation": "",
+      "Variables": {
+        "ΔCAR-CDM,t": "",
+        "ΔCACTUAL,t": "",
+        "ΔCBSL,t": "",
+        "LKt": ""
+      }
+    },
+    "YearlyChanges": {
+      "1": {
+        "Year": "",
+        "TreeBiomass": "",
+        "ShrubBiomass": "",
+        "SoilOrganicCarbonPool": "",
+        "DeadWood": "",
+        "SelectedCarbonPools": "",
+        "EstimatedBaselineEmissions": "",
+        "EstimatedProjectEmissions": "",
+        "EstimatedLeakageEmissions": "",
+        "EstimatedNetGHGEmissionReductions": ""
+      },
+      "2": {
+        "Year": "",
+        "TreeBiomass": "",
+        "ShrubBiomass": "",
+        "SoilOrganicCarbonPool": "",
+        "DeadWood": "",
+        "SelectedCarbonPools": "",
+        "EstimatedBaselineEmissions": "",
+        "EstimatedProjectEmissions": "",
+        "EstimatedLeakageEmissions": "",
+        "EstimatedNetGHGEmissionReductions": ""
+      }
+      // add more if needed
+    }
+  },
+  "ExAnteEstimationUncertaintyControl": {
+    "CarbonStockInTreeBiomass": "Not subjected to uncertainty control",
+    "DataAndModels": {
+      "Source": "Best available data and models",
+      "Application": "To project site and tree species"
+    }
+  }
+}
+
+
+4. MONITORING
+
+{
+  "DataAndParametersAvailableAtValidation": {
+    "BaselineNetGHGRemovals": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    },
+    "CarbonFractionOfTreeBiomass": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    },
+    "TotalBiomassOfTree": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": {
+        "ForExAnte": "",
+        "ForExPost": ""
+      },
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    },
+    "RateOfChangeInSOCStocks": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    }
+    // Add more if needed as follows 
+    /*
+    "KeyName": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    }
+    */
+  },
+  "DataAndParametersMonitored": {
+    "AreaOfTreeBiomass": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "NumberOfSamplePlots": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "RelativeWeightOfStratum": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "SizeOfSamplePlot": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "DiameterBreastHeight": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "TimeElapsedBetweenEstimations": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    }
+    // Add more if needed as follows 
+    /*
+    "KeyName": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProcedures": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    }
+    */
+  },
+  "MonitoringPlan": {
+    "ProjectBoundary": {
+      "DataToBeCollected": "",
+      "DataCollectionMethod": "",
+      "DataRetentionPeriod": ""
+    },
+    "ExistingPlants": {
+      "DataToBeCollected": "",
+      "DataCollectionMethod": "",
+      "DataRetentionPeriod": ""
+    },
+    "SupervisionOfProjectActivities": {
+      "RolesAndResponsibilities": "",
+      "ProjectStaffMembers": ""
+    },
+    "AdministrativeTeam": {
+      "TeamMembers": [""],
+      "OrganizationalStructure": ""
+    },
+    "FieldOfficersResponsibilities": {
+      "Responsibilities": ""
+    },
+    "IdentificationAndMonitoringOfStrata": {
+      "StratificationFactors": "",
+      "MonitoringFrequency": ""
+    },
+    "DatabaseUpdates": {
+      "DataToBeUpdated": ""
+    },
+    "SamplingPlanAndStratification": {
+      "Strata": "",
+      "SamplingFramework": "",
+      "SamplingPlotArea": ""
+    },
+    "QualityControlAndQualityAssuranceProcedures": {
+      "Procedures": ""
+    },
+    "SamplingDesign": {
+      "TypeOfPlots": "",
+      "NumberOfPlots": "",
+      "LocationOfSamplingPlots": "",
+      "MonitoringFrequency": "",
+      "MeasuringAndEstimatingCarbonStockChangesOverTime": "",
+      "StratificationAndSampleSize": "",
+      "MeasuringAndEstimatingCarbonStockChangesOverTime": "",
+      "MonitoringGHGEmissions": ""
+    }
+  }
+}
+
+
+5. SAFEGUARDS
+
+{
+  "NoNetHarm": {
+    "StakeholderConsultation": {
+      "Priority": "",
+      "Approach": "",
+      "Focus": "",
+      "CommunitySituation": {
+        "LivingStandard": "",
+        "IncomeIncreaseAim": ""
+      },
+      "CommunityDetails": {
+        "ShweThaunGyanCity": {
+          "Households": "",
+          "Population": ""
+        },
+        "Thaegone": {
+          "Households": "",
+          "Population": ""
+        },
+        "Thabawkan": {
+          "Households": "",
+          "Population": ""
+        }
+        /* add more if needed */
+      },
+      "Meetings": {
+        "Number": "",
+        "Objectives": {
+          "IncreaseIncome": "",
+          "EmploymentOpportunities": "",
+          "SilviculturalKnowledge": "",
+          "InfrastructureDevelopment": ""
+        }
+      }
+    }
+  },
+  "EnvironmentalImpact": {
+    "Expectations": {
+      "CCBCertification": "",
+      "EnvironmentalImpactAssessment": {
+        "NeedIEEorEIA": "",
+        "NegativeImpacts": "",
+        "PositiveImpacts": {
+          "IncreasedForestCover": "",
+          "IncreasedBiodiversity": "",
+          "ImprovementOfSoilConditions": "",
+          "ClimateChangeMitigationAndAdaptation": ""
+        }
+      }
+    }
+  },
+  "LocalStakeholderConsultation": {
+    "Meetings": {
+      "Details": [
+        {
+          "Date": "",
+          "Location": "",
+          "MeetingTopic": "",
+          "Participants": "",
+          "VillageTract": ""
+        },
+        {
+          "Date": "",
+          "Location": "",
+          "MeetingTopic": "",
+          "Participants": "",
+          "VillageTract": ""
+        }
+        /* add more if needed as follows */
+        /*
+        {
+          "Date": "",
+          "Location": "",
+          "MeetingTopic": "",
+          "Participants": "",
+          "VillageTract": ""
+        }
+        */
+      ],
+      "Objectives": {
+        "ExplainProject": "",
+        "DiscussionFormationEMCC": "",
+        "FollowUpMeetings": ""
+      },
+      "ArtCompetitions": {
+        "Purpose": ""
+      }
+    }
+  },
+  "publicComments": [
+    {
+      "commentsAboutEligibility": "",
+      "studyByFaoBeforeProjectStart": "",
+      "faoStudyCriterias": "",
+      "minHeightDefinitionByRegionalMinistry": "",
+      "lettersFromMinistry": "",
+      "landAssessmentByUniversity": "",
+      "satelliteImageAnalysis": "",
+      "waterBodiesExtraction": "",
+      "projectBoundaryDelineation": "",
+      "kmlFileForBoundary": "",
+      "forestDepartmentLetter": "",
+      "reforestationAndRestorationAreas": "",
+      "mortalityRatesScientificSupport": "",
+      "survivalRatesStudyByYokohamaNationalUniversity": "",
+      "coastalLivelihoodEnvironmentalAssetsRehabilitation": "",
+      "forestDepartmentSurvivalRates": "",
+      "exAnteMortalityAssumption": "",
+      "carbonStockEstimation": "",
+      "allometricEquationApplicability": "",
+      "baselineDifferentiationOldAndNewTrees": "",
+      "landUseClassificationInBaseline": "",
+      "monitoringPlanForExistingPlants": "",
+      "preparationActivitiesCarbonRemoval": "",
+      "baselineStumpsPlantingDensity": "",
+      "baselineLandUseTypeClassification": "",
+      "monitoringOfExistingPlants": "",
+      "seafoodStockIncrease": "",
+      "mangroveGeneBank": "",
+      "monitoringOfLeakageManagement": "",
+      "legendAndTableInconsistency": "",
+      "eligibleAreaDelimitation": "",
+      "nonPermanenceRiskToolDiscount": "",
+      "periodicUpdateOfParametersMonitoring": "",
+      "incomeIncreaseExplanation": ""
+       // add more if needed
+    }
+  ]
+}
+
+

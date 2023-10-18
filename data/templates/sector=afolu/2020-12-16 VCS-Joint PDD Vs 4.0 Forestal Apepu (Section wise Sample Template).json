@@ -1,0 +1,873 @@
+Basic Information
+
+{
+  "projectDetails": {
+    "projectTitle": "",
+    "version": "",
+    "dateOfIssue": "",
+    "preparedBy": {
+      "organization": "",
+      "contact": {
+        "address": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  }
+}
+
+
+1. Project Details
+
+{
+  "projectDetails": {
+    "summaryDescription": "",
+    "sectoralScopeAndProjectType": "",
+    "projectEligibility": {
+      "deforestationOfNativeEcosystems": "",
+      "noDrainage": ""
+    },
+    "projectDesign": "",
+    "projectProponent": {
+      "organizationName": "",
+      "contactPerson": "",
+      "title": "",
+      "address": "",
+      "telephone": "",
+      "email": ""
+    },
+    "otherEntitiesInvolved": [
+      {
+        "organizationName": "",
+        "roleInTheProject": "",
+        "contactPerson": "",
+        "title": "",
+        "address": "",
+        "telephone": "",
+        "email": ""
+      }
+    ],
+    "ownership": {
+      "organizationType": "",
+      "ownershipDetails": "",
+      "expansionPlans": ""
+    },
+    "projectStartAndCreditingPeriod": {
+      "projectStartDate": "",
+      "projectEndDate": "",
+      "totalCreditingYears": ""
+    }
+    "projectScaleAndGHGEmissionReductions": {
+        "projectScale": "",
+        "projectName": "",
+        "projectSize": "",
+        "totalEstimatedGHGEmissionReductions": "",
+        "totalCreditingYears": "",
+        "averageAnnualEmissionReductions": ""
+    },
+    "projectActivityDescription": {
+        "totalPlantationArea": "",
+        "expansionArea": "",
+        "plantationDensityAndSpacing": [],
+        "speciesSelection": "",
+        "nativeSpeciesTrials": {
+            "area": "",
+            "systems": []
+        },
+        "silviculturalRegimes": {
+            "exoticSpecies": {},
+            "nativeSpecies": {}
+        },
+        "forestOperationSchedule": []
+    },
+    "soilPreparation": "",
+    "planting": "",
+    "maintenance": "",
+    "pruning": "",
+    "thinningAndHarvesting": {},
+    "infrastructure": {
+        "roadNetworkDensity": "",
+        "maintenanceFrequency": ""
+    },
+    "conservation": {
+        "protectedEcosystemFragments": {
+            "northeasternFraction": "",
+            "southwesternFraction": "",
+            "bufferZones": {}
+        },
+        "safeguards": {
+            "safeguardDescriptions": []
+        }
+    },
+    "jurisdictionOfJNR": ""
+    "projectLocation": {
+      "locationDescription": "",
+      "properties": {
+        "property1": {
+          "name": "",
+          "netProductionArea": "",
+          "locationCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        },
+        "property2": {
+          "name": "",
+          "netProductionArea": "",
+          "locationCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      },
+      "projectBoundary": {
+        "description": "",
+        "coordinates": {
+          "latitudeStart": "",
+          "latitudeEnd": "",
+          "longitudeStart": "",
+          "longitudeEnd": ""
+        }
+      }
+    },
+    "conditionsPriorToProjectInitiation": {
+      "climate": "",
+      "topographyAndSoil": "",
+      "hydrology": "",
+      "socioeconomicSituation": "",
+      "vegetationAndEcosystems": ""
+    }
+    "complianceWithLawsStatutesAndOtherRegulatoryFrameworks": {
+      "listOfMainLaws": "",
+      "regulatoryAgenciesApprovalAndRegistration": ""
+    },
+    "mainEnvironmentalLaws": {
+      "environmentalImpactAssessmentLaw": "",
+      "crimesAgainstEnvironment": ""
+    },
+    "forestAndLandUseLaws": {
+      "forestLaw": "",
+      "moratoriumOnLandUseChangeOfNaturalForests": "",
+      "waterResourcesAndBufferAreas": "",
+      "protectedAreas": "",
+      "wildlifeProtectionLaw": "",
+      "environmentalServicesLaw": ""
+    },
+    "mainLawsRelatedToLabour": {
+      "labourCode": "",
+      "fundamentalILOConventions": ""
+    },
+    "mainLawsRelatedToIndigenousPeoples": {
+      "coreInternationalHumanRightsTreaties": "",
+      "paraguayConstitutionArticle64": ""
+    },
+    "participationUnderOtherGHGPrograms": {
+      "projectsRegisteredOrSeekingRegistration": "",
+      "projectsRejectedByOtherGHGPrograms": ""
+    },
+    "otherFormsOfCredit": {
+      "emissionsTradingProgramsAndOtherBindingLimits": "",
+      "otherFormsOfEnvironmentalCredit": ""
+    },
+    "additionalInformationRelevantToTheProject": {
+      "leakageManagement": "",
+      "commerciallySensitiveInformation": "",
+      "sustainableDevelopment": "",
+      "furtherInformation": ""
+    }
+  }   
+}
+
+
+2 SAFEGUARDS
+
+
+{
+    "noNetHarm": {
+        "environmentalImpactSummary": "",
+        "socioEconomicImpactSummary": "",
+        "generalSafeguards": ""
+    },
+    "localStakeholderConsultation": {
+        "engagementWithLocalCommunities": "",
+        "thirdPartyStakeholderConsultations": "",
+        "publicDisclosure": ""
+    },
+    "environmentalImpact": {
+        "mitigationProceduresWithSocialImpact": [],
+        "mitigationProceduresWithEniviromentalImpact":[]
+    },
+    "publicComments": "",
+    "afoluSpecificSafeguards": ""
+}
+
+
+3 APPLICATION OF METHODOLOGY
+
+
+{
+  "titleAndReferenceOfMethodology": {
+    "approvedCdmMethodology": "",
+    "methodologicalTools": []
+  },
+  "applicabilityOfMethodology": {
+    "applicabilityConditions": {
+      "landSubjectToProjectActivity": "",
+      "soilDisturbance": {
+        "limitationPerLandType": {
+          "organicSoils": "",
+          "landWithSpecificManagementPractices": ""
+        },
+        "projectSoilDisturbanceExtent": ""
+      }
+    }
+  },
+  "demonstratingAppropriatenessTool": {
+    "applicabilityConditions": ""
+  },
+  "calculationNumberOfSamplePlotsTool": {
+    "applicabilityConditions": ""
+  },
+  "estimationChangeInSoilOrganicCarbonStocksTool": {
+    "applicabilityConditions": {
+      "landCategories": {
+        "wetlandCategory": "",
+        "organicSoils": ""
+      },
+      "projectMeetsConditions": {
+        "litterRemainsOnSite": "",
+        "soilDisturbanceForPlanting": ""
+      }
+    }
+  },
+  "ProjectBoundary": {
+    "Baseline": [
+      {
+        "source": "",
+        "Gas": "",
+        "Included": "",
+        "justification": ""
+      }
+      // Add other baseline 01_details here
+    ],
+    "Project": [
+      {
+        "source": "",
+        "Gas": "",
+        "Included": "",
+        "justification": ""
+      }
+      // Add other project 01_details here
+    ]
+  },
+  "baselineScenario": {
+    "definitionMethodology": "",
+    "baselineScenarioProcedure": {
+      "step0PreliminaryScreening": {
+        "startingDateOfProjectActivity": "",
+        "forestryFundConsideration": ""
+      },
+      "step1IdentificationOfAlternativeLandUse": {
+        "subStep1aRealisticAndCredibleAlternatives": [],
+        "subStep1bComplianceWithLawsAndRegulations": ""
+      }
+    },
+    "step2BarrierAnalysis": {
+      "subStep2aListOfBarriers": [],
+      "subStep2bEliminationOfScenariosPreventedByBarriers": {
+        "alternative1": "",
+        "alternative2": ""
+      },
+      "subStep2cListScenariosNotPreventedByAnyBarrier": ""
+    }
+  },
+  "Additionality": {
+    "DemonstrationSteps": "",
+    "CommonPracticeAnalysis": "",
+    "InvestmentAnalysisMethod": "",
+    "InvestmentComparisonAnalysis": "",
+    "AnalysisIncludes": "",
+    "ProductivityCropPrices": "",
+    "CashflowPeriod": "",
+    "FinancialIndicators": {
+      "IRRReal": "",
+      "InvestmentNeeded": "",
+      "PaybackPeriod": ""
+    }
+  },
+  "SensitivityAnalysis": {
+    "Agriculture": {
+      "ExpensesChange": {
+        "-15%": "",
+        "-10%": "",
+        "-5%": "",
+        "0%": "",
+        "5%": "",
+        "10%": "",
+        "15%": ""
+      },
+      "RevenuesChange": {
+        "-15%": "",
+        "-10%": "",
+        "-5%": "",
+        "0%": "",
+        "5%": "",
+        "10%": "",
+        "15%": ""
+      }
+    },
+    "Forestry": {
+      "ExpensesChange": {
+        "-15%": "",
+        "-10%": "",
+        "-5%": "",
+        "0%": "",
+        "5%": "",
+        "10%": "",
+        "15%": ""
+      },
+      "RevenuesChange": {
+        "-15%": "",
+        "-10%": "",
+        "-5%": "",
+        "0%": "",
+        "5%": "",
+        "10%": "",
+        "15%": ""
+      }
+    }
+  },
+  "CommonPracticeAnalyses": {
+    "NationalForestInventory": "",
+    "CurrentEstimations": "",
+    "SupplyGap": "",
+    "Challenges": {
+      "BiomassEnergy": "",
+      "SawnTimber": "",
+      "IndustrialDemand": "",
+      "InvestorDiscouragement": ""
+    },
+    "LegislationImpact": "",
+    "NotableProjects": "",
+    "ProfitabilityComparison": {
+      "PlantationsVsSoy": "",
+      "SoyCultivation": "",
+      "CorporatePlantations": ""
+    },
+    "CDMCarbonForestry": ""
+  },
+  "MethodologyDeviations": ""
+}
+
+
+4 ESTIMATED GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "BaselineEmissions": {
+    "MethodologyUsed": "",
+    "EquationUsed": "",
+    "BaselineStrata": {
+      "Agricultural": {
+        "TreeCoverage": "",
+        "ShrubCoverage": "",
+        "GrassCoverage": "",
+        "UnknownCoverage": ""
+      },
+      "Pasture": {
+        "TreeCoverage": "",
+        "ShrubCoverage": "",
+        "GrassCoverage": "",
+        "UnknownCoverage": ""
+      }
+    }
+  },
+  "MethodologyTools": {
+    "CarbonStockEstimation": {
+      "TreesAndShrubs": "",
+      "DeadWoodAndLitter": ""
+    },
+    "CanopyCoverAssessment": {
+      "SoftwareUsed": "",
+      "SubSteps": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "BaselineStratums": {
+        "Agriculture": {
+          "Tree": "",
+          "Shrub": "",
+          "Grass": "",
+          "Other": ""
+        },
+        "Pasture": {
+          "Tree": "",
+          "Shrub": "",
+          "Grass": "",
+          "Other": ""
+        }
+      }
+    }
+  },
+  "BaselineCarbonEstimation": {
+    "TreeCarbonStock": {
+      "ForAgricultureAndPasture": {
+        "FormulaUsed": "",
+        "Parameters": {
+          "CFTREE": "",
+          "RTREE": "",
+          "CCTREE_BSL,PASTURE": "",
+          "bForest": ""
+        }
+      }
+    },
+    "ShrubCarbonStock": {
+      "AssumedZero": ""
+    },
+    "DeadWoodAndLitterCarbonStock": {
+      "EquationsUsed": {
+        "DeadWood": "",
+        "Litter": ""
+      },
+      "Parameters": {
+        "DFDW": "",
+        "DFLI": ""
+      }
+    },
+    "BaselineEmissionsSummary": [
+      {
+        "Year": "",
+        "ProjectYear": "",
+        "AnnualPlantedArea(ha)": "",
+        "CTREEBSL(tCO2e)": "",
+        "CDW,i,tAndCLI,i,tTrees(tCO2e)": "",
+        "TotalBaselineEmission(tCO2e)": ""
+      },
+      {
+        "Year": "",
+        "ProjectYear": "",
+        "AnnualPlantedArea(ha)": "",
+        "CTREEBSL(tCO2e)": "",
+        "CDW,i,tAndCLI,i,tTrees(tCO2e)": "",
+        "TotalBaselineEmission(tCO2e)": ""
+      }
+    ]
+  },
+  "ProjectEmissions": {
+    "EquationUsed": "",
+    "Definitions": {
+      "∆CACTUAL,t": "",
+      "∆CP,t": "",
+      "GHGE,t": ""
+    },
+    "CarbonPools": {
+      "ChangeInCarbonStocks": {
+        "Total": "",
+        "IndividualPools": {
+          "TreeBiomass": "",
+          "ShrubBiomass": "",
+          "DeadWood": "",
+          "Litter": "",
+          "SOC": ""
+        }
+      },
+      "IndividualPoolsChange": {
+        "TreeBiomass": "",
+        "ShrubBiomass": "",
+        "DeadWood": "",
+        "Litter": "",
+        "SOC": ""
+      }
+    }
+  },
+  "TreeBiomassGrowthModel": {
+    "GrowthMethod": "",
+    "EstimationMethod": "",
+    "Assumptions": {
+      "DiameterGrowthEucalyptus": "",
+      "PlantingStrataGrowthIncrement": {
+        "1000TreesPerHa": "",
+        "800TreesPerHa": ""
+      },
+      "RootToShootRatio": "",
+      "SilviculturalMeasures": {
+        "RotationCycle": "",
+        "ThinningOperations": "",
+        "DefaultCarbonFraction": "",
+        "WoodDensity": "",
+        "BiomassExpansionFactor": ""
+      }
+    },
+    "StemDensity": {
+      "1000TreesPerHa": [],
+      "800TreesPerHa": []
+    },
+    "BiomassModel": {
+      "1000TreesPerHa": {
+        "YearStock": [],
+        "TotalABG": [],
+        "TotalBGB": [],
+        "TotalBiomass": [],
+        "LongTermAverage": []
+      },
+      "800TreesPerHa": {
+        "YearStock": [],
+        "TotalABG": [],
+        "TotalBGB": [],
+        "TotalBiomass": [],
+        "LongTermAverage": []
+      }
+    },
+    "EstimationOfGHGRemovals": {
+      "AccumulatedGHGRemovals": [],
+      "AnnualGHGRemovals": []
+    }
+  },
+  "DeadWoodCarbonStockChange": {
+    "EstimationMethod": ""
+  },
+  "SOCStockChanges": {
+    "EstimationMethod": {
+      "ChangeInSOCStock": "",
+      "Definitions": {
+        "∆SOCPROJ,t": "",
+        "APLANT,t": "",
+        "dSOCt": ""
+      },
+      "FactorsApplied": {
+        "PastureAreas": "",
+        "AgricultureAreas": ""
+      }
+    },
+    "AggregatedSOCChanges": {
+      "Planting2019": [],
+      "Planting2020": [],
+      "AnnualSOC(tC/yr.)":[],
+      "CumulativeSOC(tC)":[]
+    },
+    "TotalSOCRemovals": {
+      "AnnualSOCGHGRemovals": [],
+      "CumulativeSOCGHGRemovals": []
+    }
+  },
+  "Leakage": {
+    "MethodologyUsed": "",
+    "LeakageAssessmentTool": "",
+    "LeakageRequirements": {
+      "RequirementsMet": false,
+      "RequirementsDetails": ""
+    },
+    "ProjectDetails": {
+      "ProjectObjective": "",
+      "RiskOfLeakage": ""
+    }
+  },
+  "EstimatedNetGHGEmissionReductionsAndRemovals": {
+    "EquationUsed": "",
+    "Definitions": {
+      "∆CAR−CDM,t": "",
+      "∆CACTUAL,t": "",
+      "∆CBSL,t": "",
+      "LKt": ""
+    },
+    "ResultsForFirstActivityInstance": {
+      "ProjectYear": {
+        "1": {
+          "EstimatedBaselineEmissionsOrRemovals": "",
+          "EstimatedProjectEmissionsOrRemovals": "",
+          "EstimatedLeakageEmissions": "",
+          "EstimatedNetGHGEmissionRemovals": "",
+          "VCSBufferCredits": ""
+        },
+        "2": {
+          "EstimatedBaselineEmissionsOrRemovals": "",
+          "EstimatedProjectEmissionsOrRemovals": "",
+          "EstimatedLeakageEmissions": "",
+          "EstimatedNetGHGEmissionRemovals": "",
+          "VCSBufferCredits": ""
+        }
+      },
+      "Total": {
+        "EstimatedBaselineEmissionsOrRemovals": "",
+        "EstimatedProjectEmissionsOrRemovals": "",
+        "EstimatedLeakageEmissions": "",
+        "EstimatedNetGHGEmissionRemovals": "",
+        "VCSBufferCredits": ""
+      }
+    }
+  }
+}
+    
+    
+5 MONITORING
+    
+    
+{
+  "DataParametersValidation": {
+    "CFTREE": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    },
+    "RTREE_BSL": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "ValueApplied": "",
+      "Justification": "",
+      "PurposeOfData": "",
+      "Comments": ""
+    }
+    // ... add others if required as follows
+    //"Data/Parametrs": {
+    //  "DataUnit": "",
+    //  "Description": "",
+    //  "SourceOfData": "",
+    //  "ValueApplied": "",
+    //  "Justification": "",
+    //  "PurposeOfData": "",
+    //  "Comments": ""
+    //}
+  },
+  "DataParametersMonitored": {
+    "Ai": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "FrequencyOfMonitoringRecording": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProceduresApplied": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    },
+    "wi": {
+      "DataUnit": "",
+      "Description": "",
+      "SourceOfData": "",
+      "FrequencyOfMonitoringRecording": "",
+      "ValueApplied": "",
+      "MonitoringEquipment": "",
+      "QAQCProceduresApplied": "",
+      "PurposeOfData": "",
+      "CalculationMethod": "",
+      "Comments": ""
+    }
+    // ... add more if required as follows
+   // "Data/Parameter": {
+   //   "DataUnit": "",
+   //   "Description": "",
+   //   "SourceOfData": "",
+   //   "FrequencyOfMonitoringRecording": "",
+   //   "ValueApplied": "",
+   //   "MonitoringEquipment": "",
+   //   "QAQCProceduresApplied": "",
+   //   "PurposeOfData": "",
+   //   "CalculationMethod": "",
+   //   "Comments": ""
+   // },
+  },
+  "monitoringPlan": {
+    "monitoringSystemStructure": "",
+    "completeMonitoringSystem": {
+      "operationsRecords": "",
+      "inputsAndCosts": "",
+      "yearlyInventories": "",
+      "gisProject": ""
+    },
+    "forestGrowthMonitoring": {
+      "measurementFrequency": "",
+      "measurementAspects": ""
+    },
+    "geographicalDelimitation": {
+      "delimitationMethod": "",
+      "compartmentsTracking": ""
+    },
+    "stratificationAndUpdate": {
+      "initialStratification": "",
+      "yearlyReevaluation": ""
+    },
+    "samplingDesignPlotSelection": {
+      "samplingProcedure": "",
+      "minimumPspDensity": "",
+      "realAveragePspDensity": ""
+    },
+    "dataCollection": {
+      "measuredData": ""
+    },
+    "dataAnalysis": {
+      "parametersCalculated": ""
+    },
+    "calibrationOfGrowthAndYieldTables": {
+      "calibrationBasis": "",
+      "tableReliabilityExpectation": ""
+    },
+    "proceduresForInternalAuditingAndQaQc": {
+      "qaQcPlan": {
+        "reliableFieldMeasurements": "",
+        "methodsVerification": "",
+        "dataEntryAndAnalysisVerification": "",
+        "proceduresToEnsureReliableMeasurements": "",
+        "dataMaintenanceAndArchiving": {
+          "dataStorage": "",
+          "dataAccess": "",
+          "dataCopiesAndStorageDuration": ""
+        }
+      }
+    }
+  }
+}
+
+
+6 ACHIEVED GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "ghgEmissionReductions": {
+    "monitoringPeriod": "",
+    "totalAreaIncluded": "",
+    "remainingArea": "",
+    "approachApplied": ""
+  },
+  "dataAndParametersMonitored": {
+    "ai": {
+      "dataUnit": "",
+      "description": "",
+      "valueApplied": "",
+      "comments": ""
+    },
+    "apI": {
+      "dataUnit": "",
+      "description": "",
+      "valueApplied": "",
+      "comments": ""
+    }
+    // ... add more if required as follows
+    // "Data/Parameter": {
+    //   "dataUnit": "",
+    //   "description": "",
+    //   "valueApplied": "",
+    //   "comments": ""
+    // }
+  },
+  "baselineEmissions": {
+    "baselineCarbonStocks": [
+      {
+        "year": "",
+        "areasPlantedRestoredPerYear": "",
+        "cTreeBsl": "",
+        "ccwBsl": "",
+        "cshrubBsl": "",
+        "cbslTotal": ""
+      }
+    ]
+  },
+  "projectEmissions": {
+    "equationDescription": "",
+    "deltaCACTUALt": "",
+    "deltaCPt": "",
+    "ghgeT": "",
+    "deltaCPtCalculation": "",
+    "deltaCTREEPROJt": "",
+    "deltaCSOCPROJt": ""
+  },
+  "carbonStockEstimation": {
+    "carbonStockChangesInTrees": {
+      "ctreet": "",
+      "cftree": "",
+      "btree": "",
+      "btreeT": "",
+      "btreeTi": "",
+      "a": "",
+      "wi": "",
+      "btreeti": ""
+    },
+    "determinationOfTreeBiomass": {
+      "vtreej": {},
+      "dj": {},
+      "bef2j": {},
+      "rj": {}
+    },
+    "calculationTables": {
+      "summaryBTREEAndCTREE": {
+        "stratum": {
+          "areaHa": "",
+          "wi": "",
+          "bTREEt": "",
+          "BTREEt": "",
+          "CTREEt": ""
+        }
+      },
+      "calculationOfUncertainty": {
+        "stratum": {
+          "tDmHa1": "",
+          "ni": "",
+          "uc": "",
+          "ucMean": "",
+          "ucDiscount": ""
+        }
+      }
+    },
+    "estimationOfChangesInSoilOrganicCarbonStocks": {
+      "rateOfChangeInSOCStock": "",
+      "socAreaHa": "",
+      "cumulativeSOCAreaHa": "",
+      "totalDeltaSOCStrata14": ""
+    }
+  },
+  "changeInCarbonStocksOfTreesAndShrubs": {
+    "changeInCarbonStocksDuringPeriod": {
+      "yearOfInclusionOfProjectAreas": "",
+      "areaStrataIncludedInYearT": "",
+      "ctreet1": "",
+      "cdwBslt1": "",
+      "cshrubBslt1": "",
+      "ctreeProjDiscountt2": "",
+      "cdwProjt2": "",
+      "deltaCtreeDwProjt2t1": ""
+    }
+  },
+  "actualNetGreenhouseGasRemovals": {
+    "actualNetGHGRemovals": [
+      {
+        "year": "",
+        "projectImplementationCumMonths": "",
+        "cumulativeTreeNetGHGRemovals": "",
+        "actualTreeNetGHGRemovals": "",
+        "actualSOCNetGHGRemovals": "",
+        "actualTotalNetGHGRemovals": ""
+      }
+    ]
+  },
+  "leakage": {
+    "leakageEmissions": [
+      {
+        "year": "",
+        "leakage": ""
+      }
+    ]
+  },
+  "netGHGEmissionReductionsAndRemovals": {
+    "netGHGEmissionReductionsRemovals": [
+      {
+        "year": "",
+        "baselineEmissionsOrRemovals": "",
+        "projectEmissionsOrRemovals": "",
+        "leakageEmissions": "",
+        "netGHGEmissionReductionsOrRemovals": "",
+        "bufferPoolAllocationVCUsEligibleForIssuance": ""
+      }
+    ]
+  }
+}
+
+
+
+    

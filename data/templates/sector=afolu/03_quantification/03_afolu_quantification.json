@@ -1,0 +1,52 @@
+
+{
+  "quantification": {
+    "baselineEmissions": {
+      "methodologyUsed": "",
+      "methodologyTools": [{
+        "source": "",
+        "metrics": [{
+          "metric_name": "", "metric_value": "", "metric_units": ""
+        }]
+      }],
+      "summary": [{
+        "year": "",
+        "project_year": "",
+        "measures": [{
+          "measure": "", "value": "", "units": ""
+        }]
+      }]
+    },
+    "projectEmissions": {
+      "methodologyUsed": "",
+      "methodologyTools": [{
+        "source": "",
+        "metrics": [{
+          "metric_name": "", "metric_value": "", "metric_units": ""
+        }]
+      }],
+      "summary": [{
+        "year": "",
+        "project_year": "",
+        "measures": [{
+          "measure": "", "value": "", "units": ""
+        }]
+      }]
+    },
+    "leakage": {
+      "methodologyUsed": "",
+      "assessmentTool": "",
+      "requirements": [""],
+      "requirements_met": false,
+      "project_impact": [
+        {"objective":  "", "leakage_risk":  ""}
+      ]
+    },
+    "netGHGEmissionReductionAndRemoval": {
+      "estimatedBaselineGHGReductionOrRemoval": "",
+      "estimatedProjectGHGReductionOrRemoval": "",
+      "estimatedGHGLeakage": "",
+      "estimatedNetGHGReductionAndRemoval": ""
+    }
+  }
+}

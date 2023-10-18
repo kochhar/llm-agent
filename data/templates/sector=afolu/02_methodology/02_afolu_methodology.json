@@ -1,0 +1,108 @@
+{
+  "methodology": {
+    "methodologiesSelected": [{
+      "title": "",
+      "version": "",
+      "methodologicalTools": [""]
+    }],
+    "applicability": {
+      "conditions": {
+        "condition1": "",
+        "condition2": ""
+      },
+      "details": {
+        "condition1Applicability": "",
+        "condition2Applicability": "",
+        "condition3Applicability": {
+          "methodologicalTool": "",
+          "tool_criteria": [
+            {"criteria": "",  "value": ""}
+          ]
+        }
+      }
+    },
+    "projectBoundary": {
+      "boundaryIdentification": {
+        "method": "",
+        "methodological_tools": {
+          "gps": "",
+          "maps": ""
+        }
+      },
+      "baseline": [
+        {
+          "activity": "",
+          "gases": {
+            "CO2": {
+              "included": "",
+              "justification": ""
+            },
+            "CH4": {
+              "included": "",
+              "justification": ""
+            },
+            "NO2": {
+              "included": "",
+              "justification": ""
+            }
+          },
+          "sinks": {
+            "<sink name>": {
+              "<metric name>": {
+                "included": "",
+                "justification": ""
+              }
+            }
+          }
+        }
+      ],
+      "project": [
+        {
+          "activity": "",
+          "gases": {
+            "CO2": {
+              "included": "",
+              "justification": ""
+            },
+            "CH4": {
+              "included": "",
+              "justification": ""
+            },
+            "NO2": {
+              "included": "",
+              "justification": ""
+            }
+          },
+          "sinks": {
+            "<sink name>": {
+              "<metric name>": {
+                "included": "",
+                "justification": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    "baselineScenario": {
+      "methodology": "",
+      "toolVersion": "",
+      "steps": [""],
+      "landUse": "",
+      "farmingPractices": "",
+      "methodologicalDeviations": [""]
+    },
+    "additionality": {
+      "analysisMethod": "",
+      "toolsUsed": [""],
+      "steps": {
+        "barrierAnalysis": "",
+        "investmentComparisonAnalysis": "",
+        "financialComparisonAnalysis": "",
+        "commonPracticeAnalysis": "",
+        "sensitivityAnalysis": ""
+      }
+    },
+    "methodologicalDeviations": false
+  }
+}

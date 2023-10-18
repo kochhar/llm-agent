@@ -2,25 +2,21 @@
   "name": "<The name of the project>",
   "sectoralScope": "<The environmental sector which is applicable for the project>",
   "projectActivity": "<The main activity conducted in relation to the project>",
-  "methodologiesAndBaselines": {
-    "references": {
-      "methodologies": [
-        {
-          "reference": "<Reference to methodology 1>"
-        },
-        {
-          "reference": "<Reference to methodology 2>"
-        }
-      ],
-      "standardizedBaselines": [
-        {
-          "reference": "<Reference to standardized baseline 1>"
-        },
-        {
-          "reference": "<Reference to standardized baseline 2>"
-        }
-      ]
-    },
+  "methodology": {
+    "methodologies": [{
+      "title": "<Reference to methodology 1>",
+      "version": ""
+    }, {
+      "title": "<Reference to methodology 2>",
+      "version": ""
+    }],
+    "standardizedBaselines": [{
+      "title": "<Reference to methodology 1>",
+      "version": ""
+    }, {
+      "title": "<Reference to methodology 2>",
+      "version": ""
+    }],
     "applicability": "<Applicability of methodologies and standardized baselines>",
     "projectBoundary": {
       "baselineSources": [

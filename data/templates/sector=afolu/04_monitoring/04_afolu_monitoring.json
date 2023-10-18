@@ -1,0 +1,54 @@
+{
+  "monitoring": {
+    "baselineParameters": [{
+      "parameter": "",
+      "description": "",
+      "source": "",
+      "value": "",
+      "unit": "",
+      "justification": "",
+      "purpose": ""
+    }],
+    "validationParameters": [{
+      "parameter": "",
+      "description": "",
+      "source": "",
+      "value": "",
+      "unit": "",
+      "justification": "",
+      "purpose": ""
+    }],
+    "monitoringParameters": [{
+      "parameter": "",
+      "description": "",
+      "source": "",
+      "monitoringFrequency": "",
+      "monitoringEquipment": "",
+      "qaAndQcProcedures": "",
+      "purpose": "",
+      "calculationMethod": "",
+      "comments": ""
+    }],
+    "monitoringPlan": {
+      "projectBoundary": {
+        "dataCollected": "",
+        "collectionMethod": "",
+        "retentionPeriod": ""
+      },
+      "supervision": {
+        "staff_members": [""],
+        "roles_and_responsibilities": [""]
+      },
+      "administrative_team": {
+        "staff_members": [""],
+        "roles_and_responsibilities": [""]
+      }
+    },
+    "sampling_plan": {
+      "sampling_framework": "",
+      "sampling_area_selection": "",
+      "sampling_design": {
+      }
+    }
+  }
+}

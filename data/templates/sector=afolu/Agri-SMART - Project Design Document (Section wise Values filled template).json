@@ -1,0 +1,767 @@
+Basic Ifnormation
+
+{
+  "projectTitle": "Agri-SMART: Sustaining a resilient and inclusive development in Zambezia",
+  "version": "01",
+  "dateOfIssue": "DD-Month-YYYY this version of the document issued",
+  "preparedBy": "Carbonsink Group S.r.l.",
+  "contact": {
+    "address": "Piazza Beverini 4, 19121 La Spezia, Italy",
+    "phone": "+39 055 4574675",
+    "email": "info@carbonsink.it",
+    "website": "www.cabonsink.it"
+  }
+}
+
+
+1. Project Details
+
+{
+  "summaryDescriptionOfTheProject": "The project “Agri-SMART: Sustaining a resilient and inclusive development in Zambezia” foresees to promote Climate Smart Agriculture (CSA) practices in four districts of the central-coastal region of Zambezia...",
+  "sectoralScope": "The project is developed under VCS sectoral scope 14 (Agriculture, Forestry and Other Land Use)...",
+  "projectType": "Agricultural Land Management (ALM)...",
+  "projectEligibility": "The project is eligible under the scope of the VCS Program, as the project includes AFOLU activities (project category SALM - Sustainable Agricultural Land Management) that are supported by a methodology approved under the VCS Program.",
+  "projectDesign": "Indicate whether the project has been designed to include a single installation of an activity, multiple project activity instances, or as a grouped project. The proposed project is not a grouped project. Eligibility Criteria Not applicable.",
+  "projectProponent": {
+    "organizationName": "COSV",
+    "contactPerson": "Mara Unfer",
+    "title": "Country Representative",
+    "address": "Av. Sekou Tourè n. 1971, Maputo",
+    "telephone": "+258 21325133",
+    "email": "mara.unfer@cosv.org; cosvmaputo@gmail.com"
+  },
+  "otherEntitiesInvolvedInTheProject": {
+    "organizationName": "Carbonsink Group S.r.l.",
+    "roleInTheProject": "Project consultant supporting COSV to register the project under the VCS",
+    "contactPerson": "Tania Cencetti",
+    "title": "NBS Manager",
+    "address": "Piazza Beverini 4, 19121 La Spezia, Italy",
+    "telephone": "+39 055 4574675",
+    "email": "tania.cencetti@carbonsink.it"
+  },
+  "ownership": "The Constitution of Mozambique provides that the ownership of all lands and natural resources vests in the state, and that all Mozambicans shall have the right to use and enjoy land as a means for the creation of wealth and social wellbeing...",
+  "projectStartDate": "13/10/2020",
+  "projectCreditingPeriod": {
+    "startDate": "10/12/2020",
+    "endDate": "09/12/2039"
+  },
+  "projectScaleAndEstimatedGHGEmissionReductions": {
+    "projectScale": "Project X",
+    "yearlyEmissionReductionsOrRemovals": [
+      {
+        "year": "2021",
+        "tCO2e": 6797
+      },
+      {
+        "year": "2022",
+        "tCO2e": 6041
+      },
+      {
+        "year": "2023",
+        "tCO2e": 5703
+      }
+        // ... more years
+    ],
+    "totalEstimatedERs": 95988,
+    "totalNumberOfCreditingYears": 20,
+    "averageAnnualERs": 4799
+  },
+  "descriptionOfTheProjectActivity": {
+    "directImpactOnGHGEmissionReduction": {
+      "Practice1": "Residue management",
+      "Description1": "Residues from crops such as maize, beans, cow peas as well as deciduous tree litter are left on the soil. This organic matter creates favorable microclimatic conditions that optimize decomposition and mineralization of organic matter (“surface composting”) and protect soil from erosion.",
+      "Practice2": "Cover crops",
+      "Description2": "Cover crops are planted on bare or short-term fallow farmland (e.g. immediately after harvest of crops) to reduce erosion, excessive moisture loss and mineralization of organic matter.",
+      "Practice3": "Consociation",
+      "Description3": "Consociation of crops to limit soil erosion and reducing damage caused by animals and insects. Those techniques are based on a crop/intercropping model that compensates and completes the differences of each culture increasing soil fertility and limiting the prolonged use of the cultivated soil.",
+      "Practice4": "Integrated pest management",
+      "Description4": "Formations on integrated pest management will be done (e.g. on controlling the effect of “lagarta do funil do milho”- Spodoptera frugiperda on corn cultivation. The formation will be based on techniques that include the use of biopesticides, mechanical control and the use of specific cultivation techniques (for example, the creation of plants corridors that function as a pest repellent/attractant “push and pull technique”).",
+      "Practice5": "Improved seeds",
+      "Description5": "Farmers will benefit from improved seed with a high germination power and a high nutritional rate, characterized by a shorter cycle (90 days), compared to those of traditional seeds used in the 4 beneficiary districts (120 days)."
+    }
+  },
+  "projectLocation": "Central coastal region of Zambezia, Mozambique",
+  "projectArea": {
+    "totalHectares": "873.7",
+    "districts": ["Derré", "Lugela", "Gilé", "Namarroi"]
+  },
+  "conditionsPriorToProjectInitiation": {
+    "contributionToGNP": "40%",
+    "contributionToExports": "60%",
+    "percentageOfPopulationInAgriculture": "80%",
+    "averageFarmSize": "1.2 hectares",
+    "populationGrowth": "31.4% (2007-2017)",
+    "foodInsecurityCauses": "Poor agricultural production, critical crop management, unsustainable rural development",
+    "cropTypes": ["Maize", "Cassava"],
+    "farmingPractices": "Slash and burn, manual rain-fed agriculture, low-intensity fertilizer",
+    "rainFedAgriculture": "Yes",
+    "climateShocks": "Frequent floods and droughts",
+    "cycloneImpact": "440,000 hectares of cereal crops destroyed in 2019",
+    "landManagement": "Lack of integrated land management",
+    "environmentalImpact": "High deforestation rate in Zambezia Province",
+    "climateClassification": "Tropical wet-dry (Aw)",
+    "elevation": "350-400 meters",
+    "soilTypes": [
+      {
+        "type": "Ferric Lixisols",
+        "percentage": "40%"
+      },
+      {
+        "type": "Ferralic Arenosols",
+        "percentage": "21%"
+      },
+      {
+        "type": "Rhodic Ferralsols",
+        "percentage": "14%"
+      },
+      {
+        "type": "Haplic Acrisols",
+        "percentage": "6%"
+      }
+    ],
+    "baselineScenario": "Land degradation, fragmentation, and yield loss"
+  },
+  "complianceWithLawsAndRegulations": {
+    "nationalPolicy": "PEDSA (Strategic Development Plan of the Agricultural Sector, 2011-2020)",
+    "provincialPlan": "PEDZ (Strategic Development Plan of Zambezia)",
+    "districtPlan": "PES (Economic and Social Plan)"
+  },
+  "participationUnderOtherGHGPrograms": {
+    "registeredProjects": ["project has not been registered, or is seeking registration under any other GHG programs."],
+    "rejectedProjects": ["The project has not been rejected by any other GHG programs."]
+  },
+  "otherFormsOfCredit": {
+    "emissionsTradingPrograms": "No emissions trading programs in Mozambique",
+    "otherEnvironmentalCredit": "No other GHG-related environmental credits"
+  },
+  "additionalInformation": {
+    "leakageManagement": "Biomass and organic material shifted within a single farm system",
+    "commerciallySensitiveInformation": "None",
+    "sustainableDevelopment": "Contribution to SDGs, especially SDG 2, 10, 12, 13, and 15",
+    "furtherInformation": "No further information available"
+  }
+}
+
+
+2. SAFEGUARDS
+
+{
+  "noNetHarm": "The project has no potential negative environmental or socio-economic impact. On the contrary, starting from degraded land, project activities can only issue environmental and socioeconomic benefits.",
+  "localStakeholderConsultation": {
+    "date": "22nd July 2020",
+    "location": "Nando Village, Mocuba district, Zambezia province",
+    "participants": {
+      "total": "13",
+      "women": "2",
+      "men": "11"
+    },
+    "summary": "The meeting aimed to inform stakeholders about the foreseen project, discuss its potential impacts, and align with Sustainable Development Goals. Various topics were covered including project presentation, questions and answers, and SDG discussion.",
+    "suggestions": [
+      "Massive involvement of women in the technology transfer process.",
+      "Introduction of a technological package for the crops produced in the project.",
+      "Use of available services (extension and research) to provide direct assistance to producers.",
+      "Timely provision of agricultural inputs like seeds."
+        // ... more suggestions 
+    ]
+  },
+  "environmentalImpact": "The project proposes measures to mitigate climate change among small-scale farmers while improving farm productivity using sustainable technologies that safeguard the environment and generate incremental benefits of carbon revenue.",
+  "publicComments": "",
+  "afoluSpecificSafeguards": {
+    "stakeholderInvolvement": "Stakeholders were involved in a participatory consultation process, and ToRs were signed with each farmer to express willingness to adopt Sustainable Agricultural Land Management (SALM) practices.",
+    "participatoryConsultation": "Effective and direct involvement of 300 producers initiated during 2017-2018, with signed ToRs expressing their commitment to adopt SALM practices.",
+    "mitigationMeasures": "Demonstration fields were created to allow local producers to experiment and verify Climate Smart Agriculture techniques, reducing the risk of unwillingness to adopt new practices."
+  }
+}
+
+
+3. APPLICATION OF METHODOLOGY
+
+
+{
+  "TitleAndReferenceOfMethodology": "VCS approved methodology VM0017 - Adoption of Sustainable Agricultural Land Management, version 1.010",
+  "ApplicabilityOfMethodology": {
+    "ConditionA": "Land is either cropland or grassland at the start of the project.",
+    "ConditionB": "The project does not occur on wetlands",
+    "ConditionC": "The land is degraded and will continue to be degraded or continue to degrade",
+    "ConditionD": "The area of land under cultivation in the region is constant or increasing in absence of the project",
+    "ConditionE": "Forest land, as defined by the national CDM forest definition, in the region is constant or decreasing over time",
+    "ConditionF": "There must be studies that demonstrate that the use of the Roth-C model is appropriate for: (a) the IPCC climatic regions of 2006 IPCC AFOLU Guidelines, or (b) the agroecological zone (AEZ) in which the project is situated."
+  },
+  "ProjectBoundary": {
+    "Sources": {
+      "Baseline": {
+        "SoilOrganicCarbonStockChanges": {
+          "CO2": {
+            "Included": "Yes",
+            "Justification": "Net stock increase is calculated based on balance with CO2 loss in the atmosphere due to SOC oxidation processes"
+          },
+          "CH4": {
+            "Included": "No",
+            "Justification": "Not applicable"
+          },
+          "N2O": {
+            "Included": "No",
+            "Justification": "Not applicable"
+          }
+        },
+        "BurningOfBiomass": {
+          "CO2": {
+            "Included": "No",
+            "Justification": "Carbon stock decreases due to burning are accounted as a carbon stock change. The CO2 emissions from the burning of crop residues are not included in the applied methodology as per IPCC convention."
+          },
+          "CH4": {
+            "Included": "Yes",
+            "Justification": "Non-CO2 emissions from the burning of biomass are then reported in terms of CO2eq"
+          },
+          "N2O": {
+            "Included": "Yes",
+            "Justification": "Non-CO2 emissions from the burning of biomass are then reported in terms of CO2eq"
+          }
+        }
+      },
+      "Project": {
+        "SoilOrganicCarbonStockChanges": {
+          "CO2": {
+            "Included": "Yes",
+            "Justification": "Net stock increase is calculated based on balance with CO2 loss in the atmosphere due to SOC oxidation processes"
+          },
+          "CH4": {
+            "Included": "No",
+            "Justification": "Not applicable"
+          },
+          "N2O": {
+            "Included": "No",
+            "Justification": "Not applicable"
+          }
+        },
+        "BurningOfBiomass": {
+          "CO2": {
+            "Included": "No",
+            "Justification": "Carbon stock increases due to reduced burning are accounted as a carbon stock change. The CO2 emissions from the burning of crop residues are not included in the applied methodology as per IPCC convention."
+          },
+          "CH4": {
+            "Included": "Yes",
+            "Justification": "Non-CO2 emissions from the burning of biomass are then reported in terms of CO2eq"
+          },
+          "N2O": {
+            "Included": "Yes",
+            "Justification": "Non-CO2 emissions from the burning of biomass are then reported in terms of CO2eq"
+          }
+        }
+      }
+    }
+  },
+  "BaselineScenario": {
+    "Characteristics": {
+      "LandUse": {
+        "Landholding (ha/farmer)": {
+          "Derre": 2.5,
+          "Gilé": 2.7,
+          "Lugela": 3.2,
+          "Namarroi": 3.3
+        },
+        "DominantCroppingSystem": {
+          "Derre": "Maize/cowpeas",
+          "Gilé": "Maize/cowpeas",
+          "Lugela": "Maize/cowpeas",
+          "Namarroi": "Maize/cowpeas"
+        },
+        "AverageCerealsCropYieldMaize": {
+          "Derre": 0.67,
+          "Gilé": 0.44,
+          "Lugela": 0.89,
+          "Namarroi": 0.55
+        }
+      },
+      "FarmingPractices": {
+        "NoBurning": {
+          "Derre": "16%",
+          "Gilé": "48%",
+          "Lugela": "44%",
+          "Namarroi": "63%"
+        },
+        "ResiduesBurnt": {
+          "Derre": "4.0%",
+          "Gilé": "33.2%",
+          "Lugela": "49.2%",
+          "Namarroi": "9.5%"
+        },
+        "UseOfAgriculturalMachinery": {
+          "Derre": "no",
+          "Gilé": "5.5%",
+          "Lugela": "no",
+          "Namarroi": "no"
+        }
+      }
+    }
+  },
+  "Additionality": {
+    "Step0": "The proposed project activity has its starting date after 31 December 1999 but before the date of the project's registration. The incentive from the planned sale of carbon credits was seriously considered in the decision to proceed with the project activity.",
+    "Step1": {
+      "AlternativeScenarios": {
+        "Scenario1": "Continuation of the pre-project land use i.e. subsistence agriculture",
+        "Scenario2": "Adoption of SALM without the incentive from carbon finance (project activity)",
+        "Scenario3": "Abandonment of the land followed by natural regeneration of vegetation or assisted reforestation"
+      }
+    },
+    "Step2": {
+      "BarrierAnalysis": {
+        "Scenario1": {
+          "Investment": "",
+          "Institutional": "",
+          "Technological": "",
+          "LocalTradition": "",
+          "PrevailingPractice": "",
+          "LocalEcologicalConditions": "x",
+          "SocialConditions": ""
+        },
+        "Scenario2": {
+          "Investment": "x",
+          "Institutional": "",
+          "Technological": "x",
+          "LocalTradition": "x",
+          "PrevailingPractice": "",
+          "LocalEcologicalConditions": "",
+          "SocialConditions": ""
+        },
+        "Scenario3": {
+          "Investment": "",
+          "Institutional": "",
+          "Technological": "",
+          "LocalTradition": "",
+          "PrevailingPractice": "x",
+          "LocalEcologicalConditions": "",
+          "SocialConditions": "x"
+        }
+      }
+    },
+    "Step4": "COSV has a long-term commitment with social and economic development of rural areas in Zambezia. Nevertheless, without financial aids of carbon finance, the lifetime of the project activity would be expected to be shorter, and the strong monitoring procedures required could not be applied."
+  },
+  "MethodologyDeviations": "The project and project monitoring plan meet the requirements of the applied methodology and do not deviate from the baseline scenario, additionality determination, or inclusion of project GHG sources, sinks, and reservoirs."
+}
+
+
+4. QUANTIFICATION OF GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "exAnteQuantification": {
+    "baselineSurveyYear": "2020",
+    "baselineSurveyMonth": "May",
+    "baselineSurveyQuestionnaires": "300",
+    "districtsInvolved": {
+      "lugela": true,
+      "namarroi": true,
+      "derre": true,
+      "gile": true
+    },
+    "quantificationOfYieldData": "Based on the previous harvesting year and used as reference values for project simulations.",
+    "stratification": {
+      "aez4": {
+        "district": "gile",
+        "weatherDataFrom": "nearest meteorological station in Alto Molocue",
+        "historicalWeatherData": "collected"
+      },
+      "aez5": {
+        "districts": ["lugela", "namarroi", "derre"],
+        "weatherDataFrom": "Milange",
+        "historicalWeatherData": "collected"
+      }
+    },
+    "baselineEmissions": {
+      "inorganicFertilizerUse": {
+        "beft": "0",
+        "nullUsageConsidered": "Null usage of inorganic fertilizers is accounted for baseline scenario.",
+        "emissionCalculation": {
+          "equation": "BEFt = 0.",
+          "parameters": {
+            "emissionFactorsCH4": "2.7",
+            "emissionFactorsN2O": "0.07"
+          }
+        }
+      },
+      "nFixingSpeciesUse": {
+        "bent": "0",
+        "emissionCalculation": {
+          "equation": "BENt = 0"
+        }
+      },
+      "burningOfBiomass": {
+        "bebbt": "Calculated using the latest version of the CDM A/R tool “Estimation of non-CO2 emissions from the burning of crop residues”",
+        "emissionCalculation": {
+          "equation": "EBBt = MBC,t * CF * (2.7 * GWPCH4 + 0.07 * GWPN2O) * 10-3",
+          "parameters": {
+            "mbc": "Mass of crop residues burnt in year t, tonnes",
+            "cf": "Calculated factor",
+            "emissionFactorsCH4": "2.7",
+            "emissionFactorsN2O": "0.07"
+          }
+        },
+        "exAnteEstimations": {
+          "table": [
+            {"t (year)": 2021, "BEBBt (tCO2e)": 674},
+            {"t (year)": 2022, "BEBBt (tCO2e)": 674},
+            {"t (year)": 2023, "BEBBt (tCO2e)": 674},
+            {"t (year)": 2024, "BEBBt (tCO2e)": 674}
+             // ... similar entries for other years too
+          ],
+          "explanation": "Table 4-1 Ex-ante estimation of baseline emissions due to burning of biomass"
+        }
+      },
+      "woodyPerennialsRemoval": {
+        "brwb": "0",
+        "methodology": {
+          "toolVersion": "Version 02.1.0",
+          "calculationDetails": "conservatively assumed to be zero"
+        }
+      },
+      "fossilFuelsInAgriManagement": {
+        "befft": "0",
+        "explanation": "Assumed to be zero in the baseline scenario due to minimal usage"
+      },
+      "changesInSOC": {
+        "brst": "0",
+        "explanation": "Conservatively accounted for as zero as per the SALM methodology"
+      },
+      "totalEmissionsAndRemovals": {
+        "be": {
+          "equation": "BEt = BEFt + BEFFt + BEBBt – BRWPt"
+        }
+      }
+    },
+    "projectEmissions": {
+      "fertilizerUse": {
+        "peft": "0",
+        "explanation": "Null usage of fertilizers in the baseline scenario"
+      },
+      "nFixingSpeciesUse": {
+        "pent": "0",
+        "explanation": "Not expected to increase significantly in the project scenario"
+      },
+      "burningOfBiomass": {
+        "pebbt": "0",
+        "explanation": "Every farmer will be discouraged to burn plant residues due to SALM application"
+      },
+      "woodyPerennialsRemoval": {
+        "prwpt": "0",
+        "explanation": "Planting woody perennials not a main project activity"
+      },
+      "fossilFuelsInAgriManagement": {
+        "pefft": "0",
+        "explanation": "Low usage of gas- or diesel-powered machinery expected"
+      },
+      "changesInSOC": {
+        "prst": "0",
+        "explanation": "Conservatively accounted for as zero as per the SALM methodology"
+      },
+      "netGHGEmissionReductionsAndRemovals": {
+        "equation": "PEt = PEFt + PEFFt + PENt + PEBBt - PRWPt - PRSt",
+        "table": [
+          {"t (year)": 2021, "PEt (tCO2e)": -6124},
+          {"t (year)": 2022, "PEt (tCO2e)": -5367},
+          {"t (year)": 2023, "PEt (tCO2e)": -5029},
+          {"t (year)": 2024, "PEt (tCO2e)": -4828}
+           // similar entries for other years too
+        ],
+        "explanation": "Table 8 - Ex ante estimation of total net project GHG emissions and removals"
+      }
+    },
+    "leakage": {
+      "lhet": "0",
+      "explanation": "Expected to be negligible"
+    },
+    "netGHGEmissionReductionsAndRemovals": {
+      "calculationFormula": "BEt - PEt - LHEt",
+      "emissionReductionEstimations": [
+        {
+          "year": "2021",
+          "baselineEmissions": "674",
+          "projectEmissions": "-6124",
+          "leakageEmissions": "0",
+          "netEmissionReductions": "6797"
+        },
+        {
+          "year": "2022",
+          "baselineEmissions": "674",
+          "projectEmissions": "-5367",
+          "leakageEmissions": "0",
+          "netEmissionReductions": "6041"
+        }
+          // ...similar entries for other years too
+      ]
+    }
+  }
+}
+
+
+5. MONITORING
+
+
+{
+  "dataParametersAvailableAtValidation": [
+    {
+      "dataParameterCropIt0": {
+        "dataUnit": "ton d.m/Ha",
+        "description": "Harvested annual dry matter yield for crop i at each cropping season by farmers beneficiaries in baseline scenario",
+        "sourceOfData": "Baseline post-harvest survey",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations spreadsheet",
+        "justificationOfChoice": "Baseline post-harvest survey conducted in May 2020 with local beneficiaries asked for registered yield data of previous harvesting season.",
+        "purposeOfData": "Determination of baseline scenario",
+        "comments": "Dry matter fraction of fresh yield was calculated using values of “Dry Matter Fraction of Harvested Product” listed in Table 11.2 in Volume 4 of the 2006 IPCC Guidelines"
+      }
+    },
+    {
+      "dataParameterBRt0": {
+        "dataUnit": "ton/Ha",
+        "description": "Baseline fraction of production returned as residues per month",
+        "sourceOfData": "Calculated",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations spreadsheet",
+        "justificationOfChoice": "Crop-specific equations from Table 11.2 in Volume 4 of the 2006 IPCC Guidelines applied registered dry yield data.",
+        "purposeOfData": "Determination of baseline scenario",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterAreai,t0": {
+        "dataUnit": "Ha",
+        "description": "Land tenure of each farmer used for cultivation in baseline scenario, per crop",
+        "sourceOfData": "Baseline post-harvest survey",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Track of GPS boundaries of beneficiaries’ fields were collected to provide total area for project estimations.",
+        "purposeOfData": "Determination of baseline scenario",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterBSNt0": {
+        "dataUnit": "ton",
+        "description": "Synthetic fertilizer use",
+        "sourceOfData": "Dynamics of the Fertilizer Value Chain in Mozambique. Zavale et al., 2020",
+        "valueApplied": "0",
+        "justificationOfChoice": "Available studies over Mozambique revealed that consumption of synthetic fertilizers is totally negligible.",
+        "purposeOfData": "Determination of baseline scenario",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterTractorUsageArea": {
+        "dataUnit": "Ha",
+        "description": "Area subjected to usage of agricultural vehicles and machineries",
+        "sourceOfData": "Baseline post-harvest survey",
+        "valueApplied": "Null. Total respondents who declared to use agricultural machinery in baseline scenario is negligible (0.01% of total respondents).",
+        "justificationOfChoice": "Baseline usage rate of harvesting machinery has been detected surveying the area subjected to the usage of this kind of equipment in order to indirectly estimate the consumption of fossil fuel for harvesting processes.",
+        "purposeOfData": "Calculation of baseline emissions",
+        "comments": "Parameter was measured to detect general usage of fossil fuels for agricultural activities within the project area in baseline scenario."
+      }
+    },
+    {
+      "dataParameterAreaburnti,t0": {
+        "dataUnit": "Ha",
+        "description": "Annual area of cropi burnt",
+        "sourceOfData": "Baseline post-harvest survey",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Track of GPS boundaries of beneficiaries’ fields were collected to provide total area for project estimations farmers who declared to burn plant residues in baseline scenario.",
+        "purposeOfData": "Calculation of baseline emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterMBt0": {
+        "dataUnit": "ton d.m.",
+        "description": "Mass of crop residues burnt",
+        "sourceOfData": "Baseline post-harvest survey",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Parameter was calculated applying values of dry matter fraction of harvested products listed in Table 11.2 in Volume 4 of the 2006 IPCC Guidelines to registered data of harvested fresh yield from farmers who declared to burn plant residues in baseline scenario.",
+        "purposeOfData": "Calculation of baseline emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterCF": {
+        "dataUnit": "unitless",
+        "description": "Combustion factor for agricultural residues",
+        "sourceOfData": "Volume 2 of 2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "valueApplied": "0.80",
+        "justificationOfChoice": "As per the applied methodology, default factors dependent on vegetation type has been selected from default IPCC values.",
+        "purposeOfData": "Calculation of baseline emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterCarbonFractionOfLitter": {
+        "dataUnit": "unitless",
+        "description": "Fraction applied to dry plant residues to obtain relative carbon content",
+        "sourceOfData": "Volume 4 of 2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "valueApplied": "0.4",
+        "justificationOfChoice": "Total amount of plant residues left on field has to be converted in terms of C content before entering RothC Model for simulations.",
+        "purposeOfData": "Calculation of baseline emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterTemperature": {
+        "dataUnit": "°C",
+        "description": "Temperature for each stratified scenario was collected from historical weather data of local stations.",
+        "sourceOfData": "Local weather stations of Alto Molocue and Milange",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Data were inferred from historical weather data of 2009-2019 decade in order to make it statistically reliable and depict climate of project areas.",
+        "purposeOfData": "Calculation of project emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterRainfall": {
+        "dataUnit": "mm",
+        "description": "Rainfall measurement for each stratified scenario was collected from historical weather data of local stations.",
+        "sourceOfData": "Local weather stations of Alto Molocue and Milange",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Data were inferred from historical weather data of 2009-2019 decade in order to make it statistically reliable and depict climate of project areas.",
+        "purposeOfData": "Calculation of project emissions",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterOpenPanEvaporation": {
+        "dataUnit": "mm",
+        "description": "Potential open pan evaporation was calculated with the modified Heargraves equation",
+        "sourceOfData": "Calculated",
+        "valueApplied": "Refer to AgriSMART_Ex Ante Calculations",
+        "justificationOfChoice": "Data were inferred from historical weather data of 2009-2019 decade in order to make it statistically reliable and depict climate of project areas.",
+        "purposeOfData": "Calculation of project emissions",
+        "comments": "N/A"
+      }
+    }
+  ],
+  "dataParametersMonitored": [
+    {
+      "dataParameterCropIt": {
+        "dataUnit": "ton d.m./Ha",
+        "description": "Harvested annual dry matter yield for crop i at each cropping season by farmers beneficiaries in project scenario",
+        "sourceOfData": "Annual post-harvest survey",
+        "descriptionOfMeasurementMethods": "Project post-harvest surveys conducted with local beneficiaries shall ask for registered yield data of future harvesting seasons on a yearly basis.",
+        "frequencyOfMonitoringRecording": "Annual registered harvested yield will be collected from local databases.",
+        "valueApplied": "Value of parameters are not expected to vary significantly in respect to baseline scenario. Improved seeds will enhance growing rates of crops and eventually, farmers will decide to perform more than one growing season per crop. Calculations will be updated accordingly.",
+        "monitoringEquipment": "Yearly surveys and collection of yield data.",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "Dry matter fraction of fresh yield is calculated using values of “Dry Matter Fraction of Harvested Product” listed in Table 11.2 in Volume 4 of the 2006 IPCC Guidelines",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterBRt": {
+        "dataUnit": "ton/Ha",
+        "description": "Baseline fraction of production returned as residues per month",
+        "sourceOfData": "Calculated",
+        "frequencyOfMonitoringRecording": "Yearly",
+        "valueApplied": "Value of parameters are not expected to vary significantly in respect to baseline scenario. Improved seeds will enhance growing rates of crops and eventually, farmers will decide to perform more than one growing season per crop. Calculations will be updated accordingly.",
+        "monitoringEquipment": "Yearly surveys and collection of yield data.",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "Where relevant, provide the calculation method, including any equations, used to establish the data/parameter.",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterAreai,t": {
+        "dataUnit": "Ha",
+        "description": "Land tenure of each farmer used for cultivation in baseline scenario, per crop",
+        "sourceOfData": "Annual post-harvest survey",
+        "descriptionOfMeasurementMethods": "Farmers will be asked whether their land tenure has expanded from the previous monitoring year and eventual area increases will be accounted accordingly in calculations.",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Total project area is not meant to vary significantly within project lifetime.",
+        "monitoringEquipment": "GPS tracking",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "Where relevant, provide the calculation method, including any equations, used to establish the data/parameter.",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterAreaburnti,t": {
+        "dataUnit": "Ha",
+        "description": "Annual area of crop burnt in project scenario",
+        "sourceOfData": "Annual post-harvest survey",
+        "descriptionOfMeasurementMethods": "Farmers will be asked whether they still use to burn their plant residues on field and related GPS-tracked area will be accounted.",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Total project area under burning-of-biomass practices is expected to be null in project scenario.",
+        "monitoringEquipment": "GPS tracking",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "N/A",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterMBt": {
+        "dataUnit": "ton d.m.",
+        "description": "Mass of crop residues burnt in project scenario",
+        "sourceOfData": "Annual post-harvest survey",
+        "descriptionOfMeasurementMethods": "Practices of biomass burning in project scenario will be surveyed and eventually accounted in calculations.",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Biomass burnt in project scenario is expected to be null.",
+        "monitoringEquipment": "N/A",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "Where relevant, equations listed in Table 11.2 in Volume 4 of the 2006 IPCC Guidelines shall be applied to dry yield data",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterTemperaturet": {
+        "dataUnit": "°C",
+        "description": "Temperature for each stratified scenario shall be collected from weather data of local stations.",
+        "sourceOfData": "Weather station of Alto Molocue and Milange",
+        "descriptionOfMeasurementMethods": "Collection of data registered by weather stations",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Temperature is not expected to change relevantly in respect to values collected for the previous decade",
+        "monitoringEquipment": "N/A",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "N/A",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterRainfallt": {
+        "dataUnit": "mm",
+        "description": "Rainfall measurement for each stratified scenario shall be collected from weather data of local stations.",
+        "sourceOfData": "Local weather stations of Alto Molocue and Milange",
+        "descriptionOfMeasurementMethods": "Collection of data registered by weather stations",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Rainfall is not expected to change relevantly in respect to values collected for the previous decade",
+        "monitoringEquipment": "N/A",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "N/A",
+        "comments": "N/A"
+      }
+    },
+    {
+      "dataParameterOpenPanEvaporationT": {
+        "dataUnit": "mm",
+        "description": "Potential open pan evaporation is inferred based on temperature data and used for soil carbon stock models",
+        "sourceOfData": "Calculated",
+        "descriptionOfMeasurementMethods": "N/A",
+        "frequencyOfMonitoringRecording": "Annual",
+        "valueApplied": "Open pan evaporation is not expected to change relevantly in respect to values collected for the previous decade",
+        "monitoringEquipment": "N/A",
+        "qaQcProceduresApplied": "N/A",
+        "purposeOfData": "Calculation of project emissions",
+        "calculationMethod": "Potential open pan evaporation is calculated with the modified Heargraves equation.",
+        "comments": "N/A"
+      }
+    }
+  ],
+  "monitoringPlan": {
+    "samplingFramework": {
+      "samplingProcedure": "Sampling procedure for each stratified scenario is foreseen to follow Simple Random Sampling requirements from General Guidelines For Sampling And Surveys For Small-Scale CDM Project Activities in order to finally address survey outcomes to depict. Random sample selection will be performed within the census of 300 beneficiaries available in the ABMS to cover at least 15% of total beneficiaries for each stratified scenario.",
+      "samplingEquipment": "N/A",
+      "organizationalStructureForMonitoring": "The project is based on the relationship between COSV staff, who had overall control of the project and that is responsible of the implementation of activities in field and Carbonsink, in charge of carbon certification process management. Below is presented the Agri-SMART generic project implementation structure. The organizational structure, responsibilities and competencies of the personnel that will be carrying out monitoring activities are described below: - the Country Representative takes care of all the management of COSV activities end is responsible of the procedures for handling non-conformances with the validated monitoring plan collecting inputs and suggestions, if it is the case, from the Field Program Assistant; - the Field Program Assistant is primarily responsible for monitoring activities. He works closely with Carbonsink in order to follow VERRA's guidelines and requirements. He takes care of the part concerning the SOP, training for field measurements and verifies the data collected both in the first phase (each end of the monitoring day) and in the last (before sending the measurement data to Carbonsink). The field Program Assistant is also responsible joint with the Country Representative of the relationship with the funding donor; - the Rural Development Officer precision is the supervisor of the technicians during the field measurement activities, he also continuously reports with the Field Program Assistant to evaluate the progress of the monitoring activities, difficulties and anomalies found during the measurements. Rural Development Officer works closely with Carbonsink in defining the plot centers and then takes care of support the field technician during the data collection. It also checks the data collected before being digitized. -the field technicians make direct measurements in the field, fully trained before the measurements and supervised during. -Carbonsink managers work closely with the COSV team, in order to support and achieve validation and verification under VCS.",
+      "dataCollectionAndRecording": "COSV field technical staff will be trained on data collection and record-keeping. Field-team members are fully aware of all procedures and about the importance of collecting data as accurately as possible. Field team will be responsible of conducting the surveys to the selected farmers and of physical field by field inspection to verify and confirm the farming practices being practiced on each field. COSV technical staff will verifies/ cross-checks data, and assists farmers to fill the questionnaire/SALM pledge forms. At the same time farmers will be assisted in gaining capacity to collect and register parameters such as crop areas and yield. Considering the cropping season, data will be collected by COSV technical staff on paper and then transferred and store on a central database. Were possible, the project will promote the use of free open- source tool for mobile data collection with pre-loaded questionnaire.",
+      "sopsAndQcQaProcedures": "A quality assurance/quality control (QA/QC) plan will be implemented to ensure the net anthropogenic GHG removals by sinks are measured and monitored precisely, credibly, verifiably and transparently. QA/QC control includes steps to control the errors in project boundary, stratification, sampling, measurement, data entry, data analysis, and data maintenance and archiving. This plan covers procedures as described below for: 1. Collecting reliable field measurements and verifying methods used to collect field data; 2. Verifying data entry and analysis techniques; and 3. Data maintenance and archiving."
+    }
+  }
+}
+
+

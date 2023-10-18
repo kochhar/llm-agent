@@ -1,0 +1,1426 @@
+Basic Information
+
+{
+  "projectDetails": {
+    "projectTitle": "Forestal Apepu Carbon Project (also referred to as 'Apepu Carbon Project')",
+    "version": "1.0",
+    "dateOfIssue": "23-10-2020",
+    "preparedBy": {
+      "organization": "UNIQUE forestry and land use and Forestal Apepu",
+      "contact": {
+        "address": "Teniente Rivarola 832 and Florida, Fernando de la Mora",
+        "phone": "+4976120853440",
+        "email": "andrea.braun@unique-forestinvestment.de"
+      }
+    }
+  }
+}
+
+
+1. Project Details
+
+
+{
+  "projectDetails": {
+    "summaryDescription": "Forestal Apepu S.A. is a company established in 2019 by an international forestry fund to conduct sustainable reforestation in Eastern Paraguay. The aim of the company is the sequestration of carbon and the production of quality timber in a highly deforested landscape.",
+    "sectoralScopeAndProjectType": "The project activities fall under the eligible AFOLU project category of 'Afforestation, Reforestation and Revegetation (ARR)'. The proposed project is a grouped project.",
+    "projectEligibility": {
+      "deforestationOfNativeEcosystems": "The project area consisted of agricultural fields, mostly mechanized soy, or implanted pasture, before tree planting took place. A historical forest cover analysis of the area shows that the last conversion of natural forests in the property took place in 2009, 10 years before project start. Conversion was conducted by the former owners (Figure 2 and Figure 3). All areas which contain fragments of natural forests or shrubs (cerrado) are protected and not part of the project area subject to afforestation. To conclude, none of the proposed project afforestation areas has been or will be cleared of native vegetation/ecosystems for planting activities. Of the total plantation area, 24 ha were planted on natural pastures. These are not included in the present carbon project.",
+      "noDrainage": "Forestal Apepu does not drain soils as part of their planting preparation, as can be seen in chapter 1.11 - soil preparation. In summary, the project is eligible under the VCS requirements."
+    },
+    "projectDesign": "Forestal Apepu afforestation project corresponds to the VCS scope 14 (Agriculture, Forestry and Other Land Use) under the Afforestation, Reforestation and Revegetation (ARR) AFOLU project category. The project is a grouped project and will register several different instances of project activities.",
+    "projectProponent": {
+      "organizationName": "Forestal Apepu S.A",
+      "contactPerson": "Andrea Braun",
+      "title": "Property manager",
+      "address": "Forestal Apepu, Teniente Rivarola 832 and Florida, Fernando de la Mora, Paraguay",
+      "telephone": "+4976120853440",
+      "email": "andrea.braun@unique-forestinvestment.de"
+    },
+    "otherEntitiesInvolved": [
+      {
+        "organizationName": "UNIQUE Wood Paraguay",
+        "roleInTheProject": "Project development and implementation",
+        "contactPerson": "Rafael Ortiz",
+        "title": "CEO",
+        "address": "UNIQUE Wood Paraguay S.A., Teniente Rivarola 832 and Florida, Fernando de la Mora, Paraguay",
+        "telephone": "+595 21 511 773",
+        "email": "rafael.ortiz@unique-wood.com"
+      },
+      {
+        "organizationName": "UNIQUE Forestry and Land Use GmbH",
+        "roleInTheProject": "Project development support",
+        "contactPerson": "Matthias Seebauer",
+        "title": "Senior consultant",
+        "address": "UNIQUE Forestry and Land Use GmbH, Schnewlinstraße 10, 79098 Freiburg, Germany",
+        "telephone": "+4976120853428",
+        "email": "matthias.seebauer@unique-landuse.de"
+      }
+    ],
+    "ownership": {
+      "organizationType": "Private limited company (Sociedad Anónima – S.A.)",
+      "ownershipDetails": "The company is owned by two entities established in Luxembourg and ultimately owned by the Arbaro Fund: Arbaro I MasterHoldCo SARL (1 %) and Arbaro I ApepuHoldCo SARL (99 %).",
+      "expansionPlans": "Forestal Apepu plans to expand its plantations during the upcoming years (grouped project) through future property purchases. In case land should be leased and incorporated into the project, the lease contract will include a chapter about carbon ownership of project activities."
+    },
+    "projectStartAndCreditingPeriod": {
+      "projectStartDate": "28-06-2019",
+      "projectEndDate": "27-06-2039",
+      "totalCreditingYears": "20 years, renewable"
+    }
+    "projectScaleAndGHGEmissionReductions": {
+      "projectScale": "Large project",
+      "projectName": "Project X",
+      "projectSize": "1,126 ha (pure plantations)",
+      "totalEstimatedGHGEmissionReductions": "258,048 tCO2e",
+      "totalCreditingYears": "20",
+      "averageAnnualEmissionReductions": "12,902 tCO2e"
+    },
+    "projectActivityDescription": {
+      "totalPlantationArea": "1,126 ha",
+      "expansionArea": "At least 1,850 ha by 2021",
+      "plantationDensityAndSpacing": [
+        {
+          "system": "Pure Plantation – 1000 trees/ha",
+          "totalArea": "639.0 ha",
+          "establishment2020": "254.5 ha",
+          "establishment2021": "204.0 ha"
+        },
+        {
+          "system": "Pure Plantation – 800 trees/ha",
+          "totalArea": "487.0 ha",
+          "establishment2020": "435.0 ha",
+          "establishment2021": "232.5 ha"
+        }
+      ],
+      "speciesSelection": "Eucalyptus grandis, E. urophylla, Corymbia maculata, E. urogrands, E. grancam",
+      "nativeSpeciesTrials": {
+        "area": "Around 18 ha",
+        "systems": ["Pre-forest", "Conventional mix"]
+      },
+      "silviculturalRegimes": {
+        "exoticSpecies": {
+          "density": "Initial 1,000 trees/ha and 800 trees/ha, final 200 trees/ha",
+          "spacing": "5 x 2 m and 5 x 2.5 m",
+          "rotation": "10 to 13 years",
+          "pruning": "Up to 10 m in 3 to 4 interventions in years 1 to 4",
+          "thinning": "3 thinning interventions in years 2, 4 to 6, and 7 to 9",
+          "commercialMAI": "Average 37 m3/ha/year"
+        },
+        "nativeSpecies": {
+          "system1": {
+            "density": "Initial 1,000 trees/ha, final 200 trees/ha",
+            "spacing": "5 x 2 m",
+            "rotation": "10 years exotic and 20 years native"
+          },
+          "system2": {
+            "density": "Initial 1,000 trees/ha, final 200 trees/ha",
+            "spacing": "5 x 2 m",
+            "rotation": "10 years exotic and 20 years native"
+          }
+        }
+      },
+      "forestOperationSchedule": ["Weeding", "Pruning", "Thinning", "Harvest"]
+    },
+    "soilPreparation": "Clearing, removal of tree stumps, shrub felling, soil practices, and lime application (on around 20% of the area).",
+    "planting": "Seedling demarcation, planting in wide spacings, planting period between March/April to September/October.",
+    "maintenance": "Weed control, leaf cutting ant control, and firebreak installation.",
+    "pruning": "Pruning to a height of up to 10 m in multiple interventions during the first three to four years.",
+    "thinningAndHarvesting": {
+      "thinning": "1st thinning at age 2, 2nd thinning at 4-6 years, 3rd thinning at 7-9 years, approximately 35%-43% volume harvested during thinning.",
+      "finalHarvest": "At age 10-13 years."
+    },
+    "infrastructure": {
+      "roadNetworkDensity": "10 m/ha",
+      "maintenanceFrequency": "Every two to three months"
+    },
+    "conservation": {
+      "protectedEcosystemFragments": {
+        "northeasternFraction": "241 ha of semi-deciduous sub-humid forests",
+        "southwesternFraction": "175 ha of lower riparian forests, 57 ha of savannas, 303 ha of natural grasslands and hydrophilic vegetation.",
+        "bufferZones": {
+          ">100 m": "100 m",
+          "50-99 m": "60 m",
+          "20-49 m": "40 m",
+          "5-19 m": "30 m",
+          "1.5-4.9 m": "20 m",
+          "<1.5 m": "10 m",
+          "Springs": ">= 30 m"
+        }
+      },
+      "safeguards": {
+        "safeguardDescriptions": [
+          "Plantations are only established on demarcated sites, monitored through geospatial data.",
+          "Hunting, uncontrolled logging, and the uncontrolled use of fire are forbidden and monitored.",
+          "Pesticides are used only when needed, and their management and use are controlled.",
+          "Roads and infrastructure are mostly existent or established on already modified areas.",
+          "Road construction and maintenance, as well as plantation establishment, are conducted according to best practices to avoid erosion."
+        ]
+      }
+    },
+    "jurisdictionOfJNR": "Paraguay is a partner country of the FCPF and runs under the REDD+ readiness program. However, the Forestal Apepu Carbon Project is not part of a JNR program of the VCS or the state of Paraguay."
+    "ProjectDetails": {
+    "projectLocation": {
+      "locationDescription": "The Forest Management Unit (FMU) Apepu encompasses properties Apepu and Rancho Bonito in the south of the Department of San Pedro, around 160 km from Asunción.",
+      "properties": {
+        "property1": {
+          "name": "Apepu",
+          "netProductionArea": "Around 1,850 ha",
+          "locationCoordinates": {
+            "latitude": "24°37'54.00S - 24°43'31.00S",
+            "longitude": "56°20'06.00W - 56°14'25.00W"
+          }
+        },
+        "property2": {
+          "name": "Rancho Bonito",
+          "netProductionArea": "",
+          "locationCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      },
+      "projectBoundary": {
+        "description": "The outer project boundary is the entire Department of San Pedro.",
+        "coordinates": {
+          "latitudeStart": "24°37'54.00S",
+          "latitudeEnd": "24°43'31.00S",
+          "longitudeStart": "56°20'06.00W",
+          "longitudeEnd": "56°14'25.00W"
+        }
+      }
+    },
+    "conditionsPriorToProjectInitiation": {
+      "climate": "Eastern Paraguay has a subtropical climate with an average temperature of around 23°C and annual average rainfall of approximately 1,300 mm.",
+      "topographyAndSoil": "Eastern Paraguay exhibits rolling hills, alternating between higher areas, lowlands, and sandy soils on slopes.",
+      "hydrology": "It is a flat region with a heterogeneous set of wetlands such as lagoons, estuaries, and wetlands that are subject to the influence of the floods of the Paraná, Pilcomayo, and Paraguay rivers and their tributaries.",
+      "socioeconomicSituation": "Eastern Paraguay concentrates 97% of the country’s population, with 6.9 million inhabitants in 2019, and extends over 160,000 km. The country was exhibiting rapid economic growth between 2003 and 2018, and poverty decreased significantly, with a poverty rate of 24% in 2019.",
+      "vegetationAndEcosystems": "The Forestal Apepu Carbon Project is officially located in a transition region between two ecoregions, the 'Chaco Húmedo' (mosaic forests and savannas on sedimentary soils, originating from rivers), and the 'Atlantic Forests' (subtropical broadleaf forest)."
+    }
+    "complianceWithLawsStatutesAndOtherRegulatoryFrameworks": {
+      "listOfMainLaws": [
+        "Forestry Law 422/73"
+      ],
+      "regulatoryAgenciesApprovalAndRegistration": [
+        {
+          "agency": "The National Forest Institute (INFONA)",
+          "responsibilities": [
+            "Permits for transport and commercialization of timber",
+            "Approval of forest management plans",
+            "Registration of plantations"
+          ]
+        },
+        {
+          "agency": "Environmental Ministry (MADES)",
+          "responsibilities": [
+            "Implementation and monitoring of environmental regulations",
+            "Regulation of private projects under Environmental Impact Assessment Law",
+            "Environmental licensing process for rural properties larger than 20 ha"
+          ]
+        }
+      ]
+    },
+    "mainEnvironmentalLaws": {
+      "environmentalImpactAssessmentLaw": "Law No 294/1993",
+      "crimesAgainstEnvironment": "Law 716/96"
+    },
+    "forestAndLandUseLaws": {
+      "forestLaw": "Law No 422/1973",
+      "moratoriumOnLandUseChangeOfNaturalForests": "Law No 2524/2004 and subsequent laws",
+      "waterResourcesAndBufferAreas": "Law No 3239/07, No 4241/10, Decree No 9824/12",
+      "protectedAreas": "Law No 352/1994 and Resolution No 200/2001",
+      "wildlifeProtectionLaw": "Law 96/92",
+      "environmentalServicesLaw": "Law 3001/06"
+    },
+    "mainLawsRelatedToLabour": {
+      "labourCode": "Law 213/93",
+      "fundamentalILOConventions": "Ratified by Paraguay"
+    },
+    "mainLawsRelatedToIndigenousPeoples": {
+      "coreInternationalHumanRightsTreaties": "Signatory to ILO Indigenous and Tribal Peoples Convention, 1989 (No. 169)",
+      "paraguayConstitutionArticle64": "Recognizes the right of indigenous communities to communal ownership of their lands"
+    },
+    "participationUnderOtherGHGPrograms": {
+      "projectsRegisteredOrSeekingRegistration": "Not registered under any other GHG program",
+      "projectsRejectedByOtherGHGPrograms": "Not rejected by any other GHG program"
+    },
+    "otherFormsOfCredit": {
+      "emissionsTradingProgramsAndOtherBindingLimits": "GHG removals generated by this project will not be used for compliance with binding limits to GHG emissions since such limits are not enforced in Paraguay",
+      "otherFormsOfEnvironmentalCredit": "The grouped project is not being used to create other environmental credits"
+    },
+    "additionalInformationRelevantToTheProject": {
+      "leakageManagement": "The risk of leakage is low. Previous owners have not shifted pre-project activities to any other region where deforestation/forest conversion is allowed.",
+      "commerciallySensitiveInformation": "None",
+      "sustainableDevelopment": "The project contributes to the national forest sector by providing proof of concept and implementation of models aligned with political goals such as the national plan of reforestation, governmental efforts to formalize the biomass sector, and contribution to the National Determined Contributions of the country, where afforestation is highlighted as a prominent measure.",
+      "furtherInformation": "Additional information is provided in the Appendix and in the relevant sections."
+    }
+  }
+}
+
+
+2 SAFEGUARDS
+
+
+{
+  "noNetHarm": {
+    "environmentalImpactSummary": "The project targets areas already heavily modified (used for beef production or mechanized agriculture) for planting.",
+    "socioEconomicImpactSummary": "Forestal Apepu holds a legal title that is not subject to claims from third parties. Neighboring community members do not depend on the resources on production sites and mostly have small plots for cultivation and animal husbandry.",
+    "generalSafeguards": "The project operates according to the Fund’s ESG standards, Forestal Apepu’s ESG policy and FSC Principles & Criteria. While the company is ready to get FSC certified, the principle audit planned for mid-2020 has been delayed due to COVID travel restrictions."
+  },
+  "localStakeholderConsultation": {
+    "engagementWithLocalCommunities": {
+      "overview": "The plantation is surrounded by other medium and large properties dedicated to cattle and agriculture, as well as rural communities and smallholders.",
+      "communityDetails": [
+        {
+          "community": "Colonia Republicano",
+          "numberOfFamilies": 300,
+          "landAndHistory": "These are colonies dating back about 15 years, managed by INDERT, the National Institute for Rural and Land Development of Paraguay. According to INDERT, the settlements are stable now, and most of the people who live there have been acquiring property titles or certificates of occupancy ever since. The process is ongoing and more advanced in Colonia Republicano than in Kururu’o.",
+          "workLivelihoods": "Most of the people have small plots in which they cultivate, and some people work in neighboring farms. Due to the lack of opportunities, it is relatively common for people to migrate to the Chaco region to work."
+        },
+        {
+          "community": "San Francisco",
+          "numberOfFamilies": 50,
+          "landAndHistory": "Traditional town with regularized properties.",
+          "workLivelihoods": ""
+        }
+      ]
+    },
+    "thirdPartyStakeholderConsultations": "Stakeholder consultation is expected to be conducted every year by independent FSC auditors during annual audits. During so-called principle audits, a more exhaustive consultation phase is conducted. Stakeholder consultation when assessing High Conservation Values (HCV) has been conducted. Public disclosure of the management plan and monitoring results will be disclosed for the public on an annual basis, according to FSC principles."
+  },
+  "environmentalImpact": {
+    "mitigationProceduresWithSocialImpact": [
+      {
+        "risk": "Displacement/livelihoods/access to ecosystem services",
+        "affectedStakeholders": "Local community members",
+        "mitigationMeasures": [
+          "The project is taking place on private properties.",
+          "The legality of the titles is assessed, as well as the absence of disputes.",
+          "Informal or not regularized land use on the property have been identified, which are solved through engagement with affected parties.",
+          "Initial consultation with local communities and the grievance mechanism are used to rule out or act upon disputes and/or conflicts. No serious conflicts about land use or access has been raised to date."
+        ]
+      },
+      {
+        "risk": "Risks of accidents / Health and safety",
+        "affectedStakeholders": "Field workers",
+        "mitigationMeasures": [
+          "Constant on-the-job trainings and trainings for specific dangerous work are implemented (e.g.: chainsaw operation). Forestry is characterized by dangerous work, particularly when harvesting. Other jobs, such as the application of pesticides and chemical products, also bear risk for human health.",
+          "Procedures for the correct use, storage and application of pesticides and chemical products.",
+          "Provision of security equipment adequate for the different types of work.",
+          "Trainings in emergency preparedness, first aid and health and safety.",
+          "Provision and monitoring of first aid kits.",
+          "Installation of warning signs in dangerous places.",
+          "Provision of appropriate food and accommodation for workers.",
+          "Annual consultations with workers on job satisfaction."
+        ]
+      },
+      {
+        "risk": "Non-observation of minimum labor benefits (wage, social security, etc.)",
+        "affectedStakeholders": "Sub-contracted workers",
+        "mitigationMeasures": [
+          "Monitoring of minimum working standards among contractors and sub-contracted personnel. Any deviation of minimum standards is corrected immediately."
+        ]
+      },
+      {
+        "risk": "Dust and noise /accidents on the road",
+        "affectedStakeholders": "All workers and neighboring community members",
+        "mitigationMeasures": [
+          "Speeding signs are introduced along internal roads.",
+          "The use of helmets is required and monitored when using motorbikes.",
+          "Instruct drivers in safe driving, particularly on the community access road.",
+          "Grievance mechanism"
+        ]
+      },
+      {
+        "risk": "Reputational risks / political risks",
+        "affectedStakeholders": "The company",
+        "mitigationMeasures": [
+          "Engaging environmental and social actors in management decisions",
+          "Implementing best practices",
+          "Grievance mechanism",
+          "FSC certification"
+        ]
+      }
+    ],
+    "mitigationProceduresWithEniviromentalImpact": [
+      {
+        "risk": "Habitat destruction and conversion though plantations",
+        "affectedStakeholders": "Local community members",
+        "mitigationMeasures": [
+          "Plantations are established on areas previously used for implanted pastures (beef production) or mechanized agriculture.",
+          "Under no circumstances does forest conversion take place for the establishment of plantations.",
+          "A condition for land lease is the existence of a valid environmental license by the owner.",
+          "A baseline biodiversity study was conducted documenting the state of the site before planting."
+        ]
+      },
+      {
+        "risk": "Impacts of eucalypts on water availability",
+        "affectedStakeholders": "All workers and neighboring community members",
+        "mitigationMeasures": [
+          "The project region exhibits annual precipitation > 1,300 mm.",
+          "Eucalypts are not planted in areas important for water recharge (in lowlands subject to flooding).",
+          "Buffer zones of rivers and streams are protected."
+        ]
+      },
+      {
+        "risk": "Invasive behavior of exotic species",
+        "affectedStakeholders": "Not observed in Paraguay",
+        "mitigationMeasures": [
+          "Exotic trees are planted only in demarcated areas.",
+          "Genetic eucalypt material planted mostly encompasses clones (not seeds), with limited capacity to produce seeds and spread.",
+          "An invasive behavior of eucalypts has not been observed in the project to date."
+        ]
+      },
+      {
+        "risk": "Soil erosion",
+        "affectedStakeholders": "Not specified",
+        "mitigationMeasures": [
+          "Roads are built respecting good practices to facilitate proper drainage and prevent erosion.",
+          "In areas dedicated to plantations with fragile soils, contour lines, ridges or other measures are implemented to control surface runoff to counteract erosion.",
+          "Thinning and harvesting are carried out in a controlled manner, with heavy machinery circulating only on the roads and tracks of the extraction of signs."
+        ]
+      },
+      {
+        "risk": "Pesticides and inputs",
+        "affectedStakeholders": "Not specified",
+        "mitigationMeasures": [
+          "Inputs are quantified and applied only when needed, following specific dosage and recommendations of the producer.",
+          "Pesticides and other chemical inputs are stored in deposits with impermeable floors, ventilation and fire-extinctors.",
+          "The products are only received if they are in their original containers, are still valid, and accompanied by the security sheet.",
+          "Packaging of potentially toxic waste is disposed according to national regulations and recycled by an accredited company."
+        ]
+      },
+      {
+        "risk": "Fuels and oils",
+        "affectedStakeholders": "Not specified",
+        "mitigationMeasures": [
+          "Machinery used is well maintained.",
+          "Fuels and oils are organized, stored and labelled appropriately.",
+          "Fuel and oil exchange are conducted on impermeable platforms."
+        ]
+      },
+      {
+        "risk": "Illegal activities",
+        "affectedStakeholders": "Not specified",
+        "mitigationMeasures": [
+          "Permanent presence of company staff in the FMU ensures the control of activities in the area.",
+          "Hunting, fishing and uncontrolled logging of natural timber species is strictly forbidden.",
+          "Appropriate signs are installed, and workers are continuously instructed about prohibited activities."
+        ]
+      },
+      {
+        "risk": "Forest fires",
+        "affectedStakeholders": "Not specified",
+        "mitigationMeasures": [
+          "During the dry season, permanent vigilance is conducted.",
+          "Staff are continuously trained in fire prevention and firefighting.",
+          "Firebreaks are installed, the fuel on site is maintained low, particularly during the dry season.",
+          "Appropriate fire prevention and firefighting tools are available at each site, as well as the protective equipment for firefighting.",
+          "Cooperation with neighbors is in place in all units for vigilance and combat."
+        ]
+      }
+    ],
+    "publicComments": "",
+    "afoluSpecificSafeguards": "See sections 2.1 to 2.3"
+  }
+}
+
+
+3 APPLICATION OF METHODOLOGY
+
+
+{
+  "titleAndReferenceOfMethodology": {
+    "approvedCdmMethodology": "AR-ACM0003 AR Large scale - Afforestation and reforestation of lands except wetlands, version 2",
+    "methodologicalTools": [
+      "Combined tool to identify the baseline scenario and demonstrate additionality, version 7",
+      "Estimation of carbon stocks and change in carbon stocks of trees and shrubs in A/R CDM project activities, version 4.2",
+      "Estimation of non-CO2 GHG emissions resulting from burning of biomass attributable to an A/R CDM project activity, version 4.0",
+      "Tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities, version 01.1.0"
+    ]
+  },
+  "applicabilityOfMethodology": {
+    "applicabilityConditions": {
+      "landSubjectToProjectActivity": "The land subject to the project activity does not fall in wetland category",
+      "soilDisturbance": {
+        "limitationPerLandType": {
+          "organicSoils": "Soil disturbance attributable to the project activity does not cover more than 10 per cent of area in land containing organic soils",
+          "landWithSpecificManagementPractices": "Soil disturbance attributable to the project activity does not cover more than 10 per cent of area in land which, in the baseline, is subjected to land-use and management practices and receives inputs listed in appendices 1 and 2 to the methodology"
+        },
+        "projectSoilDisturbanceExtent": "Soil disturbance in the project only happens during soil preparation before plantation. This activity is conducted only in the lines where trees will be planted, with a width of maximum 50 cm and up to 50 cm depth. Plantations are established with a separation of 5 meters between lines. Therefore, soil disturbance is estimated to affect 10% or 7% of the total plantation area, respectively, using a conservative approach."
+      }
+    }
+  },
+  "demonstratingAppropriatenessTool": {
+    "applicabilityConditions": "This tool has no internal applicability conditions"
+  },
+  "calculationNumberOfSamplePlotsTool": {
+    "applicabilityConditions": "This tool has no internal applicability conditions"
+  },
+  "estimationChangeInSoilOrganicCarbonStocksTool": {
+    "applicabilityConditions": {
+      "landCategories": {
+        "wetlandCategory": "The areas of land do neither fall into the wetland category",
+        "organicSoils": "The areas of land do not contain organic soils as defined in Annex A: glossary of the IPCC GPG LULUCF 2003"
+      },
+      "projectMeetsConditions": {
+        "litterRemainsOnSite": "Litter remains on site as there is no incentive to remove litter from the plots",
+        "soilDisturbanceForPlanting": "Soil disturbance associated with the A/R activity only occurs for planting"
+      }
+    }
+  },
+  "ProjectBoundary": {
+    "Baseline": [
+      {
+        "source": "Aboveground and Belowground Biomass",
+        "Gas": "CO2",
+        "Included": "Yes",
+        "justification": "This is the major carbon pool subjected to project activity."
+      },
+      {
+        "source": "Dead Wood and Litter",
+        "Gas": "CO2",
+        "Included": "Yes",
+        "justification": "For conservative reasons, dead wood is included using the default factor presented in the Tool ‘Estimation of carbon stocks and change in carbon stocks in dead wood and litter in A/R CDM project activities’."
+      },
+      {
+        "source": "Soil Carbon",
+        "Gas": "CO2",
+        "Included": "Yes",
+        "justification": "Carbon stock in these pools may increase due to the implementation of the project activity."
+      }
+    ],
+    "Project": [
+      {
+        "source": "Aboveground and Belowground Biomass",
+        "Gas": "CO2",
+        "Included": "Yes",
+        "justification": "This is the major carbon pool subjected to the project activity."
+      },
+      {
+        "source": "Soil Carbon",
+        "Gas": "CO2",
+        "Included": "Yes",
+        "justification": "Carbon stock in these pools may increase due to the implementation of the project activity."
+      }
+    ]
+  },
+  "baselineScenario": {
+    "definitionMethodology": "The baseline scenario was defined by using the “Combined tool to identify the baseline scenario and demonstrate additionality in A/R CDM project activities”, version 01.",
+    "baselineScenarioProcedure": {
+      "step0PreliminaryScreening": {
+        "startingDateOfProjectActivity": "Forestal Apepu started its afforestation project in June 2019 with the first planting activities in September 2019.",
+        "forestryFundConsideration": "The investing international forestry Fund considered the generation of carbon credits from the beginning: ‘The Fund aims to invest in forestry projects where the sale of timber and derived products represents the main source of revenues."
+      },
+      "step1IdentificationOfAlternativeLandUse": {
+        "subStep1aRealisticAndCredibleAlternatives": [
+          "Continuation of pre-project land use (cattle and soy/ maize production)",
+          "Forestation of the land within the project boundary without being registered as the A/R CDM project activity"
+        ],
+        "subStep1bComplianceWithLawsAndRegulations": "In principle, all land use alternatives identified above comply with all mandatory regulations in the country."
+      }
+    },
+    "step2BarrierAnalysis": {
+      "subStep2aListOfBarriers": [
+        "Investment barriers (Financial risk related to long term uncertainties, High hurdles to invest in forestry)",
+        "Barriers related to the timber and wood market (Non-leveled playing field, Possibilities of price risks)",
+        "Barriers due to local ecological conditions (Changing climatic patterns, Incidence of pests and diseases)",
+        "Technological barriers (Lack of capacity to predict systems productivity)",
+        "Barriers related to local tradition (Traditional equipment and technology, Local culture still opts for the most traditional/common land uses, Absence of professional service providers, The land use scenario is the “first of its kind”)"
+      ],
+      "subStep2bEliminationOfScenariosPreventedByBarriers": {
+        "alternative1": "It is not prevented by any barrier. It is the current land use, and the one that has been practiced for more than 20 years with increasing trends.",
+        "alternative2": "The alternative 2 “Forestation of the land within the project boundary without being registered as the A/R CDM project activity” is an activity that faces several risks and barriers preventing implementation."
+      },
+      "subStep2cListScenariosNotPreventedByAnyBarrier": "Continuation of pre-project activity has been identified as the most plausible scenario in the absence of the proposed project activity."
+    }
+  },
+  "Additionality": {
+    "DemonstrationSteps": "0 to 2",
+    "CommonPracticeAnalysis": "Baseline scenario",
+    "InvestmentAnalysisMethod": "Option II - investment comparison analysis",
+    "InvestmentComparisonAnalysis": "Project business plan compared to agriculture on the same area",
+    "AnalysisIncludes": "All relevant costs, operational, and management costs",
+    "ProductivityCropPrices": "Realistic averages from literature review",
+    "CashflowPeriod": "30 years",
+    "FinancialIndicators": {
+      "IRRReal": "89% (Agriculture), 23% (Forestry)",
+      "InvestmentNeeded": "$1M (Agriculture), $3.9M (Forestry)",
+      "PaybackPeriod": "2 years (Agriculture), 9 years (Forestry)"
+    }
+  },
+  "SensitivityAnalysis": {
+    "Agriculture": {
+      "ExpensesChange": {
+        "-15%": "IRR 134%, Investment $850,000, Payback 1 year",
+        "-10%": "IRR 117%, Investment $900,000, Payback 1 year",
+        "-5%": "IRR 103%, Investment $950,000, Payback 1 year",
+        "0%": "IRR 89%, Investment $1M, Payback 2 years",
+        "5%": "IRR 77%, Investment $1.05M, Payback 2 years",
+        "10%": "IRR 66%, Investment $1.1M, Payback 2 years",
+        "15%": "IRR 56%, Investment $1.15M, Payback 2 years"
+      },
+      "RevenuesChange": {
+        "-15%": "IRR 51%, Investment $1M, Payback 2 years",
+        "-10%": "IRR 63%, Investment $1M, Payback 2 years",
+        "-5%": "IRR 76%, Investment $1M, Payback 2 years",
+        "0%": "IRR 89%, Investment $1M, Payback 2 years",
+        "5%": "IRR 102%, Investment $1M, Payback 1 year",
+        "10%": "IRR 115%, Investment $1M, Payback 1 year",
+        "15%": "IRR 127%, Investment $1M, Payback 1 year"
+      }
+    },
+    "Forestry": {
+      "ExpensesChange": {
+        "-15%": "IRR 26%, Investment $3.32M, Payback 8 years",
+        "-10%": "IRR 25%, Investment $3.53M, Payback 9 years",
+        "-5%": "IRR 24%, Investment $3.74M, Payback 9 years",
+        "0%": "IRR 23%, Investment $3.95M, Payback 9 years",
+        "5%": "IRR 22%, Investment $4.16M, Payback 9 years",
+        "10%": "IRR 21%, Investment $4.37M, Payback 9 years",
+        "15%": "IRR 20%, Investment $4.58M, Payback 9 years"
+      },
+      "RevenuesChange": {
+        "-15%": "IRR 19%, Investment $3.99M, Payback 10 years",
+        "-10%": "IRR 20%, Investment $3.97M, Payback 9 years",
+        "-5%": "IRR 22%, Investment $3.96M, Payback 9 years",
+        "0%": "IRR 23%, Investment $3.95M, Payback 9 years",
+        "5%": "IRR 24%, Investment $3.94M, Payback 9 years",
+        "10%": "IRR 25%, Investment $3.93M, Payback 9 years",
+        "15%": "IRR 26%, Investment $3.91M, Payback 9 years"
+      }
+    }
+  },
+  "CommonPracticeAnalyses": {
+    "NationalForestInventory": "53,000 ha of commercial plantations in Paraguay in 2015",
+    "CurrentEstimations": "80,000 to 100,000 ha in Paraguay (75% woodfuel production)",
+    "SupplyGap": "360,000 to 400,000 ha needed to close the sustainable supply gap",
+    "Challenges": {
+      "BiomassEnergy": "Deforestation and forest degradation for wood fuel",
+      "SawnTimber": "Decreasing natural forest supply for sawlog and veneer log",
+      "IndustrialDemand": "Growing timber demand vs. decreasing supply",
+      "InvestorDiscouragement": "Bureaucracy, corruption, lack of infrastructure, and bias"
+    },
+    "LegislationImpact": "Law No 536 of 1995 encouraged private corporate plantation investments",
+    "NotableProjects": "Projects by Shell Group, POMERA Maderas, Copetrol, and Ganadera Vista Alegre",
+    "ProfitabilityComparison": {
+      "PlantationsVsSoy": "Plantations more lucrative than beef production, but with long payback",
+      "SoyCultivation": "Soybean cultivation well-defined with government support",
+      "CorporatePlantations": "Large-scale corporate plantations are rare"
+    },
+    "CDMCarbonForestry": "Paraguay has successfully established a CDM carbon forestry plantation"
+  },
+  "MethodologyDeviations": "No deviations"
+}
+
+
+4 ESTIMATED GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "BaselineEmissions": {
+    "MethodologyUsed": "AR-ACM0003 (Version 02.0)",
+    "EquationUsed": "∆CBSL,t = ∆CTREE_BSL,t + ∆CSHRUB_BSL,t + ∆CDW_BSL,t + ∆CLI_BSL,t",
+    "BaselineStrata": {
+      "Agricultural": {
+        "TreeCoverage": "0%",
+        "ShrubCoverage": "0%",
+        "GrassCoverage": "100%",
+        "UnknownCoverage": "0%"
+      },
+      "Pasture": {
+        "TreeCoverage": "0.4%",
+        "ShrubCoverage": "4.4%",
+        "GrassCoverage": "94.9%",
+        "UnknownCoverage": "0%"
+      }
+    }
+  },
+  "MethodologyTools": {
+    "CarbonStockEstimation": {
+      "TreesAndShrubs": "AR-Tool 14 (Version 04.2)",
+      "DeadWoodAndLitter": "AR-Tool 12 (Version 03.1)"
+    },
+    "CanopyCoverAssessment": {
+      "SoftwareUsed": "Open Foris Collect and Collect Earth",
+      "SubSteps": [
+        "Random sample points identified among stratified areas",
+        "Survey designed using Open Foris Collect",
+        "Imported to Collect Earth using Google Earth imagery",
+        "Special case handling for clusters exceeding the project boundary"
+      ],
+      "BaselineStratums": {
+        "Agriculture": {
+          "Tree": "0%",
+          "Shrub": "0%",
+          "Grass": "100%",
+          "Other": ""
+        },
+        "Pasture": {
+          "Tree": "0.4%",
+          "Shrub": "4.4%",
+          "Grass": "94.9%",
+          "Other": ""
+        }
+      }
+    }
+  },
+  "BaselineCarbonEstimation": {
+    "TreeCarbonStock": {
+      "ForAgricultureAndPasture": {
+        "FormulaUsed": "CTREEBSL = ∑ CTREE_BSL,i",
+        "Parameters": {
+          "CFTREE": "0.47",
+          "RTREE": "0.25",
+          "CCTREE_BSL,PASTURE": "1.3%",
+          "bForest": "80 t dm/ha"
+        }
+      }
+    },
+    "ShrubCarbonStock": {
+      "AssumedZero": "Shrub carbon stock accounted as 0 t C/ha"
+    },
+    "DeadWoodAndLitterCarbonStock": {
+      "EquationsUsed": {
+        "DeadWood": "CDW,i,t = CTREE,i,t * DFDW",
+        "Litter": "CLI,i,t = CTREE,i,t * DFLI"
+      },
+      "Parameters": {
+        "DFDW": "1%",
+        "DFLI": "1%"
+      }
+    },
+    "BaselineEmissionsSummary": [
+      {
+        "Year": "2019",
+        "ProjectYear": "1",
+        "AnnualPlantedArea(ha)": "437",
+        "CTREEBSL(tCO2e)": "3,162",
+        "CDW,i,tAndCLI,i,tTrees(tCO2e)": "165",
+        "TotalBaselineEmission(tCO2e)": "401"
+      },
+      {
+        "Year": "2020",
+        "ProjectYear": "2",
+        "AnnualPlantedArea(ha)": "690",
+        "CTREEBSL(tCO2e)": "5,231",
+        "CDW,i,tAndCLI,i,tTrees(tCO2e)": "236",
+        "TotalBaselineEmission(tCO2e)": "401"
+      }
+    ]
+  },
+  "ProjectEmissions": {
+    "EquationUsed": "∆CACTUAL,t = ∆CP,t - GHGE,t",
+    "Definitions": {
+      "∆CACTUAL,t": "Actual net GHG removals by sinks, in year t; t CO2-e",
+      "∆CP,t": "Change in the carbon stocks in project, occurring in the selected carbon pools, in year t; t CO2-e",
+      "GHGE,t": "Increase in non-CO2 GHG emissions within the project boundary as a result of the implementation of the A/R CDM project activity, in year t, as estimated in the tool 'Estimation of non-CO2 GHG emissions resulting from burning of biomass attributable to an A/R CDM project activity'; t CO2-e"
+    },
+    "CarbonPools": {
+      "ChangeInCarbonStocks": {
+        "Total": "∆CTREE_PROJ,t + ∆CSHRUB_PROJ,t + ∆CDW_PROJ,t + ∆CLI_PROJ,t + ∆SOCAL,t",
+        "IndividualPools": {
+          "TreeBiomass": "∆CTREE_PROJ,t",
+          "ShrubBiomass": "∆CSHRUB_PROJ,t",
+          "DeadWood": "∆CDW_PROJ,t",
+          "Litter": "∆CLI_PROJ,t",
+          "SOC": "∆SOCAL,t"
+        }
+      },
+      "IndividualPoolsChange": {
+        "TreeBiomass": "Change in carbon stock in tree biomass in project in year t; t CO2-e",
+        "ShrubBiomass": "Change in carbon stock in shrub biomass in project in year t; t CO2-e",
+        "DeadWood": "Change in carbon stock in dead wood in project in year t; t CO2-e",
+        "Litter": "Change in carbon stock in litter in project in year t; t CO2-e",
+        "SOC": "Change in carbon stock in SOC in project, in year t; t CO2-e"
+      }
+    }
+  },
+  "TreeBiomassGrowthModel": {
+    "GrowthMethod": "Stock Difference Method",
+    "EstimationMethod": "Estimation by modelling of tree growth and stand development",
+    "Assumptions": {
+      "DiameterGrowthEucalyptus": "Internal assumptions used for ex-ante estimation",
+      "PlantingStrataGrowthIncrement": {
+        "1000TreesPerHa": "≈ 40 m3/ha yr.",
+        "800TreesPerHa": "≈ 34.5 m3/ha yr."
+      },
+      "RootToShootRatio": "Mean of published ratios of E. camaldulensis and E. globulus",
+      "SilviculturalMeasures": {
+        "RotationCycle": "12-13 years",
+        "ThinningOperations": "Years 2, 5, and 8",
+        "DefaultCarbonFraction": "0.47",
+        "WoodDensity": "540 g/cm3",
+        "BiomassExpansionFactor": "1.15"
+      }
+    },
+    "StemDensity": {
+      "1000TreesPerHa": [1000, 850, 850, 550, 550, 550, 350, 350, 350, 200, 200, 200],
+      "800TreesPerHa": [800, 680, 680, 450, 450, 450, 300, 300, 300, 200, 200, 200]
+    },
+    "BiomassModel": {
+      "1000TreesPerHa": {
+        "YearStock": [1.9, 24.8, 47.2, 103.2, 227.7, 157.9, 215.6, 387.9, 195.8, 232.3, 265.1, 292.5, 1.9, 24.8, 47.2, 103.2, 227.7, 157.9, 215.6, 387.9, 195.8, 232.3, 265.1, 292.5],
+        "TotalABG": [2.1, 20.4, 52.5, 114.7, 185.6, 175.4, 239.5, 301.8, 217.6, 258.1, 294.6, 2.1, 20.4, 52.5, 114.7, 185.6, 175.4, 239.5, 301.8, 217.6, 258.1, 294.6, 2.1],
+        "TotalBGB": [0.8, 7.6, 19.6, 42.7, 69.2, 65.4, 89.3, 112.5, 81.1, 96.2, 109.8, null, 7.6, 19.6, 42.7, 69.2, 65.4, 89.3, 112.5, 81.1, 96.2, 109.8, null],
+        "TotalBiomass": [2.9, 28.0, 72.1, 157.4, 254.8, 240.8, 328.8, 414.2, 298.7, 354.3, 404.4, null, 28.0, 72.1, 157.4, 254.8, 240.8, 328.8, 414.2, 298.7, 354.3, 404.4, null],
+        "LongTermAverage": [155.2, 57.8, 213.0]
+      },
+      "800TreesPerHa": {
+        "YearStock": [1.5, 19.6, 37.4, 82.3, 178.2, 132.7, 181.6, 305.4, 192.9, 229.0, 261.5, 288.6, 1.5, 19.6, 37.4, 82.3, 178.2, 132.7, 181.6, 305.4, 192.9, 229.0, 261.5, 288.6],
+        "TotalABG": [1.7, 16.3, 41.5, 91.4, 148.5, 147.5, 201.8, 254.5, 214.3, 254.4, 290.6, null, 1.7, 16.3, 41.5, 91.4, 148.5, 147.5, 201.8, 254.5, 214.3, 254.4, 290.6, null],
+        "TotalBGB": [0.6, 6.1, 15.5, 34.1, 55.4, 55.0, 75.2, 94.9, 79.9, 94.8, 108.3, null, 6.1, 15.5, 34.1, 55.4, 55.0, 75.2, 94.9, 79.9, 94.8, 108.3, null],
+        "TotalBiomass": [2.3, 22.4, 57.0, 125.5, 203.9, 202.5, 277.0, 349.4, 294.2, 349.3, 398.9, null, 22.4, 57.0, 125.5, 203.9, 202.5, 277.0, 349.4, 294.2, 349.3, 398.9, null],
+        "LongTermAverage": [138.6, 51.6, 190.2]
+      }
+    },
+    "EstimationOfGHGRemovals": {
+      "AccumulatedGHGRemovals": [1161, 12831, 45225, 105327, 182981, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289, 225289],
+      "AnnualGHGRemovals": [1161, 11670, 32394, 60101, 77654, 42309, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  },
+  "DeadWoodCarbonStockChange": {
+    "EstimationMethod": "No deadwood will occur, therefore this carbon stock will be accounted as zero for the ex-ante and ex-post estimations."
+  },
+  "SOCStockChanges": {
+    "EstimationMethod": {
+      "ChangeInSOCStock": "∆SOCPROJ,t = 44 / 12 * ∑ APLANT,t * dSOCt * 1 year",
+      "Definitions": {
+        "∆SOCPROJ,t": "Change in SOC stock within the project boundary, in year t; t CO2-e",
+        "APLANT,t": "Area planted in year t, ha",
+        "dSOCt": "The rate of change in SOC stocks within the project boundary, in year t, tCha-1yr-1"
+      },
+      "FactorsApplied": {
+        "PastureAreas": "0.07 t C/ha yr.",
+        "AgricultureAreas": "0.8 t C/ha yr."
+      }
+    },
+    "AggregatedSOCChanges": {
+      "Planting2019": [null, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181, 181],
+      "Planting2020": [null,null, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311, 311],
+      "AnnualSOC(tC/yr.)":[null, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492, 492],
+      "CumulativeSOC(tC)":[null, 181, 673, 1166, 1658, 2150, 2643, 3135, 3627, 4120, 4612, 5105, 5597, 6089, 6582, 7074, 7566, 8059, 8551, 9044]
+    },
+    "TotalSOCRemovals": {
+      "AnnualSOCGHGRemovals": [null, 663, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805, 1805],
+      "CumulativeSOCGHGRemovals": [null, 663, 2469, 4274, 6079, 7885, 9690, 11497, 13301, 15106, 16911, 18717, 20522, 22327, 24133, 25938, 27744, 29549, 31354, 33160]
+    }
+  },
+  "Leakage": {
+    "MethodologyUsed": "AR-AM0003 (Version 02.0)",
+    "LeakageAssessmentTool": "Estimation of the increase in GHG emissions attributable to displacement of pre-project agricultural activities in A/R CDM project activity (Version 02)",
+    "LeakageRequirements": {
+      "RequirementsMet": true,
+      "RequirementsDetails": "Leakage emissions considered insignificant if project meets the conditions mentioned in Section 6 of the assessment tool."
+    },
+    "ProjectDetails": {
+      "ProjectObjective": "Increase the carbon stock of former agricultural land and implanted pastures through afforestation",
+      "RiskOfLeakage": "Low due to working with traditional landowners settled in Eastern Paraguay, where deforestation/forest conversion is forbidden"
+    }
+  },
+  "EstimatedNetGHGEmissionReductionsAndRemovals": {
+    "EquationUsed": "∆CAR−CDM,t = ∆CACTUAL,t + ∆CBSL,t + LKt",
+    "Definitions": {
+      "∆CAR−CDM,t": "Net anthropogenic GHG removals by sinks, in year t; t CO2-e",
+      "∆CACTUAL,t": "Actual net GHG removals by sinks, in year t; t CO2-e",
+      "∆CBSL,t": "Baseline net GHG removals by sinks, in year t; t CO2-e",
+      "LKt": "GHG emissions due to leakage, in year t; t CO2-e"
+    },
+    "ResultsForFirstActivityInstance": {
+      "ProjectYear": {
+        "1": {
+          "EstimatedBaselineEmissionsOrRemovals": 165,
+          "EstimatedProjectEmissionsOrRemovals": 1161,
+          "EstimatedLeakageEmissions": 239,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 756
+        },
+        "2": {
+          "EstimatedBaselineEmissionsOrRemovals": 236,
+          "EstimatedProjectEmissionsOrRemovals": 12334,
+          "EstimatedLeakageEmissions": 2903,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 9194
+        },
+        "3": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 34200,
+          "EstimatedLeakageEmissions": 8208,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 25992
+        },
+        "4": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 61907,
+          "EstimatedLeakageEmissions": 14858,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 47049
+        },
+        "5": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 79459,
+          "EstimatedLeakageEmissions": 19070,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 60389
+        },
+        "6": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 44114,
+          "EstimatedLeakageEmissions": 10585,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 33527
+        },
+        "7": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "8": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "9": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "10": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "11": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals":1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "12": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "13": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals":1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "14": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 433,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "15": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "16": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "17": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "18": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "19": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        },
+        "20": {
+          "EstimatedBaselineEmissionsOrRemovals": null,
+          "EstimatedProjectEmissionsOrRemovals": 1805,
+          "EstimatedLeakageEmissions": 433,
+          "EstimatedNetGHGEmissionRemovals": null,
+          "VCSBufferCredits": 1372
+        }
+      },
+      "Total": {
+        "EstimatedBaselineEmissionsOrRemovals": 401,
+        "EstimatedProjectEmissionsOrRemovals": 260254,
+        "EstimatedLeakageEmissions": 62365,
+        "EstimatedNetGHGEmissionRemovals": null,
+        "VCSBufferCredits": 197488
+      }
+    }
+  }
+}
+
+
+5 MONITORING
+
+
+{
+  "DataParametersValidation": {
+    "CFTREE": {
+      "DataUnit": "t C(t.d.m.)-1",
+      "Description": "Carbon fraction of tree biomass",
+      "SourceOfData": "Default value",
+      "ValueApplied": "0.47",
+      "Justification": "According to the applied tool 'Estimation of carbon stocks and change in carbon stocks of trees and shrubs in A/R CDM project activities' IPCC default value of 0.47 is used",
+      "PurposeOfData": "Determination of baseline emissions/removals and project emission/removals",
+      "Comments": ""
+    },
+    "RTREE_BSL": {
+      "DataUnit": "dimensionless",
+      "Description": "Root : Shoot ratio of trees",
+      "SourceOfData": "Default value",
+      "ValueApplied": "0.25",
+      "Justification": "According to the applied tool 'Estimation of carbon stocks and change in carbon stocks of trees and shrubs in A/R CDM project activities' IPCC default value of 0.25 is used",
+      "PurposeOfData": "Determination of baseline emission/removals",
+      "Comments": ""
+    },
+    "bForest": {
+      "DataUnit": "t d.m. ha-1",
+      "Description": "Total Aboveground biomass of trees in the country, where the AR CDM project activity is located",
+      "SourceOfData": "Value for tropical moist deciduous forest in Paraguay, de Sy et al. (2015)18",
+      "ValueApplied": "80",
+      "Justification": "Scientific study",
+      "PurposeOfData": "Calculation of baseline emission removals",
+      "Comments": ""
+    },
+    "DeltaCDW_BSL": {
+      "DataUnit": "percent",
+      "Description": "Conservative default factor expressing carbon stock in dead wood as a percentage of carbon stock in tree biomass",
+      "SourceOfData": "Default factor",
+      "ValueApplied": "1%",
+      "Justification": "According to the applied tool ' Estimation of carbon stocks and change in carbon stocks in dead wood and litter in A/R CDM project activities ', the project mean annual precipitation is 1300 mm/yr.",
+      "PurposeOfData": "Calculation of baseline emission removals",
+      "Comments": ""
+    },
+    "DeltaCLI_BSL": {
+      "DataUnit": "percent",
+      "Description": "Conservative default factor expressing carbon stock in litter as a percentage of carbon stock in tree biomass",
+      "SourceOfData": "Default factor",
+      "ValueApplied": "1%",
+      "Justification": "According to the applied tool ' Estimation of carbon stocks and change in carbon stocks in dead wood and litter in A/R CDM project activities ', the project mean annual precipitation is 1,300 mm/yr.",
+      "PurposeOfData": "Calculation of baseline emission removals",
+      "Comments": ""
+    },
+    "BEF": {
+      "DataUnit": "dimensionless",
+      "Description": "Biomass expansion factor, expressing the additional biomass of a tree when only stem volume is known.",
+      "SourceOfData": "Default factor",
+      "ValueApplied": "1.15",
+      "Justification": "According to IPCC Good Practice Guidance for LULUCF –Table 3A.1.10, Broadleaf Temperate forest since no sub-tropical values are available, lower confidence interval",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    },
+    "RTREE_Project": {
+      "DataUnit": "dimensionless",
+      "Description": "Mean of Root : Shoot ratio used from the AR CDM Methodological Tool AR-TOOL 14",
+      "SourceOfData": "Average",
+      "ValueApplied": "",
+      "Justification": "AR CDM Tool Estimation of carbon stocks and change in carbon stocks of trees and shrubs in A/R CDM project activities (Version 04.2)",
+      "PurposeOfData": "Calculation of ex-ante and ex-post project emission removals",
+      "Comments": ""
+    },
+    "WoodDensity": {
+      "DataUnit": "t/m3",
+      "Description": "Weight to volume relation of Eucalyptus grandis and E. urophylla",
+      "SourceOfData": "Zanne et al. (2009)",
+      "ValueApplied": "0,54",
+      "Justification": "According to Zanne et al. (2009)19 a mean of all available wood densities of E. grandis and E. urophylla was calculated.",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    },
+    "SOCREF_i": {
+      "DataUnit": "t C ha-1",
+      "Description": "Reference SOC stock corresponding to the reference condition in native lands",
+      "SourceOfData": "IPCC Default value, See CDM Tool 'tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities'",
+      "ValueApplied": "47",
+      "Justification": "According to the applied tool “Tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities” a default value of 47 for tropical moist climate regions and soils with low activity clay (LAC).",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    },
+    "fLU_i": {
+      "DataUnit": "dimensionless",
+      "Description": "Relative stock change factor for baseline land-use in stratum I of the areas of land",
+      "SourceOfData": "IPCC Default value, See CDM Tool 'tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities'",
+      "ValueApplied": "Agriculture: 0.48\nPasture/Grassland: 1.0",
+      "Justification": "Table 4 of the applied tool “Tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities” gives 0.48 as a relative stock change factor for long term cultivation in a tropical moist region and 1.0 for grasslands.",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    },
+    "fMG_i": {
+      "DataUnit": "dimensionless",
+      "Description": "Relative stock change factor for baseline management regime in stratum I of the areas of land",
+      "SourceOfData": "IPCC Default value, See CDM Tool 'tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities'",
+      "ValueApplied": "Full tillage/Agriculture: 1\nModerately degraded/Pasture: 0.97",
+      "Justification": "Table 4 of the applied tool “Tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities” gives a default value of 1 for full tillage in agriculture and Table 6 0.97 for tropical moderately degraded grasslands",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    },
+    "fIN_i": {
+      "DataUnit": "dimensionless",
+      "Description": "Relative stock change factor for baseline input regime (e.g. crop residue returns, manure) in stratum I of the areas of land.",
+      "SourceOfData": "IPCC Default value, See CDM Tool 'tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities'",
+      "ValueApplied": "Medium/cropland: 1\nMedium/grasslands: 1",
+      "Justification": "According the Table 5 of the applied tool “Tool for estimation of change in soil organic carbon stocks due to the implementation of A/R CDM project activities” an input factor of 1 is used when medium manure input is applied, while table 6 shows an input factor of 1 for medium manure inputs in grasslands.",
+      "PurposeOfData": "Calculation of project emission removals",
+      "Comments": ""
+    }
+  },
+  "DataParametersMonitored": {
+    "Ai": {
+      "DataUnit": "Ha",
+      "Description": "Area of tree biomass stratum i",
+      "SourceOfData": "GIS or/and GPS",
+      "DescriptionOfMeasurementMethods":"Areas in project area will be tracked in the field using the GPS. Each plot which will be subject to planting is tracked - a standard procedure of the baseline and monitoring inventory",
+      "FrequencyOfMonitoringRecording": "Before the start of the project (planting) and adjusted thereafter every y since yearly with satellite imagery",
+      "ValueApplied": "See project database",
+      "MonitoringEquipment": "GPS (Garmin), GPS Smartphones, QGIS software",
+      "QAQCProceduresApplied": "Field-team members are fully aware of all procedures and the importance of collecting data as accurately as possible; all field team members are trained in GPS/GIS application",
+      "PurposeOfData": "Calculation of project emissions",
+      "CalculationMethod": "GIS tool",
+      "Comments": ""
+    },
+    "wi": {
+      "DataUnit": "Dimensionless",
+      "Description": "Relative weight of the area of stratum I, the area of the stratum i divided by the project area.",
+      "SourceOfData": "Calculated",
+      "DescriptionOfMeasurementMethods": "N/A",
+      "FrequencyOfMonitoringRecording": "Calculated for each monitoring event, at least every five years",
+      "ValueApplied": "For ex ante situation the following values are estimated from the first project instance:\nStratum (Year) Wi\n2019 1",
+      "MonitoringEquipment": "N/A",
+      "QAQCProceduresApplied": "N/A",
+      "PurposeOfData": "Calculation of project emissions/removals",
+      "CalculationMethod": "Area of the stratum i divided by the project area",
+      "Comments": ""
+    },
+    "si": {
+      "DataUnit": "t d.m. (or t d.m. ha-1)",
+      "Description": "Estimated standard deviation of biomass stock in stratum i",
+      "SourceOfData": "Project based monitoring system",
+      "DescriptionOfMeasurementMethods": "N/A",
+      "FrequencyOfMonitoringRecording": "si is calculated for each monitoring event, at least every five years",
+      "ValueApplied": "For ex ante situation the following values are estimated from the first project instance:\nStratum (Year) Si\n2019 1",
+      "MonitoringEquipment": "N/A",
+      "QAQCProceduresApplied": "N/A",
+      "PurposeOfData": "Calculation of uncertainty of project emissions/removals",
+      "CalculationMethod": "Excel or tool available to calculate standard deviation",
+      "Comments": ""
+    },
+    "ni": {
+      "DataUnit": "Dimensionless",
+      "Description": "Number of sample plots in stratum i",
+      "SourceOfData": "Calculated",
+      "DescriptionOfMeasurementMethods":"N/A",
+      "FrequencyOfMonitoringRecording": "ni is calculated for each monitoring event, at least every five years",
+      "ValueApplied": "For ex ante situation the following values are estimated from the first project instance:\nStratum (Year) ni\n2019",
+      "MonitoringEquipment": "N/A",
+      "QAQCProceduresApplied": "N/A",
+      "PurposeOfData": "Calculation of project emissions/removals",
+      "CalculationMethod": "The calculation method is described in the Chapter 5.3",
+      "Comments": ""
+    },
+    "Ap_i": {
+      "DataUnit": "Ha",
+      "Description": "Size of a sample plot in stratum i",
+      "SourceOfData": "Field measurement",
+      "DescriptionOfMeasurementMethods": "After calculating the No of sample plots required to achieve the desired precision level (90/10) a stratified random selection is carried out.",
+      "FrequencyOfMonitoringRecording": "Yearly",
+      "ValueApplied": "200 and 250m2",
+      "MonitoringEquipment": "N/A",
+      "QAQCProceduresApplied": "Field-team members are fully aware of all procedures and the importance of collecting data as accurately as possible; all field team members are trained in GPS/GIS application",
+      "PurposeOfData": "Calculation of project emission removals",
+      "CalculationMethod": "It is calculated based on the area needed to include 20 trees in the Permanent Sample Plot, varying strictly by tree planting density",
+      "Comments": ""
+    },
+    "DBH": {
+      "DataUnit": "cm",
+      "Description": "The diameter at breast height (1.3 m from the ground)",
+      "SourceOfData": "Field measurements in sample plots.",
+      "DescriptionOfMeasurementMethods": "The circumference or DBH of the tree at 1.3 m will be measured in the field for each 20 tree presented in the Permanent Sample Plot.",
+      "FrequencyOfMonitoringRecording": "Every year after the first year of plantation",
+      "ValueApplied": "n.a. (see Excel base carbon accounting sheet)",
+      "MonitoringEquipment": "Diameter tapes",
+      "QAQCProceduresApplied": "Training of inventory team is fundamental to ensure the quality of the data. Analysis to avoid typos or mistakes comparing with past years are conducted after the measurements and re-measurements might be required.",
+      "PurposeOfData": "Estimation of ex-post project emissions/removals",
+      "CalculationMethod": "N/A",
+      "Comments": ""
+    },
+    "H": {
+      "DataUnit": "m",
+      "Description": "Height of tree planted",
+      "SourceOfData": "Field measurements in sample plots. For ex ante estimations, H values are derived from growth tables used in the project",
+      "DescriptionOfMeasurementMethods": "Height of the tree is measured using a vertex IV",
+      "FrequencyOfMonitoringRecording": "Every year after the first year of plantation",
+      "ValueApplied": "N/A (see Excel base carbon accounting sheet)",
+      "MonitoringEquipment": "Vertex IV",
+      "QAQCProceduresApplied": "To ensure that measurements have been taken correctly, it is important to calibrate the Vertex IV at least once every day, even twice when the temperatures are very high.",
+      "PurposeOfData": "Estimation of ex-post project emissions/removals",
+      "CalculationMethod": "At the end of the field work independently 10-20% of the plots will be checked. Field data collected at this stage will be compared with the original data. Any errors found will be corrected and recorded.",
+      "Comments": ""
+    },
+    "T": {
+      "DataUnit": "Year",
+      "Description": "Time period elapsed between two successive estimations of carbon stock in a carbon pool",
+      "SourceOfData": "Recorded time",
+      "DescriptionOfMeasurementMethods":"N/A",
+      "FrequencyOfMonitoringRecording": "N/A",
+      "ValueApplied": "N/A",
+      "MonitoringEquipment": "N/A",
+      "QAQCProceduresApplied": "N/A",
+      "PurposeOfData": "Calculation of project emission removals",
+      "CalculationMethod": "N/A",
+      "Comments": "If the two successive estimations of carbon stock in a carbon pool are carried out at different points of time in year t2 and t1, (e.g. in the month of April in year t1 and in the month of December in year t2), then a fractional value will be assigned to T"
+    }
+  },
+  "monitoringPlan": {
+    "monitoringSystemStructure": "Forestal Apepu has a technical team that manages and monitors the plantations. The monitoring system uses standard procedures in order to obtain verifiable and reliable information on the growth of the plantations, thus allowing the accounting of the sequestered carbon.",
+    "completeMonitoringSystem": {
+      "operationsRecords": "Using Excel tools for different analyses.",
+      "inputsAndCosts": "Recorded using standard procedures.",
+      "yearlyInventories": "Conducted to assess the development of the plantations.",
+      "gisProject": "Continuously updated with reliable information of location, project boundaries, plots, infrastructures, etc."
+    },
+    "forestGrowthMonitoring": {
+      "measurementFrequency": "Field measurements once a year, starting after plantations turn 1-year of age.",
+      "measurementAspects": "Evaluated during inventories, including aspects such as forest health and the quality of pruning."
+    },
+    "geographicalDelimitation": {
+      "delimitationMethod": "Using satellite imagery. The plantations are divided into compartments, the smallest monitoring unit with an average surface of around 50 ha.",
+      "compartmentsTracking": "Continuously re-assessed and updated with GIS and satellite imagery."
+    },
+    "stratificationAndUpdate": {
+      "initialStratification": "Based primarily on soil analysis conducted before planting.",
+      "yearlyReevaluation": "Re-evaluated on a yearly basis based on the growth differences of the same species."
+    },
+    "samplingDesignPlotSelection": {
+      "samplingProcedure": "Annual forest inventories are conducted in Permanent Sample Plots (PSPs) installed randomly in all production sites.",
+      "minimumPspDensity": "Minimum density is 1 PSP every 10 ha.",
+      "realAveragePspDensity": "Real average is 1 PSP every 6 ha."
+    },
+    "dataCollection": {
+      "measuredData": "Vitality of the tree, tree height, diameter at breast height (DBH), manifestation of diseases or damages, quality of silvicultural treatments applied, and additional observations if any."
+    },
+    "dataAnalysis": {
+      "parametersCalculated": "Minimum, average and maximum DAP, minimum, average and maximum height, density of living trees, active stand density, basal area, volume, average affection by wasp, fungus and cattle damage."
+    },
+    "calibrationOfGrowthAndYieldTables": {
+      "calibrationBasis": "Based on inventory data, locally available information on growth performance and the eucalyptus growth simulator of EMBRAPA.",
+      "tableReliabilityExpectation": "MAI variation of 5-10 % from one year to the other is considered acceptable and within the normal ranges of biological production. The reliability of these production tables is expected to increase over time."
+    },
+    "proceduresForInternalAuditingAndQaQc": {
+      "qaQcPlan": {
+        "reliableFieldMeasurements": "Proper training of personnel responsible for the measurement work.",
+        "methodsVerification": "Data collection app calibration and verification by the monitoring responsible.",
+        "dataEntryAndAnalysisVerification": "Analysis conducted by the forest production responsible and verified by the high-level manager.",
+        "proceduresToEnsureReliableMeasurements": "Quality control of obtained data by the monitoring responsible before conducting the analysis.",
+        "dataMaintenanceAndArchiving": {
+          "dataStorage": "All data automatically updated in a cloud facilitated by the project manager (UNIQUE).",
+          "dataAccess": "Access provided to project technical staff and monitoring team.",
+          "dataCopiesAndStorageDuration": "Copies of all raw data, reports of analysis, and supporting spreadsheets stored for at least 2 years following the end of the last crediting period."
+        }
+      }
+    }
+  }
+}
+
+
+6 ACHIEVED GHG EMISSION REDUCTIONS AND REMOVALS
+
+
+{
+  "ghgEmissionReductions": {
+    "monitoringPeriod": "30.09.2019 to 15.11.2020",
+    "totalAreaIncluded": "436.5 ha",
+    "remainingArea": "689.5 ha",
+    "approachApplied": "‘No biomass increase approach’ of the Methodology"
+  },
+  "dataAndParametersMonitored": {
+    "ai": {
+      "dataUnit": "Ha",
+      "description": "Area of tree biomass stratum i",
+      "valueApplied": "Stratum (Plantation year) Area\n2019 436.5",
+      "comments": "Areas are yearly updated using satellite imagery"
+    },
+    "apI": {
+      "dataUnit": "Ha",
+      "description": "Size of a sample plot in stratum i. This varies depending on the plantation density.",
+      "valueApplied": "Type of Plantation Area (m2)\n800 trees/ha (5x2.5m) 250\n1.000 trees/ha (5x2) 200",
+      "comments": ""
+    },
+    "dbh": {
+      "dataUnit": "cm",
+      "description": "The diameter at breast height (1.3 m from the ground)",
+      "valueApplied": "See Excel File “Forestal Apepu Inventory Database”",
+      "comments": ""
+    },
+    "wi": {
+      "dataUnit": "Dimensionless",
+      "description": "Relative weight of the area of stratum I, the area of the stratum I divided by the project area",
+      "valueApplied": "Stratum (Year) Wi\n2019 1",
+      "comments": ""
+    },
+    "si": {
+      "dataUnit": "t.d.m. (or t dm.m. ha-1)",
+      "description": "Estimated standard deviation of biomass stock in stratum i",
+      "valueApplied": "Stratum (Year) Si\n2019 3.01",
+      "comments": ""
+    },
+    "ni": {
+      "dataUnit": "Dimensionless",
+      "description": "Number of sample plots in stratum i",
+      "valueApplied": "Stratum (Year) ni\n2019 65",
+      "comments": ""
+    },
+    "h": {
+      "dataUnit": "m",
+      "description": "Height of tree planted",
+      "valueApplied": "See Excel “Forestal Apepu Inventory Database”",
+      "comments": ""
+    },
+    "t": {
+      "dataUnit": "Year",
+      "description": "Time period elapsed between two successive estimation of carbon stock in a carbon pool",
+      "valueApplied": "1 year",
+      "comments": ""
+    }
+  },
+  "baselineEmissions": {
+    "baselineCarbonStocks": [
+      {
+        "year": "2019",
+        "areasPlantedRestoredPerYear": "436.5 ha",
+        "cTreeBsl": "165",
+        "ccwBsl": "2",
+        "cshrubBsl": "0",
+        "cbslTotal": "167"
+      }
+    ]
+  },
+  "projectEmissions": {
+    "equationDescription": "ΔCACTUAL,t = ΔCP,t – GHGE,t",
+    "deltaCACTUALt": "Annual actual net greenhouse gas removals by sinks at time t; t CO2-e yr-1",
+    "deltaCPt": "Change in carbon stocks in project, occurring in the selected carbon pools, at time t; t CO2-e yr-1",
+    "ghgeT": "Increase of non-CO2 GHG emissions within the project boundary as a result of the implementation of the A/R CDM project activity, in year t, t CO2-e",
+    "deltaCPtCalculation": "ΔCP,t = ΔCTREE_PROJ,t + ΔCSOC_PROJ,t",
+    "deltaCTREEPROJt": "Change in carbon stock in tree biomass in project in year t, as estimated in AR-TOOL14; t CO2-e yr-1",
+    "deltaCSOCPROJt": "Change in carbon stock in the soil organic carbon (SOC) pool within the project boundary, as estimated in AR-AM0014, in year t; t CO2-e yr-1"
+  },
+  "carbonStockEstimation": {
+    "carbonStockChangesInTrees": {
+      "ctreet": "CTREE, t = 44/12 * CFTREE * BTREE, t",
+      "cftree": "CFTREE = Carbon fraction of tree biomass; t C (t d.m.)-1",
+      "btree": "BTREE, t = Total tree biomass within the project boundary at a given point in time in year t; t d.m.",
+      "btreeT": "bTREE, t = Mean tree biomass per hectare within the project boundary at a given point in time in year t; t d.m. ha-1",
+      "btreeTi": "A = Project area; ha\nwi = Ratio of the area of stratum i to the sum of areas of tree biomass estimation strata (Ai/A), dimensionless\nbTREE ,t,i = Mean tree biomass per hectare in stratum i at a given point in time in year t; t d.m. ha-1"
+    },
+    "determinationOfTreeBiomass": {
+      "vtreej": {"Desription":"vTREE,j (BAp,i) Stem volume per hectare of trees of species j in sample plot p of stratum i estimated by using the basal area of the plot as entry data into a volume table or volume equation; m3 ha-1", "ValueApplied":"see excel inventory data 2019", "Source": "Published and project volume tables"},
+      "dj": {"Description":"Dj Density (over-bark) of tree species j; t d.m. m-3","ValuesApplied":054, "Source":"Zanne et al (2009)20"},
+      "bef2j": {"Description":"BEF2,j Biomass expansion factor for conversion of tree stem biomass to above-ground tree biomass, for tree species j; dimensionless","ValuesApplied":1.15, "Source":"IPCC value, Table 3A.1.10, Broadleaf Temp"},
+      "rj": {"Description":"Rj Root-shoot ratio for tree species j; dimensionless", "ValuesApplied":"Default equation of AR-TOOL 14", "Source":"AR-TOOL 14"}
+    },
+    "calculationTables": {
+       "summaryBTREEAndCTREE": {
+         "stratum": {
+           "areaHa": "436.5 ha",
+           "wi": "1",
+           "bTREEt": "3.3 t d.m. ha-1",
+           "BTREEt": "1,432 t d.m.",
+           "CTREEt": "2,467 t CO2-e"
+         }
+       },
+       "calculationOfUncertainty": {
+         "stratum": {
+           "tDmHa1": "3.0 t.d.m. ha-1",
+           "ni": "65",
+           "si": "3.0,
+           "uc": "19%",
+           "ucMean": "468 t CO2-e",
+           "ucDiscount": "234 t CO2-e"
+         }
+       }
+     },
+    "estimationOfChangesInSoilOrganicCarbonStocks": {
+      "rateOfChangeInSOCStock": "0.61 tC/ha/yr",
+      "socAreaHa": "436.5",
+      "cumulativeSOCAreaHa": "560",
+      "totalDeltaSOCStrata14": "Total ΔSOC strata 1-4 (t CO2-e)"
+    }
+  },
+  "changeInCarbonStocksOfTreesAndShrubs": {
+    "changeInCarbonStocksDuringPeriod": {
+      "yearOfInclusionOfProjectAreas": "2019",
+      "areaStrataIncludedInYearT": "436.5 ha",
+      "ctreet1": "165",
+      "cdwBslt1": "2",
+      "cshrubBslt1": "0",
+      "ctreeProjDiscountt2": "2,233",
+      "cdwProjt2": "0",
+      "deltaCtreeDwProjt2t1": "2,066"
+    }
+  },
+  "actualNetGreenhouseGasRemovals": {
+    "actualNetGHGRemovals": [
+      {
+        "year": "2019",
+        "projectImplementationCumMonths": "8",
+        "cumulativeTreeNetGHGRemovals": "2,066",
+        "actualTreeNetGHGRemovals": "2,066",
+        "actualSOCNetGHGRemovals": "560",
+        "actualTotalNetGHGRemovals": "2,627"
+      }
+    ]
+  },
+  "leakage": {
+    "leakageEmissions": [
+      {
+        "year": "2019",
+        "leakage": "0"
+      }
+    ]
+  },
+  "netGHGEmissionReductionsAndRemovals": {
+    "netGHGEmissionReductionsRemovals": [
+      {
+        "year": "2019",
+        "baselineEmissionsOrRemovals": "0",
+        "projectEmissionsOrRemovals": "2,627",
+        "leakageEmissions": "0",
+        "netGHGEmissionReductionsOrRemovals": "2,627",
+        "bufferPoolAllocationVCUsEligibleForIssuance": "0"
+      }
+    ]
+  }
+}
+
+
+
+
+

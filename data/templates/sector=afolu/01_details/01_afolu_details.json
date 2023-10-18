@@ -1,0 +1,150 @@
+{
+  "projectDetails": {
+    "summaryDescription": {
+      "projectCategory": "",
+      "projectLocation": ""
+    },
+    "isGroupedProject": false,
+    "projectEligibility": "",
+    "projectObjectives": {
+      "mainObjectives":  [""],
+      "additionalContributions":  [""]
+    },
+    "projectProponent": {
+      "organizationName": "",
+      "contactPerson": "",
+      "title": "",
+      "address": "",
+      "telephone": "",
+      "email": ""
+    },
+    "otherEntitiesInvolved": [
+      {
+        "organizationName": "",
+        "roleInTheProject": "",
+        "contactPerson": "",
+        "title": "",
+        "address": "",
+        "telephone": "",
+        "email": ""
+      }
+    ],
+    "ownership": {
+      "organizationType": "",
+      "ownershipDetails": "",
+      "expansionPlans": ""
+    },
+    "projectStartDate": "",
+    "projectCreditingPeriod": {
+      "creditingStartDate": "",
+      "creditingEndDate": "",
+      "totalCreditingYears": "",
+      "isRenewable": false
+    },
+    "projectScaleAndGHGEmissionReductions": {
+      "projectScale": "",
+      "estimatedGHGEmissionReductions": [
+        {"year": "", "estimatedGHGReduction":  "in units of tCO2e"}
+      ],
+      "totalEstimatedERs": "",
+      "totalCreditingYears": "",
+      "averageAnnualERs": ""
+    },
+    "projectActivityDescription": {
+      "activities": [
+        {
+          "activity_practice": "",
+          "description": "",
+          "ecological_considerations": [""],
+          "year_of_activity": "",
+          "activity_metrics": [
+            {
+              "metric_name": "",
+              "metric_value": "",
+              "metric_units": ""
+            }
+          ]
+        }
+      ]
+    },
+    "projectLocation": {
+      "locationDescription": "",
+      "projectBoundary": {
+        "description": "",
+        "coordinates": {
+          "latitudeStart": "",
+          "latitudeEnd": "",
+          "longitudeStart": "",
+          "longitudeEnd": ""
+        }
+      },
+      "properties": [
+        {
+          "name": "",
+          "netProductionArea": "",
+          "locationCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        },
+        {
+          "name": "",
+          "netProductionArea": "",
+          "locationCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      ]
+    },
+    "conditionsPriorToProjectInitiation": {
+      "climate": [{"year": "", "metrics": [{}] }],
+      "topographyAndSoil": "",
+      "hydrology": "",
+      "socioeconomicSituation": "",
+      "vegetationAndEcosystems": ""
+    },
+    "complianceWithLawsStatutesAndOtherRegulatoryFrameworks": {
+      "listOfMainNationalLaws": [""],
+      "listOfMainProvincialLaws": [""],
+      "listOfMainDistrictLaws":  [""],
+      "regulatoryAgenciesApprovalAndRegistration": "",
+      "environmentalLaws": {
+        "environmentalImpactAssessmentLaw": "",
+        "crimesAgainstEnvironment": ""
+      },
+      "forestAndLandUseLaws": {
+        "forestLaw": "",
+        "moratoriumOnLandUseChangeOfNaturalForests": "",
+        "waterResourcesAndBufferAreas": "",
+        "protectedAreas": "",
+        "wildlifeProtectionLaw": "",
+        "environmentalServicesLaw": ""
+      },
+      "lawsRelatedToLabour": {
+        "labourCode": "",
+        "fundamentalILOConventions": ""
+      },
+      "lawsRelatedToIndigenousPeoples": {
+        "coreInternationalHumanRightsTreaties": "",
+        "paraguayConstitutionArticle64": ""
+      }
+    },
+    "participationUnderOtherGHGPrograms": {
+      "registeredProjects":  [""],
+      "projectsSeekingRegistration": [""],
+      "projectsRejectedByOtherGHGPrograms": [""]
+    },
+    "otherFormsOfCredit": {
+      "emissionsTradingProgramsAndOtherBindingLimits": "",
+      "otherFormsOfEnvironmentalCredit": ""
+    },
+    "additionalInformationRelevantToTheProject": {
+      "eligibilityCriteria": "",
+      "leakageManagement": "",
+      "commerciallySensitiveInformation": "",
+      "sustainableDevelopment": "",
+      "furtherInformation": ""
+    }
+  }
+}
