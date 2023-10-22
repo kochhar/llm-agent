@@ -1,6 +1,7 @@
 import json
 import random
 
+import langchain
 from dotenv import load_dotenv
 import gradio as gr
 import logging
@@ -9,7 +10,7 @@ from langchain.prompts.chat import (
     ChatPromptTemplate
 )
 import pydantic.v1.error_wrappers
-from typing import Any, Dict
+from typing import Any, Dict, Tuple
 
 from transist.llm import create_openai_llm, parse_json_maybe_invalid, ExtractionOutputParser
 from transist.prompt import system_prompt, draft_question_prompt, extract_facts_prompt
@@ -22,16 +23,46 @@ thinking = [
     "Let me take a moment to process the information you've shared",
     "Please allow me a short pause to fully comprehend the details you provided."
 ]
+sufficient_facts_response = "Sufficient facts to generate section {section}"
+move_to_next_section = "Let's proceed by moving on to the next section about {section}"
 
 
 class CarbonAssistant(object):
+
+    section_order = [
+        (0, "info"),
+        (2, "methodology"),
+        (3, "quantification"),
+        (4, "monitoring"),
+        (5, "safeguards"),
+        (1, "details"),
+        (99, "closing")
+    ]
+
     def __init__(self):
         self.state = "extract"
+        self.sector = "afolu"
         self.extract_parser = ExtractionOutputParser()
-        self.waste_management_baseline_json = open("waste_management_baseline_template.json", "r").read()
-        self.baseline_facts: Dict = json.loads(self.waste_management_baseline_json)
-        self.sufficient_facts_response = "Sufficient facts to generate"
-        self.current_questions = []
+        self.curr_section_index = 0
+        self.curr_section_facts: Dict = self._load_section_facts(self.curr_section_index)
+        self.completed_section: Dict[Tuple, Dict] = {}
+        self.curr_questions = []
+
+    def _load_section_facts(self, section_index):
+        section_template = self._section_template(section_index)
+        return json.loads(section_template)
+
+    def _section_template(self, section_index):
+        section_number, section = CarbonAssistant.section_order[section_index]
+        section_dir = f"{section_number:02d}_{section}"
+        section_file = f"{section_number:02d}_{self.sector}_{section}.json"
+        filepath = f"data/templates/sector={self.sector}/{section_dir}/{section_file}"
+        log.info("Getting template for %s from file: %s", section, filepath)
+        return open(filepath, "r").read()
+
+    @property
+    def curr_section(self):
+        return CarbonAssistant.section_order[self.curr_section_index][1]
 
     def design(self, message, history, openai_api_key=None):
         try:
@@ -46,24 +77,30 @@ class CarbonAssistant(object):
 
     def design_with_llm(self, llm, message, history):
         if self.state == "draft":
-            questions = self.draft_questions(llm, self.baseline_facts)
+            questions = self.draft_questions(llm, self.curr_section_facts)
             if self.sufficient_to_generate(questions):
-                self.current_questions = []
-                self.state = "generate"
-                yield self.sufficient_facts_response
+                yield sufficient_facts_response % self.curr_section
+                self.complete_section()
+                if not self.next_section():
+                    self.state = "generate"
+                    yield "Generating document sections"
+                else:
+                    self.state = "draft"
+                    yield move_to_next_section % self.curr_section
+                    for out in self.design_with_llm(llm, message, history):
+                        yield out
             else:
-                self.current_questions = questions
+                self.curr_questions = questions
                 self.state = "extract"
                 yield "Let's continue gathering information about your carbon project"
                 yield questions
         elif self.state == "extract":
             yield f"Thank you for providing information about your project. {random.choice(thinking)}"
-
-            extracted = self.extract_facts(llm, message, history, self.baseline_facts)
+            extracted = self.extract_facts(llm, message, history, self.curr_section_facts)
             if extracted.get("keys_updated", []):
                 extracted_facts = extracted.get("extracted_project_facts", {})
-                self.baseline_facts.update(extracted_facts)
-                log.info("Updated facts doc: %s", self.baseline_facts)
+                self.curr_section_facts.update(extracted_facts)
+                log.info("Updated facts doc: %s", self.curr_section_facts)
                 self.state = "draft"
             else:
                 self.state = "explore"
@@ -73,7 +110,7 @@ class CarbonAssistant(object):
         elif self.state == "explore":
             yield "I understand that you need some help in answering these questions."
             yield "Give me a moment to try and find some relevant information which can help."
-            explore_results = self.explore(llm, message, history, self.baseline_facts)
+            explore_results = self.explore(llm, message, history, self.curr_section_facts)
             self.state = "extract"
             yield explore_results
 
@@ -113,8 +150,31 @@ class CarbonAssistant(object):
     def sufficient_to_generate(drafted_questions) -> bool:
         return drafted_questions.strip() == "GENERATE"
 
+    def complete_section(self):
+        self.curr_questions = []
+        curr_section = CarbonAssistant.section_order[self.curr_section_index]
+        if curr_section in self.completed_section:
+            completed_facts = self.completed_section.get(curr_section)
+            completed_facts.update(self.curr_section_facts)
+        else:
+            self.completed_section[curr_section] = self.curr_section_facts
+
+    def next_section(self) -> bool:
+        if self.curr_section_index + 1 >= len(CarbonAssistant.section_order):
+            self.curr_section_facts = {}
+            return False
+        else:
+            assert (0, "info") in self.complete_section(), \
+                "Cannot move to next section without completing project info"
+            self.curr_section_index += 1
+            self.curr_section_facts = self._load_section_facts(self.curr_section_index)
+            project_info_facts = self.completed_section[(0, "info")]
+            self.curr_section_facts.update(project_info_facts)
+            return True
+
 
 def main():
+    langchain.verbose = True
     assistant = CarbonAssistant()
     openai_api_key = gr.Textbox(placeholder="Please enter you OpenAI API key here",
                                 label="Open AI API Key", render=False)
